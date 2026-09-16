@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Projeto/Scenes/Menu.unity
+    guid: 2bba8583db21fde4b8773aef3277280a
+  - enabled: 1
+    path: Assets/Projeto/Scenes/MinhaQuest.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Projeto/Scenes/MapaMundi.unity
+    guid: 2507feab6af2e46498820624210d857b
+  - enabled: 1
+    path: Assets/Projeto/Scenes/Brasil.unity
+    guid: 09f3dfe246590bc4faea6d10eaf57b0b
   m_configObjects: {}
