@@ -1,0 +1,42 @@
+PASS: preservado Assets\Projeto\Scenes\MapaMundi.unity
+PASS: preservado Assets\Projeto\Scenes\Menu.unity
+PASS: preservado Assets\Projeto\Scenes\MinhaQuest.unity
+PASS: preservado Assets\Projeto\Scripts\SceneLoader.cs
+PASS: preservado Packages\manifest.json
+PASS: preservado ProjectSettings\AudioManager.asset
+PASS: preservado ProjectSettings\ClusterInputManager.asset
+PASS: preservado ProjectSettings\DynamicsManager.asset
+PASS: preservado ProjectSettings\EditorBuildSettings.asset
+PASS: preservado ProjectSettings\EditorSettings.asset
+PASS: preservado ProjectSettings\GraphicsSettings.asset
+PASS: preservado ProjectSettings\InputManager.asset
+PASS: preservado ProjectSettings\MemorySettings.asset
+PASS: preservado ProjectSettings\NavMeshAreas.asset
+PASS: preservado ProjectSettings\NetworkManager.asset
+PASS: preservado ProjectSettings\PackageManagerSettings.asset
+PASS: preservado ProjectSettings\Physics2DSettings.asset
+PASS: preservado ProjectSettings\PresetManager.asset
+PASS: preservado ProjectSettings\ProjectSettings.asset
+PASS: preservado ProjectSettings\QualitySettings.asset
+PASS: preservado ProjectSettings\ShaderGraphSettings.asset
+PASS: preservado ProjectSettings\TagManager.asset
+PASS: preservado ProjectSettings\TimeManager.asset
+PASS: preservado ProjectSettings\UnityConnectSettings.asset
+PASS: preservado ProjectSettings\URPProjectSettings.asset
+PASS: preservado ProjectSettings\VersionControlSettings.asset
+PASS: preservado ProjectSettings\VFXManager.asset
+PASS: preservado ProjectSettings\XRSettings.asset
+PASS: preservado Assets\Projeto\Sprites\Background.png
+PASS: preservado Assets\Projeto\Sprites\MapaMundi.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\botaoComoJogar.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\botaoConfig.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\botaoJogar.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\botaoMinhaQuest.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\botao_AmericaNorte_brilhante.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\botao_AmericaSul_brilhante.png
+PASS: preservado Assets\Projeto\Sprites\Botões Menu\watermarked_img_15190251501260889633-removebg-preview.png
+PASS: preservado Assets\Projeto\Sprites\Brasil\Mapa\Amazonas.png
+PASS: preservado Assets\Projeto\Sprites\Brasil\Mapa\Feira.png
+PASS: preservado Assets\Projeto\Sprites\Brasil\Mapa\Ponto Turisitico.png
+PASS: preservado Assets\Projeto\Sprites\Quest\Sprite Sheets\Sprite Sheet - Quest Idle.png
+PASS: preservado Assets\Projeto\Sprites\Quest\Sprite Sheets\Sprite Sheet - Quest_Walk.png

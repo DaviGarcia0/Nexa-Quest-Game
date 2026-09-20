@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: 57609f1ab2bdc6f47b78ede6b17700da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 322
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb3b861bab238f49baa81b2d888dbe8
+      internalID: 653910187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 924
+        width: 286
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a041cf13b30dbf44b92fb860282e1fe7
+      internalID: -1066619676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 920
+        width: 280
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da2ac28bc04b0f4db0c8b469cc1d277
+      internalID: -810507698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 924
+        width: 331
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50050f65509a3584fa9d3860000883ba
+      internalID: 903915807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_4
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1037
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fafbedb2a52e2459321636c82c0d61
+      internalID: -764732445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_5
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1003
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f5208dc3fb8c4c95d789b62075973
+      internalID: 462837828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_6
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1001
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2221bc74e60908243af41f0c2e8a811e
+      internalID: -620940199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_7
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 991
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664618f1dbe18e8408fd72e52a1d2c48
+      internalID: -333633239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_8
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 634
+        width: 294
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e406ef94519306d47aa0dc4c4e3e5b3f
+      internalID: -528387900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 916
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a312678d477524d97d2ffd1f5c2516
+      internalID: -456673570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 922
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd90094920947a46838854ccfab8523
+      internalID: -1708790363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_11
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 635
+        width: 293
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaabe5aa49f72f408a106888c4a2dfc
+      internalID: -55148131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_12
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 920
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305b56576acbc964abd253f86d45f0de
+      internalID: -914513763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 635
+        width: 344
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e0a6e2c8d47d4a8cb8ddbafceebb7
+      internalID: 279058968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 729
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2247194dc728cf4a819bf94b574bca0
+      internalID: -126132873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_15
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 631
+        width: 283
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6059d62cfa9956b47a3d55e670e4a31c
+      internalID: -2124493627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 328
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3264cdf48c3d94ab93211edda7d167
+      internalID: -805598876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 322
+        width: 281
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ef2eafc9ccdae41990c38d761166ea
+      internalID: 1853632561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_18
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 333
+        width: 284
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a02c8bf78373e4fb5ad31b9b7b06aa
+      internalID: -70021729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_19
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 631
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9650b6f7cc9cd54eb6d89a654764182
+      internalID: 739617015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_20
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 627
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46b111395df03640a3e72f2041acc7e
+      internalID: 347805158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 551
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe5dd66a1206b45904bf3f8083b037
+      internalID: 1202493647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_22
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 545
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28065928a14ba04aba57e254fbcf3be
+      internalID: 1826410450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_23
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 311
+        width: 337
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c658b355296704082f8d0ae05677ba
+      internalID: 1990840797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_24
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 547
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150161e313af6fd4398c32421dd71828
+      internalID: -1519502286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_25
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 532
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be11a929050a049b543700a0f24ebb
+      internalID: 774761404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_26
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 522
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f96d1b6a71a514c831f4e67fe9d38f
+      internalID: 1066418549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_27
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 370
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd8fe96c13b64f4789a32a3b2cb08f8
+      internalID: 214515371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_28
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 360
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57904444683d6da4bb3e7480c4d4948a
+      internalID: 1938482876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_29
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 324
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf668cbabb788640963296640aaa151
+      internalID: 1915884635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_30
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 329
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f2680ce7b7d345a07aaaa22098fa1
+      internalID: -1909181642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_31
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 327
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18079f0d734dffd449350f7fe95e337b
+      internalID: -2012493392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_32
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 329
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5978420d899187140affeeb154590ce3
+      internalID: 40661780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_33
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 324
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3207f437609704a857987b4209e93c
+      internalID: -293131890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_34
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 338
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf150610b2fa5541b7c4a7e1a76b054
+      internalID: 1500643857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_35
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 325
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cdf38e2057a754d8df48b665c343d7
+      internalID: 908649521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 306
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f482eff6888fc54c879204add732815
+      internalID: -1022779520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_37
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 313
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e0550e685123f46927da82601cfa38
+      internalID: 1410893856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_38
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 0
+        width: 288
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcec015e3f7d3744aafa75f7dcbab694
+      internalID: -148666849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_39
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 327
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20545b88c9f29ba4f907be8b0e754419
+      internalID: -581081987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_40
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 324
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9baaaa0e94d8e45aff9cb4b58f4723
+      internalID: -235761980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_41
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 324
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2480d695e644c1449a790d09c68f6848
+      internalID: -1885967035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_42
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 323
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb5a59d245a26147a0e2578df98f42e
+      internalID: -1898492160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_43
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 313
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742434356d10acb49a3516fd271f5964
+      internalID: 1808916786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 295
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37864d74a4bacd4696eafc00d0cf0a5
+      internalID: 1354595414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 305
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c343be0487bb42b1ff5a01a77df53
+      internalID: -1876352820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 303
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946e78fe99ffc474f931a2d91a0bf5c7
+      internalID: -658871322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 303
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07efa98e212f294ebdf4f354d742323
+      internalID: 1343516878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_48
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 293
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79958434d0767f542a169baf12ed6e65
+      internalID: 1259832061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_49
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 259
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7cae9b5ea712941a094bc5aec725c5
+      internalID: -163087331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_50
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 271
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a21aa780afb334387036dc4b309e1b
+      internalID: -1527720336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Sheet - Quest Idle_51
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 231
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5387d96b45f3084fba74cc1512949b1
+      internalID: -741410972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprite Sheet - Quest Idle_0: 653910187
+      Sprite Sheet - Quest Idle_1: -1066619676
+      Sprite Sheet - Quest Idle_10: -1708790363
+      Sprite Sheet - Quest Idle_11: -55148131
+      Sprite Sheet - Quest Idle_12: -914513763
+      Sprite Sheet - Quest Idle_13: 279058968
+      Sprite Sheet - Quest Idle_14: -126132873
+      Sprite Sheet - Quest Idle_15: -2124493627
+      Sprite Sheet - Quest Idle_16: -805598876
+      Sprite Sheet - Quest Idle_17: 1853632561
+      Sprite Sheet - Quest Idle_18: -70021729
+      Sprite Sheet - Quest Idle_19: 739617015
+      Sprite Sheet - Quest Idle_2: -810507698
+      Sprite Sheet - Quest Idle_20: 347805158
+      Sprite Sheet - Quest Idle_21: 1202493647
+      Sprite Sheet - Quest Idle_22: 1826410450
+      Sprite Sheet - Quest Idle_23: 1990840797
+      Sprite Sheet - Quest Idle_24: -1519502286
+      Sprite Sheet - Quest Idle_25: 774761404
+      Sprite Sheet - Quest Idle_26: 1066418549
+      Sprite Sheet - Quest Idle_27: 214515371
+      Sprite Sheet - Quest Idle_28: 1938482876
+      Sprite Sheet - Quest Idle_29: 1915884635
+      Sprite Sheet - Quest Idle_3: 903915807
+      Sprite Sheet - Quest Idle_30: -1909181642
+      Sprite Sheet - Quest Idle_31: -2012493392
+      Sprite Sheet - Quest Idle_32: 40661780
+      Sprite Sheet - Quest Idle_33: -293131890
+      Sprite Sheet - Quest Idle_34: 1500643857
+      Sprite Sheet - Quest Idle_35: 908649521
+      Sprite Sheet - Quest Idle_36: -1022779520
+      Sprite Sheet - Quest Idle_37: 1410893856
+      Sprite Sheet - Quest Idle_38: -148666849
+      Sprite Sheet - Quest Idle_39: -581081987
+      Sprite Sheet - Quest Idle_4: -764732445
+      Sprite Sheet - Quest Idle_40: -235761980
+      Sprite Sheet - Quest Idle_41: -1885967035
+      Sprite Sheet - Quest Idle_42: -1898492160
+      Sprite Sheet - Quest Idle_43: 1808916786
+      Sprite Sheet - Quest Idle_44: 1354595414
+      Sprite Sheet - Quest Idle_45: -1876352820
+      Sprite Sheet - Quest Idle_46: -658871322
+      Sprite Sheet - Quest Idle_47: 1343516878
+      Sprite Sheet - Quest Idle_48: 1259832061
+      Sprite Sheet - Quest Idle_49: -163087331
+      Sprite Sheet - Quest Idle_5: 462837828
+      Sprite Sheet - Quest Idle_50: -1527720336
+      Sprite Sheet - Quest Idle_51: -741410972
+      Sprite Sheet - Quest Idle_6: -620940199
+      Sprite Sheet - Quest Idle_7: -333633239
+      Sprite Sheet - Quest Idle_8: -528387900
+      Sprite Sheet - Quest Idle_9: -456673570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

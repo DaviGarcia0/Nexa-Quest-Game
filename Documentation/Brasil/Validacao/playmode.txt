@@ -1,0 +1,64 @@
+PASS: GameManager presente
+PASS: Feira como area inicial
+PASS: Spawn inicial aplicado
+PASS: Somente uma area ativa
+PASS: Nenhum collider nos mapas
+PASS: Pastas de colisoes manuais vazias
+PASS: Saidas modelo desativadas
+PASS: Sem scripts ausentes na cena
+PASS: Fisica top-down sem gravidade e sem rotacao
+PASS: Mapa maior que o enquadramento
+PASS: Walk: Point, sem mipmap e sem compressao
+PASS: Walk: quantidade de sprites
+PASS: Idle: Point, sem mipmap e sem compressao
+PASS: Idle: quantidade de sprites
+PASS: IdleDown: ordem e loop dos frames
+PASS: IdleLeft: ordem e loop dos frames
+PASS: IdleRight: ordem e loop dos frames
+PASS: IdleUp: ordem e loop dos frames
+PASS: WalkDown: ordem e loop dos frames
+PASS: WalkLeft: ordem e loop dos frames
+PASS: WalkRight: ordem e loop dos frames
+PASS: WalkUp: ordem e loop dos frames
+PASS: Movimento (0.00, -1.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (0.00, -1.00)
+PASS: Idle conserva direcao Down
+PASS: Movimento (-1.00, 0.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (-1.00, 0.00)
+PASS: Idle conserva direcao Left
+PASS: Movimento (1.00, 0.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (1.00, 0.00)
+PASS: Idle conserva direcao Right
+PASS: Movimento (0.00, 1.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (0.00, 1.00)
+PASS: Idle conserva direcao Up
+PASS: Movimento (1.00, 1.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (1.00, 1.00)
+PASS: Idle conserva direcao Right
+PASS: Movimento (-1.00, 1.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (-1.00, 1.00)
+PASS: Idle conserva direcao Left
+PASS: Movimento (1.00, -1.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (1.00, -1.00)
+PASS: Idle conserva direcao Right
+PASS: Movimento (-1.00, -1.00): distancia 0,800, esperada 0,800
+PASS: Walk correto para (-1.00, -1.00)
+PASS: Idle conserva direcao Left
+PASS: Camera acompanha suavemente
+PASS: Quest visivel pela camera
+PASS: Limite de area no canto (1.00, 1.00)
+PASS: Limite de area no canto (-1.00, 1.00)
+PASS: Limite de area no canto (1.00, -1.00)
+PASS: Limite de area no canto (-1.00, -1.00)
+PASS: Trigger inicia fade e bloqueia controle
+PASS: Transicao concorrente rejeitada
+PASS: Input bloqueado durante fade
+PASS: Floresta: troca, fade e controle restaurado
+PASS: Spawn da Floresta aplicado
+PASS: Destino PontoTuristico aceito
+PASS: Ponto Turistico: transicao completa
+PASS: Retorno a Feira aceito
+PASS: Retorno a Feira concluido
+PASS: Nenhum erro ou aviso durante o teste
+FALHAS: 0
+Avisos/erros capturados: 0
