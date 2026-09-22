@@ -14,5 +14,7 @@ public static class BrasilEditorJob
         File.Delete(RequestPath);
         if (job == "build-and-test") { BrasilSetup.Build(); BrasilValidation.Run(); }
         else if (job == "test") BrasilValidation.Run();
+        else if (job == "portal") BrasilPortalSetup.Run();
+        else if (job == "portal-test") BrasilPortalValidation.Run();
     }
 }

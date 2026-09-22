@@ -17,6 +17,12 @@ public static class BrasilValidation
     public static void Run()
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode) return;
+        var currentWorld = UnityEngine.Object.FindObjectOfType<BrazilWorld>();
+        if (currentWorld != null && currentWorld.areas.Any(a => a.name == "Portal"))
+        {
+            BrasilPortalValidation.Run();
+            return;
+        }
         if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
         EditorSceneManager.OpenScene("Assets/Projeto/Scenes/Brasil.unity");
         var gameType = typeof(Editor).Assembly.GetType("UnityEditor.GameView");

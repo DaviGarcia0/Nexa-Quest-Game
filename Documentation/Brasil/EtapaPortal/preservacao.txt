@@ -1,0 +1,3 @@
+Colliders preexistentes: 29
+Divergencias nao autorizadas em geometria, transform, nome, ativo, layer: []
+Somente isTrigger mudou nas cinco saidas nomeadas.

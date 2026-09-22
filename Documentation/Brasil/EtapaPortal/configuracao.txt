@@ -1,0 +1,6 @@
+Maps/Feira/Colisoes_Manuais/TrocaAmazonia -> Maps/Amazonia/SpawnPoints/EntradaFeira
+Maps/Feira/Colisoes_Manuais/TrocaPortal -> Maps/Portal/SpawnPoints/EntradaSul
+Maps/Amazonia/Colisoes_Manuais/TrocaFeira -> Maps/Feira/SpawnPoints/EntradaAmazonia
+Maps/Amazonia/Colisoes_Manuais/TrocaPontoTurisco -> Maps/PontoTuristico/SpawnPoints/EntradaAmazonia
+Maps/PontoTuristico/Colisoes_Manuais/TrocaAmazonia -> Maps/Amazonia/SpawnPoints/EntradaTurismo
+Colisoes preservadas; apenas isTrigger das 5 saidas mudou.

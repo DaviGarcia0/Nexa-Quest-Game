@@ -14,6 +14,8 @@ namespace NexaQuest.Brasil
         public int FacingDirection { get; private set; }
         Rigidbody2D body;
         Animator animator;
+        Bounds movementBounds;
+        bool hasMovementBounds;
         static readonly int Direction = Animator.StringToHash("Direction");
         static readonly int Speed = Animator.StringToHash("Speed");
         static readonly int WalkRate = Animator.StringToHash("WalkRate");
@@ -52,7 +54,7 @@ namespace NexaQuest.Brasil
             // Limite retangular da area, sem criar colisores de cenario.
             if (areaBounds != null)
             {
-                Bounds bounds = areaBounds.bounds;
+                Bounds bounds = hasMovementBounds ? movementBounds : areaBounds.bounds;
                 next.x = Mathf.Clamp(next.x, bounds.min.x + 0.25f, bounds.max.x - 0.25f);
                 next.y = Mathf.Clamp(next.y, bounds.min.y + 0.05f, bounds.max.y - 0.55f);
             }
@@ -71,6 +73,24 @@ namespace NexaQuest.Brasil
             body.velocity = Vector2.zero;
             body.position = position;
             transform.position = position;
+        }
+
+        // Inclui as saidas posicionadas na borda sem mover os triggers do cenario.
+        public void SetAreaBounds(SpriteRenderer map)
+        {
+            areaBounds = map;
+            hasMovementBounds = map != null;
+            if (map == null) return;
+            movementBounds = map.bounds;
+            var area = map.GetComponentInParent<BrazilArea>();
+            foreach (var exit in area.GetComponentsInChildren<MapTransition>())
+            {
+                var trigger = exit.GetComponent<BoxCollider2D>();
+                if (!trigger.enabled || !trigger.isTrigger) continue;
+                var bounds = trigger.bounds;
+                bounds.Expand(new Vector3(0.5f, 1.1f, 0));
+                movementBounds.Encapsulate(bounds);
+            }
         }
 
         void OnDisable()
