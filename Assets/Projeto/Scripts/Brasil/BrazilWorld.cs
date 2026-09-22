@@ -36,7 +36,7 @@ namespace NexaQuest.Brasil
 
         public bool TravelTo(BrazilArea destinationArea, Transform destinationSpawnPoint)
         {
-            if (IsTransitioning || Time.unscaledTime < nextTransitionTime) return false;
+            if (IsTransitioning || Time.unscaledTime < nextTransitionTime || (player != null && player.ControlsLocked)) return false;
             if (!ValidDestination(destinationArea, destinationSpawnPoint))
             {
                 Debug.LogWarning("Brasil: destino invalido. Arraste uma area cadastrada e um Spawn Point filho dela.", this);

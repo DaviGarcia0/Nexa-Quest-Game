@@ -1,0 +1,7 @@
+Colliders preexistentes: 84
+Diferencas em colliders, GameObjects e transforms: []
+Assets/Projeto/Scenes/Menu.unity: intacto
+Assets/Projeto/Scenes/MapaMundi.unity: intacto
+Assets/Projeto/Scenes/MinhaQuest.unity: intacto
+Assets/Projeto/Sprites/Brasil/Mapas: intacto
+ProjectSettings: intacto

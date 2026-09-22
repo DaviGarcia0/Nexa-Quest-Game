@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36927fc9917bbbf4680f76b86961ad77, type: 3}
+  m_Name: Feira_Desafios
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: Oi, Quest! Veio conhecer um pouco mais da nossa feira?
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: -652236568, guid: 8d68610dab51b6c44822f43b01e643e9, type: 3}
+    text: Vim, sim! Que desafios vou encontrar por aqui?
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: "Aqui voc\xEA ter\xE1 dois desafios para completar."
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: "Um deles ser\xE1 um Quiz sobre o que voc\xEA descobrir durante sua viagem."
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: "O outro ser\xE1 um jogo especial desta regi\xE3o."
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: "Quando voc\xEA completar os dois desafios, poder\xE1 conquistar a chave
+      da Feira."
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: "Essa chave ser\xE1 importante para ativar o Portal depois."
+  - speaker: 0
+    speakerName: Bento
+    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
+    text: "Por enquanto, explore o lugar. Quando os desafios estiverem dispon\xEDveis,
+      volte e fale comigo!"

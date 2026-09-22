@@ -16,5 +16,9 @@ public static class BrasilEditorJob
         else if (job == "test") BrasilValidation.Run();
         else if (job == "portal") BrasilPortalSetup.Run();
         else if (job == "portal-test") BrasilPortalValidation.Run();
+        else if (job == "npcs") FeiraNPCSetup.Run();
+        else if (job == "npcs-test") FeiraNPCValidation.Run();
+        else if (job == "npcs-links") FeiraNPCSetup.FixReferences();
+        else if (job == "npcs-spawn") FeiraNPCSetup.CheckReturnSpawn();
     }
 }

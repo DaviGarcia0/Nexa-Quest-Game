@@ -1,0 +1,149 @@
+{
+  "pixelsPerUnit": 550,
+  "frames": [
+    {
+      "name": "Feirante_01",
+      "x": 166,
+      "y": 937,
+      "width": 195,
+      "height": 289,
+      "pivotX": 0.5,
+      "pivotY": 0.010380622837370242
+    },
+    {
+      "name": "Feirante_02",
+      "x": 407,
+      "y": 936,
+      "width": 195,
+      "height": 289,
+      "pivotX": 0.5,
+      "pivotY": 0.010380622837370242
+    },
+    {
+      "name": "Feirante_03",
+      "x": 647,
+      "y": 936,
+      "width": 195,
+      "height": 289,
+      "pivotX": 0.5,
+      "pivotY": 0.010380622837370242
+    },
+    {
+      "name": "Feirante_04",
+      "x": 888,
+      "y": 937,
+      "width": 195,
+      "height": 289,
+      "pivotX": 0.5,
+      "pivotY": 0.010380622837370242
+    },
+    {
+      "name": "Moradora_01",
+      "x": 163,
+      "y": 629,
+      "width": 202,
+      "height": 305,
+      "pivotX": 0.5,
+      "pivotY": 0.006557377049180328
+    },
+    {
+      "name": "Moradora_02",
+      "x": 407,
+      "y": 629,
+      "width": 202,
+      "height": 305,
+      "pivotX": 0.5,
+      "pivotY": 0.006557377049180328
+    },
+    {
+      "name": "Moradora_03",
+      "x": 649,
+      "y": 629,
+      "width": 202,
+      "height": 305,
+      "pivotX": 0.5,
+      "pivotY": 0.006557377049180328
+    },
+    {
+      "name": "Moradora_04",
+      "x": 891,
+      "y": 629,
+      "width": 202,
+      "height": 305,
+      "pivotX": 0.5,
+      "pivotY": 0.006557377049180328
+    },
+    {
+      "name": "Torcedor_01",
+      "x": 174,
+      "y": 331,
+      "width": 167,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Torcedor_02",
+      "x": 424,
+      "y": 331,
+      "width": 167,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Torcedor_03",
+      "x": 666,
+      "y": 331,
+      "width": 167,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Torcedor_04",
+      "x": 910,
+      "y": 331,
+      "width": 167,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Senhora_01",
+      "x": 173,
+      "y": 33,
+      "width": 177,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Senhora_02",
+      "x": 415,
+      "y": 33,
+      "width": 177,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Senhora_03",
+      "x": 658,
+      "y": 33,
+      "width": 177,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    },
+    {
+      "name": "Senhora_04",
+      "x": 901,
+      "y": 32,
+      "width": 177,
+      "height": 291,
+      "pivotX": 0.5,
+      "pivotY": 0.010309278350515464
+    }
+  ]
+}

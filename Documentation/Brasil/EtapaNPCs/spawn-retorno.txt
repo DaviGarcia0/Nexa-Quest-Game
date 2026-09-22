@@ -1,0 +1,3 @@
+Spawn anterior (6.30, 3.20, 0.00): colisão (23)
+Candidato (6.45, 2.55, 0.00): 
+Spawn reposicionado em rua livre. Colliders intactos.

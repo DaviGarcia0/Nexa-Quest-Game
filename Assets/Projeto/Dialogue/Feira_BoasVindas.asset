@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36927fc9917bbbf4680f76b86961ad77, type: 3}
+  m_Name: Feira_BoasVindas
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Ol\xE1, Quest! Bem-vinda ao Brasil!"
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: -652236568, guid: 8d68610dab51b6c44822f43b01e643e9, type: 3}
+    text: "Obrigada! Estou pronta para explorar. Por onde come\xE7o?"
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Durante sua viagem, voc\xEA encontrar\xE1 pessoas espalhadas por diferentes
+      lugares."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Algumas delas ter\xE3o desafios, jogos e perguntas para voc\xEA completar."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Seu objetivo \xE9 conseguir as tr\xEAs chaves escondidas nesta jornada."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Para conquistar uma chave, voc\xEA precisar\xE1 completar os desafios
+      daquele local."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Explore a Feira, a Amaz\xF4nia e o Ponto Tur\xEDstico e converse com os
+      NPCs que encontrar."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Depois de conseguir todas as chaves, v\xE1 at\xE9 o Portal."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Coloque as tr\xEAs chaves no Portal para ativ\xE1-lo."
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Quando o Portal estiver aberto, voc\xEA poder\xE1 continuar sua aventura
+      para o pr\xF3ximo pa\xEDs da Am\xE9rica do Sul!"
+  - speaker: 0
+    speakerName: Lia
+    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
+    text: "Boa viagem, Quest. E n\xE3o deixe nenhum desafio para tr\xE1s!"

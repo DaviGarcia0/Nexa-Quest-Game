@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 3de7137c00a8282449ce9b39cf54c958
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 550
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Feirante_01
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 937
+        width: 195
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010380623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71299049b11694c4f978574d495939c6
+      internalID: -1538543945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feirante_02
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 936
+        width: 195
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010380623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5877b2c20ad949c4d96fb5e525fb75d7
+      internalID: -1087920926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feirante_03
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 936
+        width: 195
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010380623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dd9e7cfdd0427408a97cb9717e6fb8
+      internalID: 1316336716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feirante_04
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 937
+        width: 195
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010380623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae47f6c68ee2854aa28d7cea0ba6169
+      internalID: 724039140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moradora_01
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 629
+        width: 202
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.006557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a6c2a02fbc8cd4b9bd209b09547deb
+      internalID: -898864296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moradora_02
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 629
+        width: 202
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.006557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf6bf1ddb0575847a6c6775bc948220
+      internalID: 1604005279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moradora_03
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 629
+        width: 202
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.006557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefde0566eb32664998108b8d902c38c
+      internalID: 446795090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moradora_04
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 629
+        width: 202
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.006557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdda1b26e046474495ef205ec616582
+      internalID: 1517358415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torcedor_01
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 331
+        width: 167
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e59bb6efdb50f4c9adef055692ca1c
+      internalID: -561919471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torcedor_02
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 331
+        width: 167
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b148302cbd14424f9f90a130cab77e9
+      internalID: -2124045550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torcedor_03
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 331
+        width: 167
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5dcc2d4107e3440883943225778fa3
+      internalID: 950875593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torcedor_04
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 331
+        width: 167
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b548dbf41ee1b4e91fd32e491bcdae
+      internalID: 1915175762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Senhora_01
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 33
+        width: 177
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e92a410a16ff4b41a187e182560790c
+      internalID: -999280993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Senhora_02
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 33
+        width: 177
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01742ddd65a4ef9418437e4e6b76128e
+      internalID: 506322229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Senhora_03
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 33
+        width: 177
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4183bea5db4b6cc43bc5f8a290c9206c
+      internalID: -1642129833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Senhora_04
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 32
+        width: 177
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.010309278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76691011b7bff5143ae524c740ddd594
+      internalID: 57652099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Feirante_01: -1538543945
+      Feirante_02: -1087920926
+      Feirante_03: 1316336716
+      Feirante_04: 724039140
+      Moradora_01: -898864296
+      Moradora_02: 1604005279
+      Moradora_03: 446795090
+      Moradora_04: 1517358415
+      Senhora_01: -999280993
+      Senhora_02: 506322229
+      Senhora_03: -1642129833
+      Senhora_04: 57652099
+      Torcedor_01: -561919471
+      Torcedor_02: -2124045550
+      Torcedor_03: 950875593
+      Torcedor_04: 1915175762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

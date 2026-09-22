@@ -1,0 +1,2 @@
+NPC_SETUP_OK
+6 NPCs, 2 interativos, 4 decorativos. Colisoes preservadas.
