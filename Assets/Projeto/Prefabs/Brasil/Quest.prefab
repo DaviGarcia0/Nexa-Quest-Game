@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -66404887, guid: 3f86ff1dff0de0340a2592b0e01fe493, type: 3}
+  m_Sprite: {fileID: -993222910, guid: b42b729d8e9b010459108b47f22e3585, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,5 +184,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  areaBounds: {fileID: 0}
   walkAnimationSpeed: 1
   idleAnimationSpeed: 1

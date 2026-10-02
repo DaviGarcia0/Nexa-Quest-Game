@@ -19,9 +19,9 @@ namespace NexaQuest.Brasil
         }
         void Refresh()
         {
-            coins.text = "Nexa Coins  " + progression.Coins;
-            knowledge.text = "Conhecimento  " + progression.CurrentXP + " / " + progression.XPToNextLevel;
-            brainLevel.text = "Cérebro  •  Nível " + progression.Level;
+            coins.text = progression.Coins.ToString();
+            knowledge.text = "CONHECIMENTO";
+            brainLevel.text = progression.Level.ToString();
             knowledgeFill.fillAmount = (float)progression.CurrentXP / progression.XPToNextLevel;
         }
         void OnDestroy() { if (progression != null) progression.Changed -= Refresh; }

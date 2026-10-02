@@ -1,0 +1,91 @@
+PASS: Pelo menos seis NPCs na Feira; repeticoes decorativas permitidas
+PASS: Dois NPCs interativos
+PASS: Todos os decorativos sem colisores (minimo quatro)
+PASS: Interativos somente com trigger
+PASS: Dialogo comeca fechado
+PASS: Sem scripts ausentes
+PASS: Idle em loop: NPC_Introducao_Lia
+PASS: Idle em loop: NPC_Desafios_Bento
+PASS: Idle em loop: NPC_Decorativo_Feirante
+PASS: Idle em loop: NPC_Decorativo_Moradora
+PASS: Idle em loop: NPC_Decorativo_Torcedor
+PASS: Idle em loop: NPC_Decorativo_Torcedor (1)
+PASS: Idle em loop: NPC_Decorativo_Senhora
+PASS: Valores iniciais 0 moedas, 0/100 XP, nivel 1
+PASS: HUD reflete dados iniciais
+PASS: Proximidade mostra E sem abrir: NPC_Introducao_Lia
+PASS: E abre primeira fala: NPC_Introducao_Lia
+PASS: Quest bloqueada durante conversa
+PASS: Transicao recusada durante conversa
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 0
+PASS: Texto cabe no painel: 0
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 1
+PASS: Texto cabe no painel: 1
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 2
+PASS: Texto cabe no painel: 2
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 3
+PASS: Texto cabe no painel: 3
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 4
+PASS: Texto cabe no painel: 4
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 5
+PASS: Texto cabe no painel: 5
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 6
+PASS: Texto cabe no painel: 6
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 7
+PASS: Texto cabe no painel: 7
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 8
+PASS: Texto cabe no painel: 8
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 9
+PASS: Texto cabe no painel: 9
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 10
+PASS: Texto cabe no painel: 10
+PASS: Uma tecla avanca uma fala por frame
+PASS: Fim fecha, libera Quest e emite evento uma vez
+PASS: Conversa nao concede recompensas
+PASS: Sair oculta indicacao
+PASS: Proximidade mostra E sem abrir: NPC_Desafios_Bento
+PASS: E abre primeira fala: NPC_Desafios_Bento
+PASS: Quest bloqueada durante conversa
+PASS: Transicao recusada durante conversa
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 0
+PASS: Texto cabe no painel: 0
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 1
+PASS: Texto cabe no painel: 1
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 2
+PASS: Texto cabe no painel: 2
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 3
+PASS: Texto cabe no painel: 3
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 4
+PASS: Texto cabe no painel: 4
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 5
+PASS: Texto cabe no painel: 5
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 6
+PASS: Texto cabe no painel: 6
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Desafios_Bento fala 7
+PASS: Texto cabe no painel: 7
+PASS: Uma tecla avanca uma fala por frame
+PASS: Fim fecha, libera Quest e emite evento uma vez
+PASS: Conversa nao concede recompensas
+PASS: Sair oculta indicacao
+PASS: AddXP atravessa varios niveis e preserva excedente
+PASS: HUD atualiza por evento
+PASS: Valores negativos nao corrompem progresso
+PASS: Sem erros ou avisos nos NPCs
+Falhas: 0

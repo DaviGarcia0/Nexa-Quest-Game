@@ -1,0 +1,24 @@
+Checkpoint de comparacao: ce3060d
+157 Collider2D serializados na cena: identicos.
+314 GameObjects/Transforms ligados a esses colliders: identicos.
+IdleDown.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+IdleLeft.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+IdleRight.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+IdleUp.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+WalkDown.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+WalkLeft.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+WalkRight.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+WalkUp.anim: somente referencias de sprites mudaram; tempos e loop preservados.
+Assets/Projeto/Animations/Quest/Quest.controller: preservado.
+Assets/Projeto/Scenes/Menu.unity: preservado.
+Assets/Projeto/Scenes/MapaMundi.unity: preservado.
+Assets/Projeto/Scenes/MinhaQuest.unity: preservado.
+Assets/Projeto/Dialogue: preservado.
+Assets/Projeto/Prefabs/NPCs: preservado.
+Assets/Projeto/Sprites/Brasil: preservado.
+Packages: preservado.
+ProjectSettings: preservado.
+Quest_Walk.png: PNG identico ao original. SHA256 942b79177f430cdaa5370c084195c64d333488fb639f3628788f4a949602440d
+Quest_Idle.png: PNG identico ao original. SHA256 47f4c9097bae717bbe348e7fe42362e47eaf89d46f8e29f088f95a493045a982
+HUD_CEREBRO.png: PNG identico ao original. SHA256 52e894fe2d4fa9ac5f37ff0356ecc4a021151ae4dfb532845552779b8ce9eb13
+HUD_NEXACOIN.png: PNG identico ao original. SHA256 ebc649ec07c568bd998a8e50775e85062e76eb4a9834832a4ea0e4c18e03eb80

@@ -1,0 +1,2 @@
+OK: Quest, 8 clips e HUD atualizados. Animator, movimento, Rigidbody e colliders preservados.
+2026-10-01T20:39:04

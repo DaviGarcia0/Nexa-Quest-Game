@@ -1,0 +1,2 @@
+System.InvalidOperationException: Abra e salve Brasil antes da operacao visual.
+  at QuestHUDVisualValidation.Poll () [0x0011f] in C:\Users\Davi\Desktop\Nexa-Quest-Game\Assets\Projeto\Editor\QuestHUDVisualValidation.cs:47 
