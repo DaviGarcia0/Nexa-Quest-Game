@@ -1,0 +1,5 @@
+OK
+Retratos Quest atualizados: 2
+Idle: seis frames, 12 FPS, pausas e blink de 2 frames; loop.
+Comemoracao: somente importada.
+2026-10-02T10:59:52

@@ -1,0 +1,6 @@
+Frame 1: 27 vertices; pixels opacos cortados=0; pixels de outro frame=0; retangulo 370x505.
+Frame 2: 45 vertices; pixels opacos cortados=0; pixels de outro frame=0; retangulo 370x505.
+Frame 3: 36 vertices; pixels opacos cortados=0; pixels de outro frame=0; retangulo 370x505.
+Frame 4: 43 vertices; pixels opacos cortados=0; pixels de outro frame=0; retangulo 370x505.
+Frame 5: 44 vertices; pixels opacos cortados=0; pixels de outro frame=0; retangulo 370x505.
+Frame 6: 19 vertices; pixels opacos cortados=0; pixels de outro frame=0; retangulo 370x505.

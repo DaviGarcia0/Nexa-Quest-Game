@@ -1,0 +1,103 @@
+PASS: Game View real 1920x1080: 1920x1080
+PASS: Coins exibe somente numero real
+PASS: Level exibe somente numero real
+PASS: Label CONHECIMENTO
+PASS: Barra horizontal da esquerda para direita
+PASS: Proporcao intacta: CoinsHUD
+PASS: PNG em resolucao integral: CoinsHUD
+PASS: Proporcao intacta: KnowledgeHUD
+PASS: PNG em resolucao integral: KnowledgeHUD
+PASS: Level na caixa abaixo do cerebro
+PASS: Texto cabe: CoinsText
+PASS: Texto cabe: KnowledgeLabel
+PASS: Texto cabe: LevelText
+PASS: AddCoins atualiza numero imediatamente
+PASS: AddXP(25) preenche 25 por cento
+PASS: 50 XP preenche metade
+PASS: 100 XP sobe nivel e zera barra pela regra existente
+PASS: Animator WalkDown
+PASS: Sprite correto andando: Down
+PASS: Animator IdleDown
+PASS: Idle mantem ultima direcao: Down
+PASS: Animator WalkLeft
+PASS: Sprite correto andando: Left
+PASS: Animator IdleLeft
+PASS: Idle mantem ultima direcao: Left
+PASS: Animator WalkRight
+PASS: Sprite correto andando: Right
+PASS: Animator IdleRight
+PASS: Idle mantem ultima direcao: Right
+PASS: Animator WalkUp
+PASS: Sprite correto andando: Up
+PASS: Animator IdleUp
+PASS: Idle mantem ultima direcao: Up
+PASS: Diagonal normalizada e direcao preservada
+PASS: Parada diagonal mantem IdleRight
+PASS: Todos os frames: IdleDown
+PASS: Loop mantido: IdleDown
+PASS: Novo frame alinhado/escala correta: IdleDown_01
+PASS: Novo frame alinhado/escala correta: IdleDown_02
+PASS: Novo frame alinhado/escala correta: IdleDown_03
+PASS: Novo frame alinhado/escala correta: IdleDown_04
+PASS: Todos os frames: IdleLeft
+PASS: Loop mantido: IdleLeft
+PASS: Novo frame alinhado/escala correta: IdleLeft_01
+PASS: Novo frame alinhado/escala correta: IdleLeft_02
+PASS: Novo frame alinhado/escala correta: IdleLeft_03
+PASS: Novo frame alinhado/escala correta: IdleLeft_04
+PASS: Todos os frames: IdleRight
+PASS: Loop mantido: IdleRight
+PASS: Novo frame alinhado/escala correta: IdleRight_01
+PASS: Novo frame alinhado/escala correta: IdleRight_02
+PASS: Novo frame alinhado/escala correta: IdleRight_03
+PASS: Novo frame alinhado/escala correta: IdleRight_04
+PASS: Todos os frames: IdleUp
+PASS: Loop mantido: IdleUp
+PASS: Novo frame alinhado/escala correta: IdleUp_01
+PASS: Novo frame alinhado/escala correta: IdleUp_02
+PASS: Novo frame alinhado/escala correta: IdleUp_03
+PASS: Novo frame alinhado/escala correta: IdleUp_04
+PASS: Todos os frames: WalkDown
+PASS: Loop mantido: WalkDown
+PASS: Novo frame alinhado/escala correta: WalkDown_01
+PASS: Novo frame alinhado/escala correta: WalkDown_02
+PASS: Novo frame alinhado/escala correta: WalkDown_03
+PASS: Novo frame alinhado/escala correta: WalkDown_04
+PASS: Novo frame alinhado/escala correta: WalkDown_05
+PASS: Novo frame alinhado/escala correta: WalkDown_06
+PASS: Novo frame alinhado/escala correta: WalkDown_07
+PASS: Novo frame alinhado/escala correta: WalkDown_08
+PASS: Todos os frames: WalkLeft
+PASS: Loop mantido: WalkLeft
+PASS: Novo frame alinhado/escala correta: WalkLeft_01
+PASS: Novo frame alinhado/escala correta: WalkLeft_02
+PASS: Novo frame alinhado/escala correta: WalkLeft_03
+PASS: Novo frame alinhado/escala correta: WalkLeft_04
+PASS: Novo frame alinhado/escala correta: WalkLeft_05
+PASS: Novo frame alinhado/escala correta: WalkLeft_06
+PASS: Novo frame alinhado/escala correta: WalkLeft_07
+PASS: Novo frame alinhado/escala correta: WalkLeft_08
+PASS: Todos os frames: WalkRight
+PASS: Loop mantido: WalkRight
+PASS: Novo frame alinhado/escala correta: WalkRight_01
+PASS: Novo frame alinhado/escala correta: WalkRight_02
+PASS: Novo frame alinhado/escala correta: WalkRight_03
+PASS: Novo frame alinhado/escala correta: WalkRight_04
+PASS: Novo frame alinhado/escala correta: WalkRight_05
+PASS: Novo frame alinhado/escala correta: WalkRight_06
+PASS: Novo frame alinhado/escala correta: WalkRight_07
+PASS: Novo frame alinhado/escala correta: WalkRight_08
+PASS: Todos os frames: WalkUp
+PASS: Loop mantido: WalkUp
+PASS: Novo frame alinhado/escala correta: WalkUp_01
+PASS: Novo frame alinhado/escala correta: WalkUp_02
+PASS: Novo frame alinhado/escala correta: WalkUp_03
+PASS: Novo frame alinhado/escala correta: WalkUp_04
+PASS: Novo frame alinhado/escala correta: WalkUp_05
+PASS: Novo frame alinhado/escala correta: WalkUp_06
+PASS: Novo frame alinhado/escala correta: WalkUp_07
+PASS: Novo frame alinhado/escala correta: WalkUp_08
+FAIL: Collider original dos pes preservado
+PASS: Camera continua seguindo o player
+PASS: Sem erros ou avisos nos testes visuais
+Falhas: 1

@@ -1,0 +1,6 @@
+QuestHUD_Idle_01: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=25 (alpha>128, centro do pixel)
+QuestHUD_Idle_02: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=43 (alpha>128, centro do pixel)
+QuestHUD_Idle_03: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=34 (alpha>128, centro do pixel)
+QuestHUD_Idle_04: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=41 (alpha>128, centro do pixel)
+QuestHUD_Idle_05: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=42 (alpha>128, centro do pixel)
+QuestHUD_Idle_06: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=17 (alpha>128, centro do pixel)

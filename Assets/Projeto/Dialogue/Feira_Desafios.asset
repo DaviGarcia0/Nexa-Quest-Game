@@ -19,7 +19,7 @@ MonoBehaviour:
     text: Oi, Quest! Veio conhecer um pouco mais da nossa feira?
   - speaker: 1
     speakerName: Quest
-    portrait: {fileID: -652236568, guid: 8d68610dab51b6c44822f43b01e643e9, type: 3}
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
     text: Vim, sim! Que desafios vou encontrar por aqui?
   - speaker: 0
     speakerName: Bento

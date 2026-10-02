@@ -1,0 +1,24 @@
+PASS: Somente a lista de filhos do Canvas mudou entre os objetos existentes da cena
+PASS: Canvas recebeu somente a referencia da nova EnergyHUD
+PASS: Nenhum objeto/componente existente removido
+PASS: Snapshot dos colisores manuais identico
+PASS: Assets/Projeto/Dialogue/Feira_BoasVindas.asset: texto, ordem, speaker e nomes intactos
+PASS: Assets/Projeto/Dialogue/Feira_BoasVindas.asset: so o retrato da Quest mudou
+PASS: Assets/Projeto/Dialogue/Feira_Desafios.asset: texto, ordem, speaker e nomes intactos
+PASS: Assets/Projeto/Dialogue/Feira_Desafios.asset: so o retrato da Quest mudou
+PASS: Scripts do jogo, prefabs, Animator/player, mapas, pacotes e configuracoes existentes intactos
+PASS: PNG identico ao fornecido: QuestExpressaoHUD.png
+PASS: PNG identico ao fornecido: QuestExpressaoComemoracaoHUD.png
+PASS: PNG identico ao fornecido: ExpressaoQuest.png
+PASS: PNG identico ao fornecido: HUD_ENERGIA.png
+PASS: QuestHUD_Idle_01: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=25 (alpha>128, centro do pixel)
+PASS: QuestHUD_Idle_02: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=43 (alpha>128, centro do pixel)
+PASS: QuestHUD_Idle_03: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=34 (alpha>128, centro do pixel)
+PASS: QuestHUD_Idle_04: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=41 (alpha>128, centro do pixel)
+PASS: QuestHUD_Idle_05: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=42 (alpha>128, centro do pixel)
+PASS: QuestHUD_Idle_06: pixels opacos cortados=0; pixels de vizinho incluidos=0; triangulos=17 (alpha>128, centro do pixel)
+PASS: energia-playmode.txt: 66 verificacoes aprovadas, 0 falhas
+PASS: depois/visual-playmode.txt: 102 verificacoes aprovadas, 0 falhas
+PASS: depois/npcs-playmode.txt: 90 verificacoes aprovadas, 0 falhas
+PASS: depois/portal-playmode.txt: 111 verificacoes aprovadas, 0 falhas
+Total Play Mode: 369 verificacoes aprovadas

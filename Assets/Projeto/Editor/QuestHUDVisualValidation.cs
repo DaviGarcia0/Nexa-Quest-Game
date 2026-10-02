@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -48,7 +48,7 @@ public static class QuestHUDVisualValidation
             if(job=="apply")QuestHUDVisualSetup.Run();
             else if(job=="baseline"||job=="test"){
                 Directory.CreateDirectory(QuestHUDVisualSetup.Docs);
-                SetGameView();
+                CapturePlayerCollider();SetGameView();
                 // Limpa somente o historico do Console; erros da execucao sao registrados nos relatórios.
                 typeof(Editor).Assembly.GetType("UnityEditor.LogEntries").GetMethod("Clear",BindingFlags.Static|BindingFlags.Public).Invoke(null,null);
                 SessionState.SetString(Phase,job=="baseline"?"antes":"depois");
@@ -56,6 +56,13 @@ public static class QuestHUDVisualValidation
                 else {SessionState.SetBool(StartKey,true);EditorApplication.isPlaying=true;}
             }
         } catch(Exception e){Directory.CreateDirectory(QuestHUDVisualSetup.Docs);File.WriteAllText(QuestHUDVisualSetup.Docs+"falha-operacao.txt",e.ToString());Debug.LogException(e);}
+    }
+    // Compara com a configuracao salva pelo usuario antes do Play, sem impor medidas antigas.
+    public static void CapturePlayerCollider()
+    {
+        var foot=UnityEngine.Object.FindObjectOfType<BrazilWorld>().player.GetComponent<CapsuleCollider2D>();
+        SessionState.SetVector3("NexaQuest.FootOffset",foot.offset);
+        SessionState.SetVector3("NexaQuest.FootSize",foot.size);
     }
     static readonly BindingFlags Flags=BindingFlags.Public|BindingFlags.NonPublic|BindingFlags.Instance|BindingFlags.Static|BindingFlags.FlattenHierarchy;
     static void SetGameView()
@@ -141,7 +148,7 @@ public class QuestHUDPlayChecks:MonoBehaviour
             }
         }
         var collider=p.GetComponent<CapsuleCollider2D>();
-        Check(collider.offset==new Vector2(0,.05f)&&collider.size==new Vector2(.22f,.1f),"Collider original dos pes preservado");
+        Check(collider.offset==(Vector2)SessionState.GetVector3("NexaQuest.FootOffset",Vector3.zero)&&collider.size==(Vector2)SessionState.GetVector3("NexaQuest.FootSize",Vector3.zero),"Collider dos pes preserva a configuracao salva antes do Play");
         Check(w.followCamera.target==p.transform,"Camera continua seguindo o player");
         p.SetMovementInput(Vector2.down);p.SetMovementInput(Vector2.zero);p.enabled=true;
         Check(issues.Count==0,"Sem erros ou avisos nos testes visuais");results.AddRange(issues);results.Add("Falhas: "+fails);
