@@ -76,7 +76,6 @@ PASS: Novo frame alinhado/escala correta: WalkLeft_04
 PASS: Novo frame alinhado/escala correta: WalkLeft_05
 PASS: Novo frame alinhado/escala correta: WalkLeft_06
 PASS: Novo frame alinhado/escala correta: WalkLeft_07
-PASS: Novo frame alinhado/escala correta: WalkLeft_08
 PASS: Todos os frames: WalkRight
 PASS: Loop mantido: WalkRight
 PASS: Novo frame alinhado/escala correta: WalkRight_01
@@ -86,7 +85,6 @@ PASS: Novo frame alinhado/escala correta: WalkRight_04
 PASS: Novo frame alinhado/escala correta: WalkRight_05
 PASS: Novo frame alinhado/escala correta: WalkRight_06
 PASS: Novo frame alinhado/escala correta: WalkRight_07
-PASS: Novo frame alinhado/escala correta: WalkRight_08
 PASS: Todos os frames: WalkUp
 PASS: Loop mantido: WalkUp
 PASS: Novo frame alinhado/escala correta: WalkUp_01

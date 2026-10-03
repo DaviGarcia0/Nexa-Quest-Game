@@ -1,0 +1,22 @@
+PASS: Entre os assets existentes, somente WalkLeft.anim e WalkRight.anim foram alterados.
+PASS: Cena Brasil, Animator Controller, prefab da Quest, movimento, mapas, colisoes, HUD e demais animacoes preservados em relacao ao checkpoint e12e576.
+PASS: WalkLeft_01 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_02 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_03 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_04 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_05 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_06 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_07 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkLeft_08 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_01 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_02 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_03 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_04 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_05 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_06 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_07 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: WalkRight_08 inteiramente dentro da imagem, sem pixels opacos cortados nas bordas.
+PASS: lateral-playmode.txt: 16 verificacoes aprovadas.
+PASS: visual-playmode.txt: 100 verificacoes aprovadas.
+PASS: npcs-playmode.txt: 90 verificacoes aprovadas.
+PASS: portal-playmode.txt: 111 verificacoes aprovadas.

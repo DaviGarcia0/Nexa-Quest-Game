@@ -1,0 +1,17 @@
+PASS: Teste real em Full HD
+PASS: Oito frames diferentes exibidos continuamente: Left
+PASS: Animator completou mais de dois ciclos sem reiniciar a cada entrada: Left
+PASS: Usa os novos desenhos: Left
+PASS: Escala uniforme e referencia dos pes: Left
+PASS: Personagem realmente se deslocou: Left
+PASS: Parada conserva Idle original: Left
+PASS: Escala do GameObject preservada: Left
+PASS: Oito frames diferentes exibidos continuamente: Right
+PASS: Animator completou mais de dois ciclos sem reiniciar a cada entrada: Right
+PASS: Usa os novos desenhos: Right
+PASS: Escala uniforme e referencia dos pes: Right
+PASS: Personagem realmente se deslocou: Right
+PASS: Parada conserva Idle original: Right
+PASS: Escala do GameObject preservada: Right
+PASS: Sem erros/avisos durante caminhada
+Falhas: 0

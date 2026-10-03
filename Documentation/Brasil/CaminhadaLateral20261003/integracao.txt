@@ -1,0 +1,2 @@
+WalkLeft e WalkRight: oito frames, 10 FPS, loop de 0.8s. Cena/prefab/scripts/Animator preservados.
+2026-10-03T10:55:55
