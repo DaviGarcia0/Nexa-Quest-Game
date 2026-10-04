@@ -66,7 +66,12 @@ public class FeiraNPCPlayChecks:MonoBehaviour
                 int index=dc.LineIndex;dc.HandleInteract();Check(dc.LineIndex==index,"Uma tecla avanca uma fala por frame");
                 yield return null;
             }
-            Check(!dc.IsOpen&&!dc.panel.activeSelf&&!p.ControlsLocked&&completed==1,"Fim fecha, libera Quest e emite evento uma vez");
+            var painelDesafios=FindObjectOfType<PainelDesafiosFeira>(true);
+            if(npc.name=="NPC_Desafios_Bento"&&painelDesafios!=null){
+                Check(painelDesafios.EstaAberto&&p.ControlsLocked&&completed==1,"Fim do Bento abre modal e emite evento uma vez");
+                painelDesafios.Fechar();yield return null;
+            }
+            Check(!dc.IsOpen&&!dc.panel.activeSelf&&!p.ControlsLocked&&completed==1,"Fim fecha, libera Quest apos eventual modal e emite evento uma vez");
             Check(prog.Coins==0&&prog.CurrentXP==0&&prog.Level==1,"Conversa nao concede recompensas");
             p.Teleport(w.initialSpawn.position);Physics2D.SyncTransforms();yield return new WaitForFixedUpdate();yield return new WaitForFixedUpdate();yield return null;
             Check(!dc.interactionPrompt.activeSelf,"Sair oculta indicacao");

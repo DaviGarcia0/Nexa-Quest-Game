@@ -1,0 +1,5 @@
+painel-playmode.txt: 63 verificações aprovadas
+energia.txt: 67 verificações aprovadas
+visual.txt: 100 verificações aprovadas
+npcs.txt: 88 verificações aprovadas
+portal.txt: 111 verificações aprovadas

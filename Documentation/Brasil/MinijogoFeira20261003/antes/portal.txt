@@ -1,0 +1,112 @@
+PASS: Quatro areas cadastradas
+PASS: Area inicial preservada
+PASS: Sem scripts ausentes
+PASS: Importacao nitida: Feira
+PASS: Resolucao integral: Feira
+PASS: Escala/PPU: Feira
+PASS: Importacao nitida: Amazonia
+PASS: Resolucao integral: Amazonia
+PASS: Escala/PPU: Amazonia
+PASS: Importacao nitida: PontoTuristico
+PASS: Resolucao integral: PontoTuristico
+PASS: Escala/PPU: PontoTuristico
+PASS: Importacao nitida: Portal
+PASS: Resolucao integral: Portal
+PASS: Escala/PPU: Portal
+PASS: Cinco saidas existentes e retorno do Portal
+PASS: Preparar origem: Feira
+PASS: Trigger real bloqueia controles: Feira/TrocaAmazonia
+PASS: Transicao simultanea recusada
+PASS: Fade visivel
+PASS: Destino: TrocaAmazonia
+PASS: Spawn correto: TrocaAmazonia
+PASS: Fade terminou e controles liberados
+PASS: Somente destino ativo
+PASS: Camera usa limites do destino
+PASS: Spawn fora da saida: TrocaFeira
+PASS: Spawn fora da saida: TrocaPontoTurisco
+PASS: Sem loop apos cooldown
+PASS: Preparar origem: Feira
+PASS: Trigger real bloqueia controles: Feira/TrocaPortal
+PASS: Transicao simultanea recusada
+PASS: Fade visivel
+PASS: Destino: TrocaPortal
+PASS: Spawn correto: TrocaPortal
+PASS: Fade terminou e controles liberados
+PASS: Somente destino ativo
+PASS: Camera usa limites do destino
+PASS: Spawn fora da saida: RetornoFeira
+PASS: Sem loop apos cooldown
+PASS: Preparar origem: Amazonia
+PASS: Trigger real bloqueia controles: Amazonia/TrocaFeira
+PASS: Transicao simultanea recusada
+PASS: Fade visivel
+PASS: Destino: TrocaFeira
+PASS: Spawn correto: TrocaFeira
+PASS: Fade terminou e controles liberados
+PASS: Somente destino ativo
+PASS: Camera usa limites do destino
+PASS: Spawn fora da saida: TrocaAmazonia
+PASS: Spawn fora da saida: TrocaPortal
+PASS: Sem loop apos cooldown
+PASS: Preparar origem: Amazonia
+PASS: Trigger real bloqueia controles: Amazonia/TrocaPontoTurisco
+PASS: Transicao simultanea recusada
+PASS: Fade visivel
+PASS: Destino: TrocaPontoTurisco
+PASS: Spawn correto: TrocaPontoTurisco
+PASS: Fade terminou e controles liberados
+PASS: Somente destino ativo
+PASS: Camera usa limites do destino
+PASS: Spawn fora da saida: TrocaAmazonia
+PASS: Sem loop apos cooldown
+PASS: Preparar origem: PontoTuristico
+PASS: Trigger real bloqueia controles: PontoTuristico/TrocaAmazonia
+PASS: Transicao simultanea recusada
+PASS: Fade visivel
+PASS: Destino: TrocaAmazonia
+PASS: Spawn correto: TrocaAmazonia
+PASS: Fade terminou e controles liberados
+PASS: Somente destino ativo
+PASS: Camera usa limites do destino
+PASS: Spawn fora da saida: TrocaFeira
+PASS: Spawn fora da saida: TrocaPontoTurisco
+PASS: Sem loop apos cooldown
+PASS: Preparar origem: Portal
+PASS: Trigger real bloqueia controles: Portal/RetornoFeira
+PASS: Transicao simultanea recusada
+PASS: Fade visivel
+PASS: Destino: RetornoFeira
+PASS: Spawn correto: RetornoFeira
+PASS: Fade terminou e controles liberados
+PASS: Somente destino ativo
+PASS: Camera usa limites do destino
+PASS: Spawn fora da saida: TrocaAmazonia
+PASS: Spawn fora da saida: TrocaPortal
+PASS: Sem loop apos cooldown
+PASS: Portal desligado
+PASS: UI comeca fechada e longe
+PASS: Velocidade normalizada direcao 0
+PASS: Pose ao andar 0
+PASS: Idle lembra direcao 0
+PASS: Velocidade normalizada direcao 1
+PASS: Pose ao andar 1
+PASS: Idle lembra direcao 1
+PASS: Velocidade normalizada direcao 2
+PASS: Pose ao andar 2
+PASS: Idle lembra direcao 2
+PASS: Velocidade normalizada direcao 3
+PASS: Pose ao andar 3
+PASS: Idle lembra direcao 3
+PASS: Velocidade normalizada direcao 4
+PASS: Pose ao andar 4
+PASS: Idle lembra direcao 4
+PASS: Proximidade mostra E sem abrir painel
+PASS: E abre painel e bloqueia movimento
+PASS: Painel sempre vazio
+PASS: Esc fecha e libera controle
+PASS: E tambem fecha
+PASS: Sair da proximidade oculta E
+PASS: Portal continua desligado apos interacao
+PASS: Sem erros ou avisos durante Play Mode
+Falhas: 0

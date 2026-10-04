@@ -124,7 +124,12 @@ public class EnergyHUDPlayChecks:MonoBehaviour
                 yield return Screenshot(npc.name+"-fala"+j+"-1080p");dc.HandleInteract();yield return null;
             }
             while(dc.IsOpen){dc.HandleInteract();yield return null;}
-            Check(!player.ControlsLocked&&!dc.panel.activeSelf,"Fim do dialogo devolve controle: "+npc.name);
+            var painelDesafios=FindObjectOfType<PainelDesafiosFeira>(true);
+            if(npc.name=="NPC_Desafios_Bento"&&painelDesafios!=null){
+                Check(painelDesafios.EstaAberto&&player.ControlsLocked,"Bento abre desafios e mantem bloqueio");
+                painelDesafios.Fechar();yield return null;
+            }
+            Check(!player.ControlsLocked&&!dc.panel.activeSelf,"Fim do dialogo e eventual modal devolve controle: "+npc.name);
             player.Teleport(world.initialSpawn.position);Physics2D.SyncTransforms();yield return new WaitForFixedUpdate();yield return new WaitForFixedUpdate();yield return null;
         }
         player.enabled=true;

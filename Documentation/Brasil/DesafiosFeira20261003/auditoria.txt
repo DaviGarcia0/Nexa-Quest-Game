@@ -1,0 +1,69 @@
+Checkpoint: 113b2da
+Blocos existentes alterados: [('894739077', '1'), ('894739078', '224'), ('3637295242814137710', '1001'), ('9223372036854775807', '1660057539')]
+Blocos existentes removidos: []
+Colliders/corpos fisicos inalterados: True (157)
+Bloco 894739077 tipo 1
+--- 
++++ 
+@@ -8,6 +8,7 @@
+   - component: {fileID: 894739078}
+   - component: {fileID: 894739080}
+   - component: {fileID: 894739079}
++  - component: {fileID: 894739081}
+   m_Layer: 0
+   m_Name: Canvas
+   m_TagString: Untagged
+
+Bloco 894739078 tipo 224
+--- 
++++ 
+@@ -14,6 +14,7 @@
+   - {fileID: 2003179757}
+   - {fileID: 1692936246}
+   - {fileID: 1409563349}
++  - {fileID: 1649534029}
+   - {fileID: 372086144}
+   m_Father: {fileID: 0}
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
+Bloco 3637295242814137710 tipo 1001
+--- 
++++ 
+@@ -53,6 +53,26 @@
+       propertyPath: controller
+       value: 
+       objectReference: {fileID: 157612879}
++    - target: {fileID: 4784176284353347982, guid: c3e4b491b00e2ce46a7f2d2a1da793cc, type: 3}
++      propertyPath: onDialogueFinished.m_PersistentCalls.m_Calls.Array.size
++      value: 1
++      objectReference: {fileID: 0}
++    - target: {fileID: 4784176284353347982, guid: c3e4b491b00e2ce46a7f2d2a1da793cc, type: 3}
++      propertyPath: onDialogueFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
++      value: 
++      objectReference: {fileID: 1649534030}
++    - target: {fileID: 4784176284353347982, guid: c3e4b491b00e2ce46a7f2d2a1da793cc, type: 3}
++      propertyPath: onDialogueFinished.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
++      value: 2
++      objectReference: {fileID: 0}
++    - target: {fileID: 4784176284353347982, guid: c3e4b491b00e2ce46a7f2d2a1da793cc, type: 3}
++      propertyPath: onDialogueFinished.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
++      value: Abrir
++      objectReference: {fileID: 0}
++    - target: {fileID: 4784176284353347982, guid: c3e4b491b00e2ce46a7f2d2a1da793cc, type: 3}
++      propertyPath: onDialogueFinished.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
++      value: NexaQuest.Brasil.PainelDesafiosFeira, Assembly-CSharp
++      objectReference: {fileID: 0}
+     m_RemovedComponents: []
+     m_RemovedGameObjects: []
+     m_AddedGameObjects: []
+
+Bloco 9223372036854775807 tipo 1660057539
+--- 
++++ 
+@@ -7,3 +7,4 @@
+   - {fileID: 894739078}
+   - {fileID: 157612878}
+   - {fileID: 1834417569}
++  - {fileID: 1458787922}
+
+PNG identico ao original: True

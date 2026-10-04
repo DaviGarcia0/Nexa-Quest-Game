@@ -1,0 +1,1 @@
+Criado: True; pausado: False; tempo: 1

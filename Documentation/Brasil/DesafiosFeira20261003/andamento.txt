@@ -1,0 +1,63 @@
+PASS: Game View 1920x1080
+PASS: Painel inicia desativado; controle liberado
+PASS: Evento persistente do Bento abre o painel
+PASS: Um unico EventSystem ativo
+PASS: Movimento antes da conversa
+PASS: Proximidade mostra E
+PASS: Acao da tecla E inicia conversa com Bento
+PASS: Conversa curta com sete falas
+PASS: Regra das duas atividades, chave e tres chaves do Portal
+PASS: Retrato/nome/texto: fala 1
+PASS: Bloqueio permanece durante fala 1
+PASS: Fala cabe no painel: 1
+PASS: Retrato/nome/texto: fala 2
+PASS: Bloqueio permanece durante fala 2
+PASS: Fala cabe no painel: 2
+PASS: Retrato/nome/texto: fala 3
+PASS: Bloqueio permanece durante fala 3
+PASS: Fala cabe no painel: 3
+PASS: Retrato/nome/texto: fala 4
+PASS: Bloqueio permanece durante fala 4
+PASS: Fala cabe no painel: 4
+PASS: Retrato/nome/texto: fala 5
+PASS: Bloqueio permanece durante fala 5
+PASS: Fala cabe no painel: 5
+PASS: Retrato/nome/texto: fala 6
+PASS: Bloqueio permanece durante fala 6
+PASS: Fala cabe no painel: 6
+PASS: Retrato/nome/texto: fala 7
+PASS: Bloqueio permanece durante fala 7
+PASS: Fala cabe no painel: 7
+PASS: Fim abre modal e mantem jogador bloqueado
+PASS: Indicacao E oculta durante modal
+PASS: E nao inicia outra conversa durante modal
+PASS: Movimento recusado durante modal
+PASS: Transicao recusada durante modal
+PASS: Arte original integral em proporcao 4:3
+PASS: Painel inteiro dentro da tela
+PASS: Botao transparente sem texto duplicado: BotaoQuiz
+PASS: Raycast acerta centro: BotaoQuiz
+PASS: Raycast acerta canto interno: BotaoQuiz
+PASS: Raycast acerta canto interno: BotaoQuiz
+PASS: Raycast acerta canto interno: BotaoQuiz
+PASS: Raycast acerta canto interno: BotaoQuiz
+PASS: Clique fora da borda nao aciona: BotaoQuiz
+PASS: Botao transparente sem texto duplicado: BotaoMinijogo
+PASS: Raycast acerta centro: BotaoMinijogo
+PASS: Raycast acerta canto interno: BotaoMinijogo
+PASS: Raycast acerta canto interno: BotaoMinijogo
+PASS: Raycast acerta canto interno: BotaoMinijogo
+PASS: Raycast acerta canto interno: BotaoMinijogo
+PASS: Clique fora da borda nao aciona: BotaoMinijogo
+PASS: Clique real UI chama Quiz uma vez
+PASS: Clique real UI chama Minijogo uma vez
+PASS: Fundo modal intercepta cliques fora das opcoes
+PASS: Clique externo nao seleciona nem fecha
+PASS: Abrir e clicar nao concede moedas ou XP
+PASS: Sem Esc modal permanece aberto
+PASS: Acao de Esc fecha e devolve controle
+PASS: Movimento restaurado depois de fechar
+PASS: Reabrir nao duplica bloqueio
+PASS: Desativar painel tambem libera bloqueio proprio
+PASS: Modal nao rouba bloqueio de outro sistema
+PASS: Sem erros ou avisos no fluxo do painel

@@ -16,34 +16,28 @@ MonoBehaviour:
   - speaker: 0
     speakerName: Bento
     portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: Oi, Quest! Veio conhecer um pouco mais da nossa feira?
+    text: Ei, Quest! Preparada para os desafios da Feira Brasileira?
   - speaker: 1
     speakerName: Quest
     portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
-    text: Vim, sim! Que desafios vou encontrar por aqui?
+    text: Claro! O que eu preciso fazer?
   - speaker: 0
     speakerName: Bento
     portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: "Aqui voc\xEA ter\xE1 dois desafios para completar."
+    text: 'Aqui temos dois desafios: um Quiz e um Minijogo.'
   - speaker: 0
     speakerName: Bento
     portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: "Um deles ser\xE1 um Quiz sobre o que voc\xEA descobrir durante sua viagem."
+    text: Complete os dois e eu entrego a Chave da Feira.
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
+    text: Uma das chaves do Portal?
   - speaker: 0
     speakerName: Bento
     portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: "O outro ser\xE1 um jogo especial desta regi\xE3o."
+    text: "Isso! Voc\xEA vai precisar das tr\xEAs para ativ\xE1-lo."
   - speaker: 0
     speakerName: Bento
     portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: "Quando voc\xEA completar os dois desafios, poder\xE1 conquistar a chave
-      da Feira."
-  - speaker: 0
-    speakerName: Bento
-    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: "Essa chave ser\xE1 importante para ativar o Portal depois."
-  - speaker: 0
-    speakerName: Bento
-    portrait: {fileID: 1635053191, guid: 91b7b9e5a5fbd004ea753f915592a31f, type: 3}
-    text: "Por enquanto, explore o lugar. Quando os desafios estiverem dispon\xEDveis,
-      volte e fale comigo!"
+    text: "Escolha por qual desafio quer come\xE7ar!"
