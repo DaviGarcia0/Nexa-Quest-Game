@@ -6,6 +6,7 @@ namespace NexaQuest.Brasil
     public class PainelDesafiosFeira : MonoBehaviour
     {
         [SerializeField] private BrazilWorld mundo;
+        public MinijogoFeira minijogo;
         private bool possuiBloqueio;
         public bool EstaAberto => gameObject.activeInHierarchy && possuiBloqueio;
 
@@ -50,7 +51,7 @@ namespace NexaQuest.Brasil
 
         public void SelecionarMinijogo()
         {
-            if (EstaAberto) Debug.Log("Minijogo da Feira selecionado. Atividade ainda não implementada.", this);
+            if (EstaAberto && minijogo != null) minijogo.TentarAbrir(this);
         }
     }
 }

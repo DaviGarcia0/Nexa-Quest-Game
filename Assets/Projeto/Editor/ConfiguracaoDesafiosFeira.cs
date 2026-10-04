@@ -183,7 +183,7 @@ public class TestesDesafiosFeira : MonoBehaviour
         Conferir(dialogo.IsOpen&&dialogo.CurrentNPC==bento,"Acao da tecla E inicia conversa com Bento");
         Conferir(bento.dialogue.lines.Length==7,"Conversa curta com sete falas");
         var texto=string.Join(" ",bento.dialogue.lines.Select(l=>l.text));
-        Conferir(texto.Contains("Quiz e um Minijogo")&&texto.Contains("Complete os dois")&&texto.Contains("Chave da Feira")&&texto.Contains("Portal")&&texto.Contains("três"),"Regra das duas atividades, chave e tres chaves do Portal");
+        Conferir(texto.Contains("Quiz e um Minijogo")&&texto.Contains("cinco frutas")&&texto.Contains("Chave da Vila")&&texto.Contains("Portal")&&texto.Contains("três"),"Regra do minijogo, chave e tres chaves do Portal");
         for(int i=0;i<bento.dialogue.lines.Length;i++) {
             var fala=bento.dialogue.lines[i];
             Conferir(dialogo.LineIndex==i&&dialogo.portrait.sprite==fala.portrait&&fala.portrait!=null&&dialogo.speakerName.text==fala.speakerName&&dialogo.dialogueText.text==fala.text,"Retrato/nome/texto: fala "+(i+1));
@@ -211,9 +211,13 @@ public class TestesDesafiosFeira : MonoBehaviour
                 Conferir(Alvo(ponto)==botao.gameObject,"Raycast acerta canto interno: "+nome);
             Conferir(Alvo(new Vector2(cantos[0].x-3,centro.y))!=botao.gameObject&&Alvo(new Vector2(cantos[2].x+3,centro.y))!=botao.gameObject,"Clique fora da borda nao aciona: "+nome);
             Clicar(centro); yield return null;
+            if(nome=="BotaoMinijogo" && painel.minijogo!=null){
+                Conferir(painel.minijogo.Estado==EstadoMinijogoFeira.Instrucoes,"Minijogo abre instrucoes pela primeira vez");
+                painel.minijogo.Sair();painel.Abrir();yield return null;
+            }
         }
         Conferir(mensagens.Count(m=>m.StartsWith("Quiz da Feira selecionado"))==1,"Clique real UI chama Quiz uma vez");
-        Conferir(mensagens.Count(m=>m.StartsWith("Minijogo da Feira selecionado"))==1,"Clique real UI chama Minijogo uma vez");
+        Conferir(painel.minijogo!=null,"Botao Minijogo integrado ao controlador real");
         Conferir(Alvo(new Vector2(15,15))==painel.gameObject,"Fundo modal intercepta cliques fora das opcoes");
         int antes=mensagens.Count; Clicar(new Vector2(15,15));
         Conferir(mensagens.Count==antes&&painel.EstaAberto,"Clique externo nao seleciona nem fecha");

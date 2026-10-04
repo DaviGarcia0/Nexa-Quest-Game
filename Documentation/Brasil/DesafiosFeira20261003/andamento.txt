@@ -6,7 +6,7 @@ PASS: Movimento antes da conversa
 PASS: Proximidade mostra E
 PASS: Acao da tecla E inicia conversa com Bento
 PASS: Conversa curta com sete falas
-PASS: Regra das duas atividades, chave e tres chaves do Portal
+PASS: Regra do minijogo, chave e tres chaves do Portal
 PASS: Retrato/nome/texto: fala 1
 PASS: Bloqueio permanece durante fala 1
 PASS: Fala cabe no painel: 1
@@ -49,8 +49,9 @@ PASS: Raycast acerta canto interno: BotaoMinijogo
 PASS: Raycast acerta canto interno: BotaoMinijogo
 PASS: Raycast acerta canto interno: BotaoMinijogo
 PASS: Clique fora da borda nao aciona: BotaoMinijogo
+PASS: Minijogo abre instrucoes pela primeira vez
 PASS: Clique real UI chama Quiz uma vez
-PASS: Clique real UI chama Minijogo uma vez
+PASS: Botao Minijogo integrado ao controlador real
 PASS: Fundo modal intercepta cliques fora das opcoes
 PASS: Clique externo nao seleciona nem fecha
 PASS: Abrir e clicar nao concede moedas ou XP

@@ -1,0 +1,148 @@
+{
+  "quadros": [
+    {
+      "nome": "CestoParada_01",
+      "x": 368,
+      "y": 636,
+      "largura": 185,
+      "altura": 293,
+      "pivoX": 0.572972972972973,
+      "pivoY": 0.010238907849829351
+    },
+    {
+      "nome": "CestoParada_02",
+      "x": 615,
+      "y": 636,
+      "largura": 181,
+      "altura": 293,
+      "pivoX": 0.569060773480663,
+      "pivoY": 0.010238907849829351
+    },
+    {
+      "nome": "CestoParada_03",
+      "x": 857,
+      "y": 636,
+      "largura": 183,
+      "altura": 293,
+      "pivoX": 0.5737704918032787,
+      "pivoY": 0.010238907849829351
+    },
+    {
+      "nome": "CestoParada_04",
+      "x": 1102,
+      "y": 636,
+      "largura": 183,
+      "altura": 293,
+      "pivoX": 0.5683060109289617,
+      "pivoY": 0.010238907849829351
+    },
+    {
+      "nome": "CestoDireita_01",
+      "x": 35,
+      "y": 336,
+      "largura": 206,
+      "altura": 286,
+      "pivoX": 0.6116504854368932,
+      "pivoY": 0.01048951048951049
+    },
+    {
+      "nome": "CestoDireita_02",
+      "x": 282,
+      "y": 336,
+      "largura": 231,
+      "altura": 286,
+      "pivoX": 0.6623376623376623,
+      "pivoY": 0.01048951048951049
+    },
+    {
+      "nome": "CestoDireita_03",
+      "x": 560,
+      "y": 336,
+      "largura": 228,
+      "altura": 286,
+      "pivoX": 0.6535087719298246,
+      "pivoY": 0.01048951048951049
+    },
+    {
+      "nome": "CestoDireita_04",
+      "x": 840,
+      "y": 336,
+      "largura": 224,
+      "altura": 286,
+      "pivoX": 0.6383928571428571,
+      "pivoY": 0.01048951048951049
+    },
+    {
+      "nome": "CestoDireita_05",
+      "x": 1120,
+      "y": 337,
+      "largura": 229,
+      "altura": 285,
+      "pivoX": 0.6550218340611353,
+      "pivoY": 0.010526315789473684
+    },
+    {
+      "nome": "CestoDireita_06",
+      "x": 1405,
+      "y": 336,
+      "largura": 221,
+      "altura": 286,
+      "pivoX": 0.6380090497737556,
+      "pivoY": 0.01048951048951049
+    },
+    {
+      "nome": "CestoEsquerda_01",
+      "x": 58,
+      "y": 29,
+      "largura": 221,
+      "altura": 287,
+      "pivoX": 0.34841628959276016,
+      "pivoY": 0.010452961672473868
+    },
+    {
+      "nome": "CestoEsquerda_02",
+      "x": 340,
+      "y": 29,
+      "largura": 223,
+      "altura": 287,
+      "pivoX": 0.34977578475336324,
+      "pivoY": 0.010452961672473868
+    },
+    {
+      "nome": "CestoEsquerda_03",
+      "x": 615,
+      "y": 29,
+      "largura": 224,
+      "altura": 287,
+      "pivoX": 0.35714285714285715,
+      "pivoY": 0.010452961672473868
+    },
+    {
+      "nome": "CestoEsquerda_04",
+      "x": 905,
+      "y": 29,
+      "largura": 222,
+      "altura": 287,
+      "pivoX": 0.3108108108108108,
+      "pivoY": 0.010452961672473868
+    },
+    {
+      "nome": "CestoEsquerda_05",
+      "x": 1172,
+      "y": 29,
+      "largura": 239,
+      "altura": 287,
+      "pivoX": 0.3514644351464435,
+      "pivoY": 0.010452961672473868
+    },
+    {
+      "nome": "CestoEsquerda_06",
+      "x": 1445,
+      "y": 29,
+      "largura": 203,
+      "altura": 287,
+      "pivoX": 0.4433497536945813,
+      "pivoY": 0.010452961672473868
+    }
+  ]
+}

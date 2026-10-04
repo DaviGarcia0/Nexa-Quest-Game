@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 4fd8e0cc26f1e2e4f806c6703598a23b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CestoParada_01
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 636
+        width: 185
+        height: 293
+      alignment: 9
+      pivot: {x: 0.57297295, y: 0.010238908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e4657640d636a48bd4cd52fa050d48
+      internalID: 955975589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoParada_02
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 636
+        width: 181
+        height: 293
+      alignment: 9
+      pivot: {x: 0.5690608, y: 0.010238908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e671568c0321542bc5cdf7b4cfb807
+      internalID: 899805047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoParada_03
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 636
+        width: 183
+        height: 293
+      alignment: 9
+      pivot: {x: 0.57377046, y: 0.010238908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bf68d32c8fb3e4ba866f2afb12a4ec
+      internalID: -1020519365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoParada_04
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 636
+        width: 183
+        height: 293
+      alignment: 9
+      pivot: {x: 0.568306, y: 0.010238908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9022fbfde0bf349bf2073d09ece244
+      internalID: 37942664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoDireita_01
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 336
+        width: 206
+        height: 286
+      alignment: 9
+      pivot: {x: 0.61165047, y: 0.01048951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ca062e71199c84781d9b58c2d2be5b
+      internalID: -496292725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoDireita_02
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 336
+        width: 231
+        height: 286
+      alignment: 9
+      pivot: {x: 0.66233766, y: 0.01048951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2c7058623f3f343916fffcea09431f
+      internalID: -1318266430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoDireita_03
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 336
+        width: 228
+        height: 286
+      alignment: 9
+      pivot: {x: 0.6535088, y: 0.01048951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7993b32f270932b4498666f0486ccb09
+      internalID: 310040409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoDireita_04
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 336
+        width: 224
+        height: 286
+      alignment: 9
+      pivot: {x: 0.63839287, y: 0.01048951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbec1b0adc0703849a2f4fe8d8e198ae
+      internalID: -59410742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoDireita_05
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 337
+        width: 229
+        height: 285
+      alignment: 9
+      pivot: {x: 0.65502185, y: 0.010526316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d99e07a30e5a74781810f511db070d
+      internalID: 1103309779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoDireita_06
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 336
+        width: 221
+        height: 286
+      alignment: 9
+      pivot: {x: 0.6380091, y: 0.01048951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a816b0f86c570b34d83234e221984767
+      internalID: -1572226889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoEsquerda_01
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 29
+        width: 221
+        height: 287
+      alignment: 9
+      pivot: {x: 0.3484163, y: 0.010452962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db2b0aabb3f34543833f4c6ddafadd7
+      internalID: -555311973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoEsquerda_02
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 29
+        width: 223
+        height: 287
+      alignment: 9
+      pivot: {x: 0.3497758, y: 0.010452962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2080dea589d80149a586933d3fb4dc4
+      internalID: -953998789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoEsquerda_03
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 29
+        width: 224
+        height: 287
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.010452962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7fec8b3fc03a1489b395ae52fb06f9
+      internalID: -624531985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoEsquerda_04
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 29
+        width: 222
+        height: 287
+      alignment: 9
+      pivot: {x: 0.3108108, y: 0.010452962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c2189ebb42924c9540c3ac0f63c4a
+      internalID: 1916905603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoEsquerda_05
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 29
+        width: 239
+        height: 287
+      alignment: 9
+      pivot: {x: 0.35146442, y: 0.010452962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9248bb7e19dc96f42a3b0b7bbe967fa0
+      internalID: 1726878325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CestoEsquerda_06
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 29
+        width: 203
+        height: 287
+      alignment: 9
+      pivot: {x: 0.44334975, y: 0.010452962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3409e9872b403b14b82d85e16da9a2fd
+      internalID: 1314400580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CestoDireita_01: -496292725
+      CestoDireita_02: -1318266430
+      CestoDireita_03: 310040409
+      CestoDireita_04: -59410742
+      CestoDireita_05: 1103309779
+      CestoDireita_06: -1572226889
+      CestoEsquerda_01: -555311973
+      CestoEsquerda_02: -953998789
+      CestoEsquerda_03: -624531985
+      CestoEsquerda_04: 1916905603
+      CestoEsquerda_05: 1726878325
+      CestoEsquerda_06: 1314400580
+      CestoParada_01: 955975589
+      CestoParada_02: 899805047
+      CestoParada_03: -1020519365
+      CestoParada_04: 37942664
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,147 @@
+{
+  "checkpoint": "441d409",
+  "blocosAntes": 1026,
+  "blocosDepois": 1178,
+  "blocosRemovidos": [],
+  "componentesFisicos": 157,
+  "fisicaInalterada": true,
+  "blocosExistentesAlterados": [
+    "894739078",
+    "1442571861",
+    "1649534029",
+    "1649534030",
+    "1834417568"
+  ],
+  "arquivos": [
+    {
+      "asset": "CenarioFeira.png",
+      "original": "cenário do minijogo.png",
+      "sha256": "b07b673b772e67c416c70783728e72dc680b79a74b813c948262ea027943b065",
+      "identico": true
+    },
+    {
+      "asset": "PainelInstrucoes.png",
+      "original": "painel de instrução.png",
+      "sha256": "270419bb229a20f2771bf483fe26bd3fb49810e6b6196ae8bf9196c56d29004e",
+      "identico": true
+    },
+    {
+      "asset": "PainelVitoriaComChave.png",
+      "original": "painel de vitória.png",
+      "sha256": "2a865a642efd76e0a1caf2c9d00fe39d21da0a504fb355e90b9b40d35e80b5f7",
+      "identico": true
+    },
+    {
+      "asset": "PainelVitoriaSemChave.png",
+      "original": "Painel Vitoria sem chave.png",
+      "sha256": "30b7e8ed0535b97e636ae82811768cef4b7b86519a8de32302ac58619ccd462e",
+      "identico": true
+    },
+    {
+      "asset": "PainelDerrota.png",
+      "original": "painel de game over.png",
+      "sha256": "b11bbdbf9906d808fff0f5a8ec619d7f31019d5888a7a2c432fb7449ae3ceed7",
+      "identico": true
+    },
+    {
+      "asset": "IndicadorFrutas.png",
+      "original": "HUD de progresso das frutas.png",
+      "sha256": "84659cd04edc6cbb85c0797b68aab2220ba6703325e5c79e96520cc094a7f8b7",
+      "identico": true
+    },
+    {
+      "asset": "IndicadorErros.png",
+      "original": "indicador de erros.png",
+      "sha256": "2fc6f82c5be81174206c29c215e67d3b57d4fffae6c387c04db37e01af2b899b",
+      "identico": true
+    },
+    {
+      "asset": "BotaoSair.png",
+      "original": "botão sair.png",
+      "sha256": "05bf4521c36cd9321fdd52ce950364fe75af189375773b2cdf3e0bc11b5db1ac",
+      "identico": true
+    },
+    {
+      "asset": "QuestComCesto.png",
+      "original": "Sprite sheet - Quest com cesto.png",
+      "sha256": "1e3c9b416dd56d480733ddf827649718768acc18d832ba8cebd35a6e27a721a2",
+      "identico": true
+    },
+    {
+      "asset": "Banana.png",
+      "original": "Banana.png",
+      "sha256": "c64c6defa587bf0286d5a40333e349b07bd4c8f9743648c33648b3f683c1cacf",
+      "identico": true
+    },
+    {
+      "asset": "Abacaxi.png",
+      "original": "Abacaxi.png",
+      "sha256": "9d5c7c35b33c7259a5632ade30fb15776364a9a609c7754bec22d1b1237d4fa6",
+      "identico": true
+    },
+    {
+      "asset": "Melancia.png",
+      "original": "Melancia.png",
+      "sha256": "51f7577c68351dfce4bebc4bc2ae882c5e008e1ff1a29de1ec63e18abc9e7fca",
+      "identico": true
+    },
+    {
+      "asset": "Chinelo.png",
+      "original": "Chinelo.png",
+      "sha256": "d6d009d707352f49e09278f28c88706d5fdabee9f64be2b2e8507f21bf372c16",
+      "identico": true
+    },
+    {
+      "asset": "Disco.png",
+      "original": "CD.png",
+      "sha256": "72ac88fb86126a4a71b570628d07516626a0dc5b5b5bd28f08d4aed5b2444ca0",
+      "identico": true
+    },
+    {
+      "asset": "ConsoleXbox360.png",
+      "original": "XBOX360.png",
+      "sha256": "d4379e8959a54de00c7d90b2b1eff74279cdbd2dab90d0ddc41d4585372e6b60",
+      "identico": true
+    }
+  ],
+  "novosObjetos": [
+    "QuestComCesto",
+    "ArtePainel",
+    "BotaoSair",
+    "QuantidadeAbacaxis",
+    "ArtePainel",
+    "BotaoSair",
+    "BotaoRejogar",
+    "Controles",
+    "AvisoEnergia",
+    "CenarioFeira",
+    "AberturaCesto",
+    "QuantidadeBananas",
+    "ArtePainel",
+    "FrutasPerdidas",
+    "Instrucoes",
+    "MoedasDaPartida",
+    "BotaoRejogar",
+    "VitoriaSemChave",
+    "BotaoRejogar",
+    "ProgressoFrutas",
+    "ItensEmQueda",
+    "BotaoJogar",
+    "MinijogoFeira",
+    "IndicadorErros",
+    "BotaoSair",
+    "AreaJogavel",
+    "MoedasDaPartida",
+    "ItensErrados",
+    "ArteQuest",
+    "QuantidadeMelancias",
+    "HUDsExistentes",
+    "AreaClique",
+    "BotaoSair",
+    "VisualMinijogo",
+    "AvisoEnergia",
+    "Derrota",
+    "VitoriaComChave",
+    "ArtePainel"
+  ]
+}
