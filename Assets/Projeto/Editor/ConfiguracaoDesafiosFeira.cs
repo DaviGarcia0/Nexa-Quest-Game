@@ -211,12 +211,16 @@ public class TestesDesafiosFeira : MonoBehaviour
                 Conferir(Alvo(ponto)==botao.gameObject,"Raycast acerta canto interno: "+nome);
             Conferir(Alvo(new Vector2(cantos[0].x-3,centro.y))!=botao.gameObject&&Alvo(new Vector2(cantos[2].x+3,centro.y))!=botao.gameObject,"Clique fora da borda nao aciona: "+nome);
             Clicar(centro); yield return null;
+            if(nome=="BotaoQuiz" && painel.quiz!=null){
+                Conferir(painel.quiz.Estado==EstadoQuizFeira.Inicial,"Quiz abre painel inicial sem gastar Energia");
+                painel.quiz.Voltar();yield return null;
+            }
             if(nome=="BotaoMinijogo" && painel.minijogo!=null){
                 Conferir(painel.minijogo.Estado==EstadoMinijogoFeira.Instrucoes,"Minijogo abre instrucoes pela primeira vez");
                 painel.minijogo.Sair();painel.Abrir();yield return null;
             }
         }
-        Conferir(mensagens.Count(m=>m.StartsWith("Quiz da Feira selecionado"))==1,"Clique real UI chama Quiz uma vez");
+        Conferir(painel.quiz!=null,"Clique real UI integrado ao controlador do Quiz");
         Conferir(painel.minijogo!=null,"Botao Minijogo integrado ao controlador real");
         Conferir(Alvo(new Vector2(15,15))==painel.gameObject,"Fundo modal intercepta cliques fora das opcoes");
         int antes=mensagens.Count; Clicar(new Vector2(15,15));

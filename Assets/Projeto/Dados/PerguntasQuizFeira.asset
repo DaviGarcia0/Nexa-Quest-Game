@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fee0ac63ee42a4381e8509eba4f651, type: 3}
+  m_Name: PerguntasQuizFeira
+  m_EditorClassIdentifier: 
+  perguntas:
+  - enunciado: "Qual \xE9 a capital do Brasil?"
+    alternativas:
+    - Rio de Janeiro
+    - "Bras\xEDlia"
+    - Salvador
+    - "S\xE3o Paulo"
+    respostaCorreta: 1
+    fonte: https://www.gov.br/g20/pt-br/sobre-o-g20/cidades-sede/brasilia-df
+  - enunciado: "Qual destes alimentos vendidos na feira \xE9 uma fruta?"
+    alternativas:
+    - Alface
+    - Batata
+    - Banana
+    - Cenoura
+    respostaCorreta: 2
+    fonte: https://www.embrapa.br/web/mandioca-e-fruticultura/cultivos/banana
+  - enunciado: "Qual \xE9 a moeda oficial usada nas compras em uma feira brasileira?"
+    alternativas:
+    - Real
+    - Euro
+    - "D\xF3lar"
+    - Peso
+    respostaCorreta: 0
+    fonte: https://www.bcb.gov.br/controleinflacao/planoreal

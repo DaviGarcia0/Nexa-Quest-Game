@@ -13,6 +13,7 @@ namespace NexaQuest.Brasil
         [SerializeField, Range(0, 100)] int energia = 100;
         [SerializeField] bool possuiChaveVila;
         [SerializeField] bool instrucoesFeiraVistas;
+        [SerializeField] bool quizFeiraConcluido;
         public int Coins => coins;
         public int CurrentXP => currentXP;
         public int Level => level;
@@ -20,11 +21,14 @@ namespace NexaQuest.Brasil
         public int Energia => energia;
         public bool PossuiChaveVila => possuiChaveVila;
         public bool InstrucoesFeiraVistas => instrucoesFeiraVistas;
+        public bool QuizFeiraConcluido => quizFeiraConcluido;
         public event Action Changed;
         public const string ChavePersistencia = "NexaQuest.Progresso.v1";
         static string ChaveUsada {
             get {
 #if UNITY_EDITOR
+                if (UnityEditor.SessionState.GetBool("NexaQuest.ValidandoQuiz", false))
+                    return "NexaQuest.Testes.Quiz";
                 // Os testes usam outra chave; nunca gastam a energia do jogador real.
                 if (UnityEditor.SessionState.GetBool("NexaQuest.ValidandoMinijogo", false))
                     return "NexaQuest.Testes.Minijogo";
@@ -34,7 +38,7 @@ namespace NexaQuest.Brasil
         }
         [Serializable] class Dados {
             public int versao = 1, coins, currentXP, level = 1, energia = 100;
-            public bool possuiChaveVila, instrucoesFeiraVistas;
+            public bool possuiChaveVila, instrucoesFeiraVistas, quizFeiraConcluido;
         }
         void Awake() {
             if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -50,6 +54,7 @@ namespace NexaQuest.Brasil
                         currentXP = Mathf.Clamp(dados.currentXP, 0, XPToNextLevel - 1);
                         energia = Mathf.Clamp(dados.energia, 0, 100);
                         possuiChaveVila = dados.possuiChaveVila; instrucoesFeiraVistas = dados.instrucoesFeiraVistas;
+                        quizFeiraConcluido = dados.quizFeiraConcluido;
                     }
                 } catch (ArgumentException) { Debug.LogWarning("Progresso salvo inválido; valores atuais preservados."); }
             }
@@ -57,7 +62,7 @@ namespace NexaQuest.Brasil
         }
         void SalvarENotificar() {
             var dados = new Dados { coins=coins, currentXP=currentXP, level=level, energia=energia,
-                possuiChaveVila=possuiChaveVila, instrucoesFeiraVistas=instrucoesFeiraVistas };
+                possuiChaveVila=possuiChaveVila, instrucoesFeiraVistas=instrucoesFeiraVistas, quizFeiraConcluido=quizFeiraConcluido };
             PlayerPrefs.SetString(ChaveUsada, JsonUtility.ToJson(dados)); PlayerPrefs.Save(); Changed?.Invoke();
         }
         public void AddCoins(int amount) {
@@ -77,6 +82,10 @@ namespace NexaQuest.Brasil
         public bool ConquistarChaveVila() {
             if (possuiChaveVila) return false;
             possuiChaveVila = true; SalvarENotificar(); return true;
+        }
+        public void MarcarQuizFeiraConcluido() {
+            if (quizFeiraConcluido) return;
+            quizFeiraConcluido = true; SalvarENotificar();
         }
         public void MarcarInstrucoesFeiraVistas() {
             if (instrucoesFeiraVistas) return;

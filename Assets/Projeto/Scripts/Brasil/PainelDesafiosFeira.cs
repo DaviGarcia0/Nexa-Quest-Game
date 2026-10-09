@@ -7,6 +7,8 @@ namespace NexaQuest.Brasil
     {
         [SerializeField] private BrazilWorld mundo;
         public MinijogoFeira minijogo;
+        public QuizFeira quiz;
+        int quadroAbertura = -1;
         private bool possuiBloqueio;
         public bool EstaAberto => gameObject.activeInHierarchy && possuiBloqueio;
 
@@ -16,6 +18,7 @@ namespace NexaQuest.Brasil
                 mundo.IsTransitioning || mundo.player.ControlsLocked) return;
             gameObject.SetActive(true);
             possuiBloqueio = true;
+            quadroAbertura = Time.frameCount;
             mundo.player.SetControlsLocked(true);
             if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
         }
@@ -25,7 +28,7 @@ namespace NexaQuest.Brasil
         // A mesma entrada pode ser exercitada pelos testes de Play Mode.
         public void ProcessarFechamento(bool pressionouEsc)
         {
-            if (pressionouEsc && EstaAberto) Fechar();
+            if (pressionouEsc && EstaAberto && Time.frameCount > quadroAbertura) Fechar();
         }
 
         public void Fechar()
@@ -46,7 +49,7 @@ namespace NexaQuest.Brasil
 
         public void SelecionarQuiz()
         {
-            if (EstaAberto) Debug.Log("Quiz da Feira selecionado. Atividade ainda não implementada.", this);
+            if (EstaAberto && quiz != null) quiz.TentarAbrir(this);
         }
 
         public void SelecionarMinijogo()
