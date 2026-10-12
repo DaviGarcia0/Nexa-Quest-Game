@@ -1,0 +1,71 @@
+PASS: Resolucao 1920x1080
+PASS: Minijogo fechado inicialmente
+PASS: Energia real inicial conectada a HUD
+PASS: Raycast do botao: ArtePainel/BotaoMinijogo (alvo: BotaoMinijogo)
+PASS: Primeira entrada apresenta instrucoes
+PASS: Instrucoes ainda nao gastam Energia
+PASS: Sem movimento ou spawn nas instrucoes
+PASS: Mapa e transicoes bloqueados
+PASS: Interacao com NPC bloqueada
+PASS: Raycast do botao: ArtePainel/BotaoJogar (alvo: BotaoJogar)
+PASS: Jogar custa exatamente 20; clique repetido nao duplica custo
+PASS: Instrucoes vistas salvas ao iniciar
+PASS: Animator mostra todos os frames na direcao 0
+PASS: Animator mostra todos os frames na direcao -1
+PASS: Animator mostra todos os frames na direcao 1
+PASS: Limite esquerdo
+PASS: Limite direito
+PASS: Sem movimento vertical
+PASS: Item original importado: Banana
+PASS: Item original importado: Abacaxi
+PASS: Item original importado: Melancia
+PASS: Item original importado: Chinelo
+PASS: Item original importado: Disco
+PASS: Item original importado: ConsoleXbox
+PASS: Os seis tipos caem verticalmente na velocidade configurada
+PASS: Fruta atravessa abertura e e capturada
+PASS: Mesmo item nao pode ser coletado novamente
+PASS: Tres frutas diferentes concedem uma moeda real
+PASS: Corpo e pes nao capturam fruta
+PASS: Fruta chega ao chao e soma um erro
+PASS: Objeto errado no chao nao penaliza
+PASS: Objeto errado capturado penaliza
+PASS: Impacto suave aplicado apenas ao visual do minijogo
+PASS: Impacto retorna exatamente a origem
+PASS: Tres frutas perdidas antes de 5/5/5: derrota
+PASS: Derrota nao concede XP nem chave
+PASS: Raycast do botao: ArtePainel/BotaoRejogar (alvo: BotaoRejogar)
+PASS: Rejogar custa 20 e limpa somente rodada
+PASS: Rejogar preserva moedas anteriores
+PASS: 5/5/5 nao interrompe gameplay
+PASS: Primeira conclusao: 50 XP e chave unica
+PASS: Frutas extras dao moedas sem repetir XP
+PASS: HUD limita contadores em 5/5
+PASS: Surgimento automatico continua apos concluir objetivo
+PASS: Raycast do botao: BotaoSair/AreaClique (alvo: AreaClique)
+PASS: Sair apos concluir: primeira vitoria com moedas da rodada
+PASS: Raycast do botao: ArtePainel/BotaoRejogar (alvo: BotaoRejogar)
+PASS: Segunda conclusao: mais 50 XP, nivel 2 e nenhuma chave duplicada
+PASS: Tres itens errados depois da conclusao: vitoria sem chave
+PASS: Raycast do botao: ArtePainel/BotaoSair (alvo: BotaoSair)
+PASS: Sair retorna a Brasil no mesmo ponto
+PASS: Raycast do botao: ArtePainel/BotaoMinijogo (alvo: BotaoMinijogo)
+PASS: Nova entrada pula instrucoes e custa 20
+PASS: Dois contadores independentes: 2+2 nao encerra
+PASS: Tres itens errados sem objetivo: derrota
+PASS: Raycast do botao: ArtePainel/BotaoRejogar (alvo: BotaoRejogar)
+PASS: Energia 20 permite iniciar e chega exatamente a zero
+PASS: Raycast do botao: BotaoSair/AreaClique (alvo: AreaClique)
+PASS: Sair antes de concluir mostra derrota
+PASS: Raycast do botao: ArtePainel/BotaoRejogar (alvo: BotaoRejogar)
+PASS: Rejogar sem energia bloqueado com aviso
+PASS: Raycast do botao: ArtePainel/BotaoSair (alvo: BotaoSair)
+PASS: Raycast do botao: ArtePainel/BotaoMinijogo (alvo: BotaoMinijogo)
+PASS: Entrada sem energia recusada sem fechar painel
+PASS: Energia nao fica negativa nem permite custo negativo
+PASS: Carregamento restaura moedas, nivel, energia, chave e instrucoes salvos
+PASS: Chave persistida recusa segunda concessao
+PASS: Saida limpa itens, bloqueio e deslocamento visual
+PASS: HUDs existentes retornam ao Canvas
+PASS: Sem erros ou avisos durante os cenarios A-G
+Falhas: 0

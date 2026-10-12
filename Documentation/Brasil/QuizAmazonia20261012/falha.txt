@@ -1,0 +1,2 @@
+System.InvalidOperationException: Salve Brasil e deixe fora de Play Mode.
+  at ValidacaoQuizAmazonia.Consultar () [0x0005e] in C:\Users\Davi\Desktop\Nexa-Quest-Game\Assets\Projeto\Editor\ValidacaoQuizAmazonia.cs:42 
