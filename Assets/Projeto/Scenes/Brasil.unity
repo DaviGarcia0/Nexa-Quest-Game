@@ -20291,10 +20291,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: -0.75
+    y: -0.5625
+    width: 1.5
+    height: 1.125
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -31933,6 +31933,8 @@ MonoBehaviour:
   possuiChaveVila: 0
   instrucoesFeiraVistas: 0
   quizFeiraConcluido: 0
+  usarEnergiaInicialTemporaria: 1
+  energiaInicialTemporaria: 100
 --- !u!4 &1834417569
 Transform:
   m_ObjectHideFlags: 0

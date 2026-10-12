@@ -70,11 +70,23 @@ namespace NexaQuest.Brasil
         public void Carregar(PerguntaQuizFeira pergunta, int indice)
         {
             progressoPerguntas.text = (indice + 1) + "/3";
-            enunciado.text = pergunta.enunciado;
+            enunciado.enableWordWrapping = true;
+            enunciado.text = QuebrarEnunciado(pergunta.enunciado);
             for (int i = 0; i < 4; i++) alternativas[i].text = ((char)('A' + i)) + ") " + pergunta.alternativas[i];
             OcultarFeedback();
         }
 
+        static string QuebrarEnunciado(string texto)
+        {
+            var palavras = (texto ?? string.Empty).Split((char[])null, System.StringSplitOptions.RemoveEmptyEntries);
+            var resultado = new System.Text.StringBuilder();
+            for (int i = 0; i < palavras.Length; i++)
+            {
+                if (i > 0) resultado.Append(i % 7 == 0 ? '\n' : ' ');
+                resultado.Append(palavras[i]);
+            }
+            return resultado.ToString();
+        }
         public void MostrarTempo(float restante) => tempo.text = Mathf.CeilToInt(restante) + "s";
 
         public void MostrarFeedback(bool acerto, bool esgotou)

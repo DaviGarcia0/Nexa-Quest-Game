@@ -14,6 +14,11 @@ namespace NexaQuest.Brasil
         [SerializeField] bool possuiChaveVila;
         [SerializeField] bool instrucoesFeiraVistas;
         [SerializeField] bool quizFeiraConcluido;
+        [Header("Energia temporária para testes")]
+        [Tooltip("Ao começar o jogo, usa a Energia Inicial Temporária no lugar da energia salva. Desative quando a recuperação de energia estiver pronta.")]
+        [SerializeField] bool usarEnergiaInicialTemporaria = true;
+        [Tooltip("Energia da Quest ao entrar em Play Mode, quando o ajuste temporário estiver ativado.")]
+        [SerializeField, Range(0, 100)] int energiaInicialTemporaria = 100;
         public int Coins => coins;
         public int CurrentXP => currentXP;
         public int Level => level;
@@ -43,6 +48,11 @@ namespace NexaQuest.Brasil
         void Awake() {
             if (Instance != null && Instance != this) { Destroy(gameObject); return; }
             Instance = this; DontDestroyOnLoad(gameObject); CarregarProgresso();
+            // O ajuste manual não interfere nos saves isolados dos validadores.
+            if (usarEnergiaInicialTemporaria && ChaveUsada == ChavePersistencia) {
+                energia = Mathf.Clamp(energiaInicialTemporaria, 0, 100);
+                Changed?.Invoke();
+            }
         }
         void OnDestroy() { if (Instance == this) Instance = null; }
         public void CarregarProgresso() {
