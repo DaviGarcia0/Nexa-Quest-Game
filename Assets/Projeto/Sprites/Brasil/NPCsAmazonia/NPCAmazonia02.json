@@ -1,0 +1,41 @@
+{
+  "pixelsPerUnit": 1230,
+  "frames": [
+    {
+      "name": "NPCAmazonia02_Quadro01",
+      "x": 55,
+      "y": 24,
+      "width": 355,
+      "height": 772,
+      "pivotX": 0.5,
+      "pivotY": 0.02461139896373057
+    },
+    {
+      "name": "NPCAmazonia02_Quadro02",
+      "x": 535,
+      "y": 24,
+      "width": 355,
+      "height": 772,
+      "pivotX": 0.5,
+      "pivotY": 0.02461139896373057
+    },
+    {
+      "name": "NPCAmazonia02_Quadro03",
+      "x": 1015,
+      "y": 24,
+      "width": 355,
+      "height": 772,
+      "pivotX": 0.5,
+      "pivotY": 0.02461139896373057
+    },
+    {
+      "name": "NPCAmazonia02_Quadro04",
+      "x": 1495,
+      "y": 24,
+      "width": 355,
+      "height": 772,
+      "pivotX": 0.5,
+      "pivotY": 0.02461139896373057
+    }
+  ]
+}

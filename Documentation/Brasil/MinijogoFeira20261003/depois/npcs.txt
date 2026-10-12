@@ -50,6 +50,12 @@ PASS: Uma tecla avanca uma fala por frame
 PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 10
 PASS: Texto cabe no painel: 10
 PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 11
+PASS: Texto cabe no painel: 11
+PASS: Uma tecla avanca uma fala por frame
+PASS: Nome/retrato/texto: NPC_Introducao_Lia fala 12
+PASS: Texto cabe no painel: 12
+PASS: Uma tecla avanca uma fala por frame
 PASS: Fim fecha, libera Quest apos eventual modal e emite evento uma vez
 PASS: Conversa nao concede recompensas
 PASS: Sair oculta indicacao

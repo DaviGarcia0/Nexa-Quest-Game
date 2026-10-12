@@ -1,0 +1,8 @@
+Componentes anteriores: 1301
+Novos: 29
+Alterado: 367120435
++   - {fileID: 1058453505}
+PNG 1 idêntico: True
+PNG 2 idêntico: True
+PNG 3 idêntico: True
+PNG 4 idêntico: True

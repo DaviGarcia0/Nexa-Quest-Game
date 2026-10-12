@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36927fc9917bbbf4680f76b86961ad77, type: 3}
+  m_Name: Amazonia_Desafios
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: 0
+    speakerName: "Guardi\xE3 da Amaz\xF4nia"
+    portrait: {fileID: -170366965, guid: 272d458173f3ddd409ae3dbe1093070c, type: 3}
+    text: "Ol\xE1, viajante. Veio explorar a Amaz\xF4nia?"
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
+    text: "Vim! Tamb\xE9m estou procurando uma das chaves que preciso para abrir
+      o Portal."
+  - speaker: 0
+    speakerName: "Guardi\xE3 da Amaz\xF4nia"
+    portrait: {fileID: -170366965, guid: 272d458173f3ddd409ae3dbe1093070c, type: 3}
+    text: "Ent\xE3o chegou ao lugar certo. Aqui voc\xEA vai ter que provar o que
+      aprendeu."
+  - speaker: 0
+    speakerName: "Guardi\xE3 da Amaz\xF4nia"
+    portrait: {fileID: -170366965, guid: 272d458173f3ddd409ae3dbe1093070c, type: 3}
+    text: Posso te desafiar de duas formas. Em breve, vou te mostrar como.

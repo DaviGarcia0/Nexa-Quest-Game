@@ -1,0 +1,24 @@
+NPC 1 — PPU 1022
+NPCAmazonia01_Quadro01: x=130, y=28, largura=340, altura=646, pivô=(0.5,0.026316)
+NPCAmazonia01_Quadro02: x=645, y=28, largura=335, altura=646, pivô=(0.5,0.026316)
+NPCAmazonia01_Quadro03: x=1180, y=28, largura=330, altura=646, pivô=(0.5,0.026316)
+NPCAmazonia01_Quadro04: x=1700, y=28, largura=335, altura=646, pivô=(0.5,0.026316)
+NPC 2 — PPU 1230
+NPCAmazonia02_Quadro01: x=55, y=24, largura=355, altura=772, pivô=(0.5,0.024611)
+NPCAmazonia02_Quadro02: x=535, y=24, largura=355, altura=772, pivô=(0.5,0.024611)
+NPCAmazonia02_Quadro03: x=1015, y=24, largura=355, altura=772, pivô=(0.5,0.024611)
+NPCAmazonia02_Quadro04: x=1495, y=24, largura=355, altura=772, pivô=(0.5,0.024611)
+NPC 3 — PPU 1012
+NPCAmazonia03_Quadro01: x=15, y=100, largura=385, altura=647, pivô=(0.5,0.034003)
+NPCAmazonia03_Quadro02: x=475, y=100, largura=395, altura=647, pivô=(0.5,0.034003)
+NPCAmazonia03_Quadro03: x=930, y=100, largura=380, altura=642, pivô=(0.5,0.034268)
+NPCAmazonia03_Quadro04: x=1370, y=100, largura=370, altura=647, pivô=(0.5,0.034003)
+NPC 4 — PPU 705
+NPCAmazonia04_Quadro01: x=90, y=442, largura=350, altura=445, pivô=(0.5,0.013483)
+NPCAmazonia04_Quadro02: x=525, y=442, largura=315, altura=445, pivô=(0.5,0.013483)
+NPCAmazonia04_Quadro03: x=995, y=442, largura=335, altura=435, pivô=(0.5,0.013793)
+NPCAmazonia04_Quadro04: x=1420, y=442, largura=305, altura=445, pivô=(0.5,0.013483)
+NPCAmazonia04_Quadro05: x=90, y=0, largura=350, altura=440, pivô=(0.5,0.018182)
+NPCAmazonia04_Quadro06: x=525, y=0, largura=315, altura=440, pivô=(0.5,0.018182)
+NPCAmazonia04_Quadro07: x=995, y=0, largura=335, altura=434, pivô=(0.5,0.018433)
+NPCAmazonia04_Quadro08: x=1420, y=0, largura=305, altura=440, pivô=(0.5,0.018182)

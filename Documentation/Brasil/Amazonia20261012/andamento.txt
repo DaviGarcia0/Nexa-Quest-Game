@@ -1,0 +1,81 @@
+PASS: Play Mode 1920x1080
+PASS: Lia mantém identidade e conversa natural de 13 falas
+PASS: Introdução explica percurso e três chaves
+PASS: E aparece ao se aproximar: NPC_Introducao_Lia
+PASS: E abre diálogo e bloqueia Quest: NPC_Introducao_Lia
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 0
+PASS: Texto cabe: NPC_Introducao_Lia 0
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 1
+PASS: Texto cabe: NPC_Introducao_Lia 1
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 2
+PASS: Texto cabe: NPC_Introducao_Lia 2
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 3
+PASS: Texto cabe: NPC_Introducao_Lia 3
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 4
+PASS: Texto cabe: NPC_Introducao_Lia 4
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 5
+PASS: Texto cabe: NPC_Introducao_Lia 5
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 6
+PASS: Texto cabe: NPC_Introducao_Lia 6
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 7
+PASS: Texto cabe: NPC_Introducao_Lia 7
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 8
+PASS: Texto cabe: NPC_Introducao_Lia 8
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 9
+PASS: Texto cabe: NPC_Introducao_Lia 9
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 10
+PASS: Texto cabe: NPC_Introducao_Lia 10
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 11
+PASS: Texto cabe: NPC_Introducao_Lia 11
+PASS: Fala/retrato/ordem: NPC_Introducao_Lia 12
+PASS: Texto cabe: NPC_Introducao_Lia 12
+PASS: Fim restaura controle/posição: NPC_Introducao_Lia (deslocamento: 0,000161171, diálogo: False, bloqueio: False)
+PASS: Transição para Amazônia aceita
+PASS: Entrada na Amazônia termina sem bloqueio
+PASS: Quatro NPCs na Amazônia
+PASS: Posição corresponde à marcação: NPC 1
+PASS: Sheet correto: NPC 1
+PASS: Idle em loop a 3 FPS: NPC 1
+PASS: Animator avança em Play: NPC 1
+PASS: Interação somente no NPC 1: NPC 1
+PASS: Posição corresponde à marcação: NPC 2
+PASS: Sheet correto: NPC 2
+PASS: Idle em loop a 3 FPS: NPC 2
+PASS: Animator avança em Play: NPC 2
+PASS: Interação somente no NPC 1: NPC 2
+PASS: Decorativo sem área de interação: NPC 2
+PASS: Decorativo não mostra E: NPC 2
+PASS: Decorativo não abre diálogo: NPC 2
+PASS: Posição corresponde à marcação: NPC 3
+PASS: Sheet correto: NPC 3
+PASS: Idle em loop a 3 FPS: NPC 3
+PASS: Animator avança em Play: NPC 3
+PASS: Interação somente no NPC 1: NPC 3
+PASS: Decorativo sem área de interação: NPC 3
+PASS: Decorativo não mostra E: NPC 3
+PASS: Decorativo não abre diálogo: NPC 3
+PASS: Posição corresponde à marcação: NPC 4
+PASS: Sheet correto: NPC 4
+PASS: Idle em loop a 3 FPS: NPC 4
+PASS: Animator avança em Play: NPC 4
+PASS: Interação somente no NPC 1: NPC 4
+PASS: Decorativo sem área de interação: NPC 4
+PASS: Decorativo não mostra E: NPC 4
+PASS: Decorativo não abre diálogo: NPC 4
+PASS: NPC 1 tem gatilho e corpo separados
+PASS: Evento de painel preparado, aguardando arte real
+PASS: E aparece ao se aproximar: NPC_Amazonia_01
+PASS: E abre diálogo e bloqueia Quest: NPC_Amazonia_01
+PASS: Fala/retrato/ordem: NPC_Amazonia_01 0
+PASS: Texto cabe: NPC_Amazonia_01 0
+PASS: Fala/retrato/ordem: NPC_Amazonia_01 1
+PASS: Texto cabe: NPC_Amazonia_01 1
+PASS: Fala/retrato/ordem: NPC_Amazonia_01 2
+PASS: Texto cabe: NPC_Amazonia_01 2
+PASS: Fala/retrato/ordem: NPC_Amazonia_01 3
+PASS: Texto cabe: NPC_Amazonia_01 3
+PASS: Fim restaura controle/posição: NPC_Amazonia_01 (deslocamento: 0, diálogo: False, bloqueio: False)
+PASS: NPCs não alteram Energia, Coins, EXP ou Chave da Vila
+PASS: Retorno à Feira aceito
+PASS: Feira volta com controles livres
+PASS: Console sem erros ou avisos

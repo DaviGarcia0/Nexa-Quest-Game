@@ -16,48 +16,60 @@ MonoBehaviour:
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Ol\xE1, Quest! Bem-vinda ao Brasil!"
+    text: "Oi! Voc\xEA parece meio perdida. Chegou agora?"
   - speaker: 1
     speakerName: Quest
     portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
-    text: "Obrigada! Estou pronta para explorar. Por onde come\xE7o?"
+    text: Cheguei! Eu sou a Quest. Escolhi o Brasil no mapa e vim parar aqui... ainda
+      estou tentando entender como tudo funciona.
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Durante sua viagem, voc\xEA encontrar\xE1 pessoas espalhadas por diferentes
-      lugares."
+    text: "Prazer, Quest! Ent\xE3o seja bem-vinda ao Brasil. Voc\xEA caiu num \xF3timo
+      lugar para come\xE7ar."
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
+    text: "Eu queria conhecer melhor o pa\xEDs... mas tamb\xE9m estou procurando
+      uma forma de continuar minha viagem. Ouvi falar de um portal por aqui."
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Algumas delas ter\xE3o desafios, jogos e perguntas para voc\xEA completar."
+    text: "Tem sim. S\xF3 que ele n\xE3o abre t\xE3o f\xE1cil. Voc\xEA vai precisar
+      conseguir tr\xEAs chaves."
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
+    text: "Tr\xEAs chaves?"
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Seu objetivo \xE9 conseguir as tr\xEAs chaves escondidas nesta jornada."
+    text: "Isso. Existe uma em cada parte da sua jornada: uma na Feira, outra na
+      Amaz\xF4nia e outra no Ponto Tur\xEDstico."
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Para conquistar uma chave, voc\xEA precisar\xE1 completar os desafios
-      daquele local."
+    text: "Come\xE7a por aqui mesmo. Procure o Bento. Ele tem um desafio para voc\xEA
+      e pode te ajudar a conseguir a primeira chave."
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
+    text: E depois?
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Explore a Feira, a Amaz\xF4nia e o Ponto Tur\xEDstico e converse com os
-      NPCs que encontrar."
+    text: "Depois siga para a Amaz\xF4nia e para o Ponto Tur\xEDstico. Em cada lugar,
+      procure o NPC respons\xE1vel e complete o desafio."
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Depois de conseguir todas as chaves, v\xE1 at\xE9 o Portal."
+    text: "Quando estiver com as tr\xEAs chaves, \xE9 s\xF3 voltar ao Portal."
+  - speaker: 1
+    speakerName: Quest
+    portrait: {fileID: 21300000, guid: ed873595101c55446a12e806a0c9a2e2, type: 3}
+    text: "Entendi! Ent\xE3o, al\xE9m de encontrar as chaves, vou conhecer um pouco
+      mais do Brasil pelo caminho."
   - speaker: 0
     speakerName: Lia
     portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Coloque as tr\xEAs chaves no Portal para ativ\xE1-lo."
-  - speaker: 0
-    speakerName: Lia
-    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Quando o Portal estiver aberto, voc\xEA poder\xE1 continuar sua aventura
-      para o pr\xF3ximo pa\xEDs da Am\xE9rica do Sul!"
-  - speaker: 0
-    speakerName: Lia
-    portrait: {fileID: -2126780831, guid: f2e55194d7667d940ad743892c5b976e, type: 3}
-    text: "Boa viagem, Quest. E n\xE3o deixe nenhum desafio para tr\xE1s!"
+    text: "Exatamente. Boa sorte, Quest! O Bento est\xE1 te esperando."
