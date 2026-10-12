@@ -1,5 +1,5 @@
 PASS: Play Mode real 1920x1080
-PASS: Roots iniciam fechados e sem painel inicial extra
+PASS: Roots iniciam fechados com painéis inicial e final preparados
 PASS: Save antigo mantém Feira e inicia flags da Amazônia false
 PASS: Três perguntas editáveis com quatro alternativas
 PASS: Enunciado exato solicitado: O que é a Amazônia Legal?
@@ -23,7 +23,19 @@ PASS: Painel usa exatamente a arte da Amazônia
 PASS: Raycast/clique real: BotaoMinijogo
 PASS: Minijogo preparado não inicia gameplay ou cobra energia
 PASS: Raycast/clique real: BotaoQuiz
-PASS: Clique Quiz inicia direto e cobra 20 apenas uma vez
+PASS: Primeira entrada abre introdução gratuita
+PASS: Explicação cabe no painel inicial
+PASS: Escala/posição/anchors iguais à referência real da Feira: PainelInicial
+PASS: Escala/posição/anchors iguais à referência real da Feira: PainelFinal
+PASS: Novos botões transparentes, sem visual ou texto duplicado
+PASS: Raycast/clique real: BotaoVoltar
+PASS: Voltar na introdução retorna sem custo
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Esc na introdução retorna sem custo
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Abrir Inicial nunca cobra Energia
+PASS: Raycast/clique real: BotaoComecar
+PASS: Começar cobra 20 apenas uma vez e abre pergunta 1
 PASS: Pergunta 1, timer real 30s e Quest pensando
 PASS: Sem overflow: ProgressoPerguntas pergunta 1
 PASS: Sem overflow: TempoRestante pergunta 1
@@ -85,6 +97,8 @@ PASS: Timer para no acerto
 PASS: Esc conserva custo e Coins parciais sem EXP/chave/conclusão
 PASS: Esc limpa feedback/fade
 PASS: Raycast/clique real: BotaoQuiz
+PASS: Abrir Inicial nunca cobra Energia
+PASS: Raycast/clique real: BotaoComecar
 PASS: Replay custa 20 e reseta rodada
 PASS: Sem overflow: ProgressoPerguntas pergunta 1
 PASS: Sem overflow: TempoRestante pergunta 1
@@ -136,7 +150,7 @@ PASS: Acerto +10 uma vez e sem EXP antecipado: 3
 PASS: Três acertos: 30 Coins, 50 EXP, flag e primeira chave da Amazônia
 PASS: Chave da Vila e conclusão da Feira permanecem intactas
 PASS: Conclusão não duplica rewards
-PASS: Conclusão usa interface atual e retorno funcional
+PASS: Novo painel final aparece com resumo real e retorno funcional
 PASS: Sem overflow: ProgressoPerguntas pergunta 3
 PASS: Sem overflow: TempoRestante pergunta 3
 PASS: Sem overflow: Enunciado pergunta 3
@@ -149,18 +163,27 @@ PASS: Sem overflow: TextoAlternativa pergunta 3
 PASS: Letras dentro da margem interna: C) Porque reduz a vegetação que recicla água para a atmosfera, afetando o transporte de umidade e as chuvas.
 PASS: Sem overflow: TextoAlternativa pergunta 3
 PASS: Letras dentro da margem interna: D) Porque impede completamente a entrada de ventos do Oceano Atlântico.
-PASS: Raycast/clique real: BotaoVoltar
+PASS: Nenhum texto duplicado sobre as recompensas desenhadas no PNG
+PASS: Resumo da primeira chave cabe abaixo da arte
+PASS: Painel final usa exatamente o PNG da chave verde
+PASS: Raycast/clique real: BotaoContinuar
 PASS: Raycast/clique real: BotaoQuiz
+PASS: Abrir Inicial nunca cobra Energia
+PASS: Raycast/clique real: BotaoComecar
 PASS: Segunda rodada dá outros 30 Coins e 50 EXP, Level segue 100 EXP
 PASS: Replay preserva flag/chave e não anuncia nova chave
 PASS: Três retratos preservam exatamente o retângulo
 PASS: Mesmo JSON persiste as duas chaves/flags e todos os saldos
-PASS: Raycast/clique real: BotaoVoltar
+PASS: Raycast/clique real: BotaoContinuar
 PASS: Raycast/clique real: BotaoQuiz
+PASS: Abrir Inicial nunca cobra Energia
+PASS: Raycast/clique real: BotaoComecar
 PASS: Energia 20 inicia e vai exatamente a zero
 PASS: Raycast/clique real: BotaoQuiz
-PASS: Energia zero bloqueia com aviso existente
-PASS: Raycast/clique real: BotaoQuiz
+PASS: Abrir Inicial nunca cobra Energia
+PASS: Raycast/clique real: BotaoComecar
+PASS: Energia zero bloqueia início com aviso existente
+PASS: Raycast/clique real: BotaoComecar
 PASS: Energia 19 também bloqueia sem desconto
 PASS: Fechar painel libera Player na posição original
 PASS: HUDs e aviso retornam aos pais originais

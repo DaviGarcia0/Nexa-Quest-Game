@@ -42,6 +42,8 @@ public static class ValidacaoQuizAmazonia
             var cena=SceneManager.GetActiveScene();if(cena.path!="Assets/Projeto/Scenes/Brasil.unity"||cena.isDirty)throw new InvalidOperationException("Salve Brasil e deixe fora de Play Mode.");
             if(acao=="montar")MontagemQuizAmazonia.Montar();
             else if(acao=="ajustar")MontagemQuizAmazonia.AjustarTextos();
+            else if(acao=="paineis")MontagemQuizAmazonia.IntegrarPaineis();
+            else if(acao=="texto-inicial")MontagemQuizAmazonia.AjustarExplicacao();
             else if(acao=="testar") {
                 Directory.CreateDirectory(MontagemQuizAmazonia.Docs);
                 SessionState.SetBool("NexaQuest.QuizAmazonia.Existia",PlayerPrefs.HasKey(ProgressionManager.ChavePersistencia));SessionState.SetString("NexaQuest.QuizAmazonia.Save",PlayerPrefs.GetString(ProgressionManager.ChavePersistencia,""));
@@ -64,6 +66,14 @@ public class VerificacoesQuizAmazonia:MonoBehaviour
     GameObject Alvo(Vector2 ponto){Canvas.ForceUpdateCanvases();var acertos=new List<RaycastResult>();EventSystem.current.RaycastAll(new PointerEventData(EventSystem.current){position=ponto},acertos);return acertos.Count>0?acertos[0].gameObject:null;}
     IEnumerator Clicar(Button botao){yield return null;var ponto=(Vector2)botao.transform.position;var alvo=Alvo(ponto);Conferir(alvo==botao.gameObject,"Raycast/clique real: "+botao.name);if(alvo==null)yield break;var dados=new PointerEventData(EventSystem.current){position=ponto,button=PointerEventData.InputButton.Left};ExecuteEvents.Execute(alvo,dados,ExecuteEvents.pointerDownHandler);ExecuteEvents.Execute(alvo,dados,ExecuteEvents.pointerUpHandler);ExecuteEvents.Execute(alvo,dados,ExecuteEvents.pointerClickHandler);}
     Button BotaoQuiz=>painel.transform.Find("ArtePainel/BotaoQuiz").GetComponent<Button>();
+    Button BotaoComecar=>ui.painelInicial.transform.Find("ArtePainel/BotaoComecar").GetComponent<Button>();
+    IEnumerator IniciarQuiz()
+    {
+        int energiaAntes=progresso.Energia;
+        yield return Clicar(BotaoQuiz);
+        Conferir(quiz.Estado==EstadoQuizAmazonia.Inicial&&progresso.Energia==energiaAntes&&ui.painelInicial.activeSelf,"Abrir Inicial nunca cobra Energia");
+        yield return Clicar(BotaoComecar);
+    }
     IEnumerator Capturar(string nome){yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Pasta+nome+".png");yield return null;}
     void Terminar(){quiz.Simular(1.51f);}
     void AcertarTudo(){for(int i=0;i<3;i++){quiz.Responder(quiz.dados.perguntas[quiz.PerguntaAtual].respostaCorreta);Terminar();}}
@@ -75,7 +85,7 @@ public class VerificacoesQuizAmazonia:MonoBehaviour
         quiz=FindObjectOfType<QuizAmazonia>(true);ui=quiz.interfaceQuiz;painel=FindObjectOfType<PainelDesafiosAmazonia>(true);progresso=ProgressionManager.Instance;quiz.SimulacaoManual=true;
         var mundo=FindObjectOfType<BrazilWorld>();var jogador=mundo.player;var area=mundo.areas.Single(a=>a.name=="Amazonia");
         Conferir(Screen.width==1920&&Screen.height==1080,"Play Mode real 1920x1080");
-        Conferir(!painel.gameObject.activeSelf&&!quiz.gameObject.activeSelf,"Roots iniciam fechados e sem painel inicial extra");
+        Conferir(!painel.gameObject.activeSelf&&!quiz.gameObject.activeSelf,"Roots iniciam fechados com painéis inicial e final preparados");
         Conferir(progresso.PossuiChaveVila&&progresso.QuizFeiraConcluido&&!progresso.PossuiChaveAmazonia&&!progresso.QuizAmazoniaConcluido,"Save antigo mantém Feira e inicia flags da Amazônia false");
         string[] perguntas={"O que é a Amazônia Legal?","Qual processo das árvores amazônicas ajuda a devolver água para a atmosfera e alimentar os chamados 'rios voadores'?","Por que o desmatamento da Amazônia pode alterar o regime de chuvas?"};
         string[][] alternativas={new[]{"Somente a parte da floresta que fica no estado do Amazonas.","Uma região definida por lei para planejamento e políticas públicas de desenvolvimento da Amazônia brasileira.","Uma unidade de conservação onde nenhuma pessoa pode viver.","Outro nome dado apenas ao Bioma Amazônia."},new[]{"Sedimentação","Evapotranspiração","Erosão","Fossilização"},new[]{"Porque aumenta permanentemente a quantidade de água liberada pelas árvores.","Porque transforma os rios da floresta em água salgada.","Porque reduz a vegetação que recicla água para a atmosfera, afetando o transporte de umidade e as chuvas.","Porque impede completamente a entrada de ventos do Oceano Atlântico."}};
@@ -91,8 +101,20 @@ public class VerificacoesQuizAmazonia:MonoBehaviour
         Conferir(AssetDatabase.GetAssetPath(painel.transform.Find("ArtePainel").GetComponent<Image>().sprite)==MontagemQuizAmazonia.Arte+"PainelDesafiosAmazonia.png","Painel usa exatamente a arte da Amazônia");yield return Capturar("Desafios-1080p");
         yield return Clicar(painel.transform.Find("ArtePainel/BotaoMinijogo").GetComponent<Button>());
         Conferir(painel.EstaAberto&&progresso.Energia==100&&painel.mensagem.text=="Minijogo em desenvolvimento."&&!quiz.gameObject.activeSelf,"Minijogo preparado não inicia gameplay ou cobra energia");
-        yield return Clicar(BotaoQuiz);painel.SelecionarQuiz();
-        Conferir(quiz.Estado==EstadoQuizAmazonia.Pergunta&&!painel.EstaAberto&&progresso.Energia==80,"Clique Quiz inicia direto e cobra 20 apenas uma vez");
+        yield return Clicar(BotaoQuiz);
+        Conferir(quiz.Estado==EstadoQuizAmazonia.Inicial&&progresso.Energia==100&&ui.painelInicial.activeSelf&&!ui.painelPrincipal.activeSelf,"Primeira entrada abre introdução gratuita");
+        var textoInicial=ui.painelInicial.transform.Find("ArtePainel/TextoExplicativo").GetComponent<TMPro.TMP_Text>();textoInicial.ForceMeshUpdate();
+        Conferir(!textoInicial.isTextOverflowing,"Explicação cabe no painel inicial");yield return Capturar("Inicial-1080p");
+        var feira=FindObjectOfType<InterfaceQuizFeira>(true);
+        foreach(var par in new[]{new[]{ui.painelInicial,feira.painelInicial},new[]{ui.painelFinal,feira.painelFinal}}) {
+            var arte=(RectTransform)par[0].transform.Find("ArtePainel");var referencia=(RectTransform)par[1].transform.Find("ArtePainel");
+            Conferir(arte.sizeDelta.x==referencia.sizeDelta.x&&arte.anchoredPosition==referencia.anchoredPosition&&arte.anchorMin==referencia.anchorMin&&arte.anchorMax==referencia.anchorMax&&arte.localScale==referencia.localScale,"Escala/posição/anchors iguais à referência real da Feira: "+par[0].name);
+        }
+        Conferir(BotaoComecar.GetComponent<Image>().color.a==0&&ui.botaoVoltar.GetComponent<Image>().color.a==0&&ui.botaoContinuar.GetComponent<Image>().color.a==0,"Novos botões transparentes, sem visual ou texto duplicado");
+        yield return Clicar(ui.botaoVoltar);Conferir(painel.EstaAberto&&progresso.Energia==100,"Voltar na introdução retorna sem custo");
+        yield return Clicar(BotaoQuiz);quiz.ProcessarFechamento(true);Conferir(painel.EstaAberto&&progresso.Energia==100,"Esc na introdução retorna sem custo");
+        yield return IniciarQuiz();quiz.Comecar();
+        Conferir(quiz.Estado==EstadoQuizAmazonia.Pergunta&&!painel.EstaAberto&&progresso.Energia==80,"Começar cobra 20 apenas uma vez e abre pergunta 1");
         Conferir(quiz.PerguntaAtual==0&&quiz.TempoRestante==30&&ui.progressoPerguntas.text=="1/3"&&ui.retrato.sprite==ui.questPensando,"Pergunta 1, timer real 30s e Quest pensando");
         var posRetrato=ui.retrato.rectTransform.anchoredPosition;var tamanhoRetrato=ui.retrato.rectTransform.sizeDelta;yield return null;Layout();
         foreach(var b in ui.botoesRespostas){var cantos=new Vector3[4];((RectTransform)b.transform).GetWorldCorners(cantos);foreach(var ponto in new[]{cantos[0]+new Vector3(2,2),cantos[1]+new Vector3(2,-2),cantos[2]+new Vector3(-2,-2),cantos[3]+new Vector3(-2,2)})Conferir(Alvo(ponto)==b.gameObject,"Canto interno clicável: "+b.name);Conferir(b.GetComponent<Image>().color.a==0,"Resposta transparente: "+b.name);}
@@ -110,7 +132,7 @@ public class VerificacoesQuizAmazonia:MonoBehaviour
         quiz.ProcessarFechamento(true);painel.ProcessarFechamento(true);
         Conferir(painel.EstaAberto&&progresso.Energia==80&&progresso.Coins==10&&progresso.CurrentXP==0&&!progresso.QuizAmazoniaConcluido&&!progresso.PossuiChaveAmazonia,"Esc conserva custo e Coins parciais sem EXP/chave/conclusão");
         Conferir(!ui.feedbackAcerto.gameObject.activeSelf&&!ui.feedbackErro.gameObject.activeSelf,"Esc limpa feedback/fade");
-        yield return Clicar(BotaoQuiz);Conferir(progresso.Energia==60&&quiz.PerguntaAtual==0&&quiz.MoedasDaRodada==0,"Replay custa 20 e reseta rodada");
+        yield return IniciarQuiz();Conferir(progresso.Energia==60&&quiz.PerguntaAtual==0&&quiz.MoedasDaRodada==0,"Replay custa 20 e reseta rodada");
         for(int i=0;i<3;i++) {
             Layout();yield return Capturar("Pergunta"+(i+1)+"-1080p");
             int correta=quiz.dados.perguntas[i].respostaCorreta;quiz.Responder((correta+1)%4);Conferir(progresso.Coins==10+i*10&&quiz.PerguntaAtual==i,"Erro preserva saldo acumulado: pergunta "+(i+1));Terminar();
@@ -119,17 +141,21 @@ public class VerificacoesQuizAmazonia:MonoBehaviour
         }
         Conferir(quiz.Estado==EstadoQuizAmazonia.Concluido&&quiz.MoedasDaRodada==30&&progresso.CurrentXP==50&&progresso.QuizAmazoniaConcluido&&progresso.PossuiChaveAmazonia&&quiz.ChaveConquistadaNestaRodada,"Três acertos: 30 Coins, 50 EXP, flag e primeira chave da Amazônia");
         Conferir(progresso.PossuiChaveVila&&progresso.QuizFeiraConcluido,"Chave da Vila e conclusão da Feira permanecem intactas");quiz.Simular(10);quiz.Responder(2);Conferir(progresso.CurrentXP==50&&progresso.Coins==40,"Conclusão não duplica rewards");
-        Conferir(ui.enunciado.text.Contains("Chave da Amazônia conquistada!")&&ui.botaoVoltar.gameObject.activeSelf&&ui.botoesRespostas.All(b=>!b.gameObject.activeSelf),"Conclusão usa interface atual e retorno funcional");Layout();yield return Capturar("ConclusaoPrimeiraChave-1080p");
-        yield return Clicar(ui.botaoVoltar);yield return Clicar(BotaoQuiz);AcertarTudo();
+        Conferir(ui.recompensas.text.Contains("Chave da Amazônia conquistada")&&ui.painelFinal.activeSelf&&!ui.painelPrincipal.activeSelf&&ui.botoesRespostas.All(b=>!b.gameObject.activeSelf),"Novo painel final aparece com resumo real e retorno funcional");Layout();
+        Conferir(ui.painelFinal.transform.Find("ArtePainel").GetComponentsInChildren<TMPro.TMP_Text>(true).Length==0,"Nenhum texto duplicado sobre as recompensas desenhadas no PNG");
+        ui.recompensas.ForceMeshUpdate();Conferir(!ui.recompensas.isTextOverflowing,"Resumo da primeira chave cabe abaixo da arte");
+        Conferir(AssetDatabase.GetAssetPath(ui.painelFinal.transform.Find("ArtePainel").GetComponent<Image>().sprite)==MontagemQuizAmazonia.Arte+"PainelFinalQuizAmazonia.png","Painel final usa exatamente o PNG da chave verde");
+        yield return Capturar("ConclusaoPrimeiraChave-1080p");
+        yield return Clicar(ui.botaoContinuar);yield return IniciarQuiz();AcertarTudo();
         Conferir(progresso.Coins==70&&progresso.Level==2&&progresso.CurrentXP==0&&progresso.Energia==40,"Segunda rodada dá outros 30 Coins e 50 EXP, Level segue 100 EXP");
-        Conferir(!quiz.ChaveConquistadaNestaRodada&&progresso.PossuiChaveAmazonia&&progresso.QuizAmazoniaConcluido&&!ui.enunciado.text.Contains("Chave da Amazônia conquistada!"),"Replay preserva flag/chave e não anuncia nova chave");
+        Conferir(!quiz.ChaveConquistadaNestaRodada&&progresso.PossuiChaveAmazonia&&progresso.QuizAmazoniaConcluido&&ui.recompensas.text.Contains("Chave da Amazônia já obtida"),"Replay preserva flag/chave e não anuncia nova chave");
         Conferir(ui.retrato.preserveAspect&&ui.retrato.rectTransform.anchoredPosition==posRetrato&&ui.retrato.rectTransform.sizeDelta==tamanhoRetrato,"Três retratos preservam exatamente o retângulo");yield return Capturar("ConclusaoReplay-1080p");
         string salvo=PlayerPrefs.GetString("NexaQuest.Testes.Quiz");JsonUtility.FromJsonOverwrite("{\"coins\":0,\"currentXP\":0,\"level\":1,\"energia\":0,\"possuiChaveVila\":false,\"quizFeiraConcluido\":false,\"quizAmazoniaConcluido\":false,\"possuiChaveAmazonia\":false}",progresso);progresso.CarregarProgresso();
         Conferir(progresso.Coins==70&&progresso.Energia==40&&progresso.Level==2&&progresso.PossuiChaveVila&&progresso.PossuiChaveAmazonia&&progresso.QuizFeiraConcluido&&progresso.QuizAmazoniaConcluido&&PlayerPrefs.GetString("NexaQuest.Testes.Quiz")==salvo,"Mesmo JSON persiste as duas chaves/flags e todos os saldos");
-        yield return Clicar(ui.botaoVoltar);Energia(20);yield return Clicar(BotaoQuiz);Conferir(progresso.Energia==0&&quiz.Estado==EstadoQuizAmazonia.Pergunta,"Energia 20 inicia e vai exatamente a zero");quiz.Voltar();
-        yield return Clicar(BotaoQuiz);Conferir(painel.EstaAberto&&!quiz.gameObject.activeSelf&&progresso.Energia==0&&painel.avisoEnergia.gameObject.activeInHierarchy,"Energia zero bloqueia com aviso existente");yield return Capturar("EnergiaInsuficiente-1080p");
-        Energia(19);yield return Clicar(BotaoQuiz);Conferir(painel.EstaAberto&&progresso.Energia==19&&!quiz.gameObject.activeSelf,"Energia 19 também bloqueia sem desconto");
-        painel.Fechar();yield return null;Conferir(!jogador.ControlsLocked&&Vector3.Distance(jogador.transform.position,posicao)<.03f,"Fechar painel libera Player na posição original");
+        yield return Clicar(ui.botaoContinuar);Energia(20);yield return IniciarQuiz();Conferir(progresso.Energia==0&&quiz.Estado==EstadoQuizAmazonia.Pergunta,"Energia 20 inicia e vai exatamente a zero");quiz.Voltar();
+        yield return IniciarQuiz();Conferir(quiz.Estado==EstadoQuizAmazonia.Inicial&&ui.painelInicial.activeSelf&&!ui.painelPrincipal.activeSelf&&progresso.Energia==0&&ui.avisoEnergia.gameObject.activeInHierarchy,"Energia zero bloqueia início com aviso existente");yield return Capturar("EnergiaInsuficiente-1080p");
+        Energia(19);yield return Clicar(BotaoComecar);Conferir(quiz.Estado==EstadoQuizAmazonia.Inicial&&progresso.Energia==19&&!ui.painelPrincipal.activeSelf,"Energia 19 também bloqueia sem desconto");
+        quiz.Voltar();painel.Fechar();yield return null;Conferir(!jogador.ControlsLocked&&Vector3.Distance(jogador.transform.position,posicao)<.03f,"Fechar painel libera Player na posição original");
         Conferir(ui.hudsCompartilhadas.All(h=>h.parent.name=="Canvas")&&painel.avisoEnergia.transform.parent.name=="PainelDesafiosFeira","HUDs e aviso retornam aos pais originais");
         Conferir(mundo.TravelTo(mundo.initialArea,mundo.initialSpawn),"Transição de retorno continua disponível");yield return new WaitForSecondsRealtime(1);jogador.enabled=true;
         Conferir(problemas.Count==0,"Console sem erros ou avisos");resultados.AddRange(problemas);resultados.Add("Falhas: "+falhas);File.WriteAllLines(Pasta+"quiz-amazonia-playmode.txt",resultados);Application.logMessageReceived-=Log;

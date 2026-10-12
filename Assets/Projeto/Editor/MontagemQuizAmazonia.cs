@@ -72,6 +72,52 @@ public static class MontagemQuizAmazonia
         }
         EditorSceneManager.MarkSceneDirty(cena);EditorSceneManager.SaveScene(cena);
     }
+    public static void AjustarExplicacao()
+    {
+        var cena=SceneManager.GetActiveScene();if(cena.isDirty)throw new InvalidOperationException("Salve Brasil antes de ajustar.");
+        var ui=UnityEngine.Object.FindObjectOfType<InterfaceQuizAmazonia>(true);
+        var texto=ui.painelInicial.transform.Find("ArtePainel/TextoExplicativo").GetComponent<TMP_Text>();
+        texto.fontSizeMax=24;texto.text=texto.text.Replace("\n\nComeçar", "\nComeçar");
+        EditorUtility.SetDirty(texto);EditorSceneManager.MarkSceneDirty(cena);EditorSceneManager.SaveScene(cena);
+    }
+    public static void IntegrarPaineis()
+    {
+        var cena=SceneManager.GetActiveScene();
+        if(cena.isDirty || cena.path!="Assets/Projeto/Scenes/Brasil.unity")throw new InvalidOperationException("Brasil precisa estar salva.");
+        var quiz=UnityEngine.Object.FindObjectOfType<QuizAmazonia>(true);var ui=quiz.interfaceQuiz;
+        if(ui.painelInicial!=null || ui.painelFinal!=null)throw new InvalidOperationException("Painéis já integrados; não duplicar.");
+        var feira=UnityEngine.Object.FindObjectOfType<InterfaceQuizFeira>(true);
+        foreach(var nome in new[]{"PainelInicialQuizAmazonia","PainelFinalQuizAmazonia"}) {
+            var i=(TextureImporter)AssetImporter.GetAtPath(Arte+nome+".png");
+            i.textureType=TextureImporterType.Sprite;i.spriteImportMode=SpriteImportMode.Single;i.filterMode=FilterMode.Point;
+            i.textureCompression=TextureImporterCompression.Uncompressed;i.mipmapEnabled=false;i.npotScale=TextureImporterNPOTScale.None;i.maxTextureSize=4096;i.alphaIsTransparency=true;
+            var ajustes=new TextureImporterSettings();i.ReadTextureSettings(ajustes);ajustes.spriteMeshType=SpriteMeshType.FullRect;ajustes.spriteGenerateFallbackPhysicsShape=false;i.SetTextureSettings(ajustes);i.SaveAndReimport();
+        }
+        fonte=UnityEngine.Object.FindObjectOfType<DialogueController>().speakerName.font;
+        var referenciaInicial=feira.painelInicial.transform.Find("ArtePainel").GetComponent<Image>();
+        var inicial=Painel("PainelInicial",quiz.transform,"PainelInicialQuizAmazonia",referenciaInicial.rectTransform.sizeDelta.x);
+        inicial.rectTransform.anchoredPosition=referenciaInicial.rectTransform.anchoredPosition;
+        inicial.rectTransform.anchorMin=referenciaInicial.rectTransform.anchorMin;inicial.rectTransform.anchorMax=referenciaInicial.rectTransform.anchorMax;inicial.rectTransform.pivot=referenciaInicial.rectTransform.pivot;
+        inicial.transform.localScale=referenciaInicial.transform.localScale;ui.painelInicial=inicial.transform.parent.gameObject;
+        var explicacao=TextoNaArte("TextoExplicativo",inicial,new Vector2(725,538),new Vector2(900,335),24,new Color(.19f,.075f,.035f));
+        explicacao.enableWordWrapping=true;explicacao.enableAutoSizing=true;explicacao.fontSizeMin=22;explicacao.fontSizeMax=24;
+        explicacao.text="Responda 3 perguntas sobre a Amazônia!\n\nVocê terá 30 segundos para acertar cada pergunta.\nCada resposta correta vale 10 NexaCoins.\n\nComplete o Quiz para receber 50 de Conhecimento\ne conquistar a Chave da Amazônia.\nComeçar o Quiz custa 20 de Energia.";
+        Botao("BotaoComecar",inicial,new Rect(285,805,445,128),quiz.Comecar);
+        if(ui.botaoVoltar!=null)UnityEngine.Object.DestroyImmediate(ui.botaoVoltar.gameObject);
+        ui.botaoVoltar=Botao("BotaoVoltar",inicial,new Rect(787,805,373,128),quiz.Voltar);
+        var referenciaFinal=feira.painelFinal.transform.Find("ArtePainel").GetComponent<Image>();
+        var final=Painel("PainelFinal",quiz.transform,"PainelFinalQuizAmazonia",referenciaFinal.rectTransform.sizeDelta.x);
+        final.rectTransform.anchoredPosition=referenciaFinal.rectTransform.anchoredPosition;final.rectTransform.anchorMin=referenciaFinal.rectTransform.anchorMin;final.rectTransform.anchorMax=referenciaFinal.rectTransform.anchorMax;final.rectTransform.pivot=referenciaFinal.rectTransform.pivot;
+        final.transform.localScale=referenciaFinal.transform.localScale;ui.painelFinal=final.transform.parent.gameObject;
+        ui.botaoContinuar=Botao("BotaoContinuar",final,new Rect(770,773,600,83),quiz.Voltar);
+        var referenciaResumo=feira.recompensas;
+        ui.recompensas=Texto("RecompensasReais",ui.painelFinal.transform,referenciaResumo.rectTransform.sizeDelta,referenciaResumo.rectTransform.anchoredPosition,referenciaResumo.fontSize,referenciaResumo.color);
+        ui.recompensas.alignment=referenciaResumo.alignment;
+        ui.recompensas.rectTransform.anchorMin=referenciaResumo.rectTransform.anchorMin;ui.recompensas.rectTransform.anchorMax=referenciaResumo.rectTransform.anchorMax;
+        EditorUtility.SetDirty(ui);AssetDatabase.SaveAssets();EditorSceneManager.MarkSceneDirty(cena);EditorSceneManager.SaveScene(cena);
+        const string documentos="Documentation/Brasil/PaineisQuizAmazonia20261012/";Directory.CreateDirectory(documentos);
+        File.WriteAllText(documentos+"montagem.txt","Painéis integrados: "+DateTime.Now.ToString("s")+"\nReferências da Feira: Inicial "+referenciaInicial.rectTransform.sizeDelta+" em "+referenciaInicial.rectTransform.anchoredPosition+"; Final "+referenciaFinal.rectTransform.sizeDelta+" em "+referenciaFinal.rectTransform.anchoredPosition);
+    }
     public static void Montar()
     {
         var cena=SceneManager.GetActiveScene();

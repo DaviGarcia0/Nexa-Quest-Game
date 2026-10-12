@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 namespace NexaQuest.Brasil
 {
-    public enum EstadoQuizAmazonia { Fechado, Pergunta, Erro, Acerto, Concluido }
+    public enum EstadoQuizAmazonia { Fechado, Inicial, Pergunta, Erro, Acerto, Concluido }
 
     public class QuizAmazonia : MonoBehaviour
     {
@@ -29,23 +29,30 @@ namespace NexaQuest.Brasil
         float tempoFeedback;
         ProgressionManager Progresso => ProgressionManager.Instance;
 
-        public bool TentarIniciar(PainelDesafiosAmazonia painel)
+        public bool TentarAbrir(PainelDesafiosAmazonia painel)
         {
             if (Estado != EstadoQuizAmazonia.Fechado || painel == null || !painel.EstaAberto ||
                 mundo == null || mundo.IsTransitioning || Progresso == null) return false;
             if (dados == null || !dados.EstaValido()) return false;
-            if (!Progresso.TentarGastarEnergia(20)) { painel.AvisarEnergia(); return false; }
             origem = painel;
             painel.Fechar();
             gameObject.SetActive(true);
             possuiBloqueio = true;
             mundo.player.SetControlsLocked(true);
             interfaceQuiz.Preparar();
+            MudarEstado(EstadoQuizAmazonia.Inicial);
+            return true;
+        }
+
+        public void Comecar()
+        {
+            if (Estado != EstadoQuizAmazonia.Inicial) return;
+            if (!Progresso.TentarGastarEnergia(20)) { interfaceQuiz.AvisarEnergia(); return; }
+            interfaceQuiz.OcultarAviso();
             for (int i = 0; i < perguntasPremiadas.Length; i++) perguntasPremiadas[i] = false;
             PerguntaAtual = MoedasDaRodada = 0;
             RodadaConcluida = ChaveConquistadaNestaRodada = false;
             CarregarPergunta();
-            return true;
         }
 
         void CarregarPergunta()

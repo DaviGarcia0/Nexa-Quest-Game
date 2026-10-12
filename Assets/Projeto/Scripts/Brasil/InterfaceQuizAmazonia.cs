@@ -6,8 +6,9 @@ namespace NexaQuest.Brasil
 {
     public class InterfaceQuizAmazonia : MonoBehaviour
     {
-        public GameObject painelPrincipal;
-        public Button botaoVoltar;
+        public GameObject painelInicial, painelPrincipal, painelFinal;
+        public Button botaoVoltar, botaoContinuar;
+        public TMP_Text recompensas;
         public CanvasGroup feedbackErro, feedbackAcerto;
         public TMP_Text progressoPerguntas, tempo, enunciado, status;
         public TMP_Text[] alternativas;
@@ -57,8 +58,9 @@ namespace NexaQuest.Brasil
 
         public void MostrarEstado(EstadoQuizAmazonia estado)
         {
-            painelPrincipal.SetActive(estado != EstadoQuizAmazonia.Fechado);
-            botaoVoltar.gameObject.SetActive(estado == EstadoQuizAmazonia.Concluido);
+            painelInicial.SetActive(estado == EstadoQuizAmazonia.Inicial);
+            painelPrincipal.SetActive(estado == EstadoQuizAmazonia.Pergunta || estado == EstadoQuizAmazonia.Erro || estado == EstadoQuizAmazonia.Acerto);
+            painelFinal.SetActive(estado == EstadoQuizAmazonia.Concluido);
             foreach (var botao in botoesRespostas)
             {
                 botao.gameObject.SetActive(estado != EstadoQuizAmazonia.Concluido);
@@ -119,10 +121,8 @@ namespace NexaQuest.Brasil
 
         public void MostrarRecompensas(int moedas, bool chaveNova)
         {
-            enunciado.text = "Quiz concluído!\n+" + moedas + " NexaCoins  •  +50 de Conhecimento." +
-                (chaveNova ? "\nChave da Amazônia conquistada!" : "");
-            tempo.text = string.Empty;
-            status.text = "Voltar aos desafios";
+            recompensas.text = "Recompensas desta rodada: +" + moedas + " NexaCoins  |  +50 Conhecimento  |  " +
+                (chaveNova ? "Chave da Amazônia conquistada" : "Chave da Amazônia já obtida");
         }
 
         public void AvisarEnergia()

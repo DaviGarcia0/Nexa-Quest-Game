@@ -24,7 +24,7 @@ namespace NexaQuest.Brasil
         void Update() => ProcessarFechamento(Input.GetKeyDown(KeyCode.Escape));
         public void ProcessarFechamento(bool esc) { if (esc && EstaAberto && Time.frameCount > quadroAbertura) Fechar(); }
         public void Fechar() { if (!EstaAberto) return; RestaurarAviso(); gameObject.SetActive(false); }
-        public void SelecionarQuiz() { if (EstaAberto) quiz.TentarIniciar(this); }
+        public void SelecionarQuiz() { if (EstaAberto) quiz.TentarAbrir(this); }
         public void SelecionarMinijogo() { if (EstaAberto) mensagem.text = "Minijogo em desenvolvimento."; }
         public void AvisarEnergia()
         {
