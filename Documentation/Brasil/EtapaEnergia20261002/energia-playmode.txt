@@ -40,6 +40,17 @@ PASS: Animator exibiu seis poses, incluindo piscar
 PASS: Idle retornou naturalmente do ultimo para primeiro frame
 PASS: Animacao preserva tamanho e centro do RectTransform
 PASS: Idle da interface independente da escala de tempo
+PASS: Proximidade apresenta E: NPC_Introducao_Lia
+PASS: Fala/retrato correto: NPC_Introducao_Lia linha 0
+PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 0
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fala/retrato correto: NPC_Introducao_Lia linha 1
+PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 1
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fala/retrato correto: NPC_Introducao_Lia linha 2
+PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 2
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fim do dialogo e eventual modal devolve controle: NPC_Introducao_Lia
 PASS: Proximidade apresenta E: NPC_Desafios_Bento
 PASS: Fala/retrato correto: NPC_Desafios_Bento linha 0
 PASS: Sequencia NPC-Quest-NPC: NPC_Desafios_Bento linha 0
@@ -52,17 +63,6 @@ PASS: Sequencia NPC-Quest-NPC: NPC_Desafios_Bento linha 2
 PASS: Movimento bloqueado enquanto dialogo aberto
 PASS: Bento abre desafios e mantem bloqueio
 PASS: Fim do dialogo e eventual modal devolve controle: NPC_Desafios_Bento
-PASS: Proximidade apresenta E: NPC_Introducao_Lia
-PASS: Fala/retrato correto: NPC_Introducao_Lia linha 0
-PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 0
-PASS: Movimento bloqueado enquanto dialogo aberto
-PASS: Fala/retrato correto: NPC_Introducao_Lia linha 1
-PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 1
-PASS: Movimento bloqueado enquanto dialogo aberto
-PASS: Fala/retrato correto: NPC_Introducao_Lia linha 2
-PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 2
-PASS: Movimento bloqueado enquanto dialogo aberto
-PASS: Fim do dialogo e eventual modal devolve controle: NPC_Introducao_Lia
 PASS: Energia e conversas preservam progresso inicial
 PASS: Sem erros/avisos durante teste da Energia
 Falhas: 0

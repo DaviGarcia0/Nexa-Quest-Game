@@ -1,0 +1,135 @@
+PASS: Play Mode 1920x1080
+PASS: Quiz inicialmente fechado
+PASS: JSON v1 anterior ao Quiz carrega sem apagar progresso
+PASS: Tres perguntas editaveis, quatro alternativas e um indice correto
+PASS: Raycast acerta BotaoQuiz (alvo: BotaoQuiz)
+PASS: Botao Quiz abre introducao e oculta desafios
+PASS: Abrir introducao nao custa Energia
+PASS: Mapa e transicoes bloqueados
+PASS: NPCs nao recebem interacao durante Quiz
+PASS: Minijogo nao pode abrir simultaneamente
+PASS: Explicacao cabe na area vazia da introducao
+PASS: Raycast acerta BotaoVoltar (alvo: BotaoVoltar)
+PASS: Voltar retorna aos desafios sem gastar Energia
+PASS: Raycast acerta BotaoQuiz (alvo: BotaoQuiz)
+PASS: Raycast acerta BotaoComecar (alvo: BotaoComecar)
+PASS: Comecar gasta exatamente 20, mesmo com clique repetido
+PASS: Primeira pergunta inicia em 30 segundos e 1/3
+PASS: Retrato pensando e quatro respostas habilitadas
+PASS: Texto cabe: ProgressoPerguntas
+PASS: Texto cabe: TempoRestante
+PASS: Texto cabe: Enunciado
+PASS: Texto cabe: MensagemStatus
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Area interna clicavel: RespostaA em (541.83, 294.02, 0.00) alvo RespostaA
+PASS: Area interna clicavel: RespostaA em (541.83, 371.90, 0.00) alvo RespostaA
+PASS: Area interna clicavel: RespostaA em (951.54, 371.90, 0.00) alvo RespostaA
+PASS: Area interna clicavel: RespostaA em (951.54, 294.02, 0.00) alvo RespostaA
+PASS: Botao de resposta transparente: RespostaA
+PASS: Area interna clicavel: RespostaB em (972.77, 294.02, 0.00) alvo RespostaB
+PASS: Area interna clicavel: RespostaB em (972.77, 371.90, 0.00) alvo RespostaB
+PASS: Area interna clicavel: RespostaB em (1382.48, 371.90, 0.00) alvo RespostaB
+PASS: Area interna clicavel: RespostaB em (1382.48, 294.02, 0.00) alvo RespostaB
+PASS: Botao de resposta transparente: RespostaB
+PASS: Area interna clicavel: RespostaC em (541.83, 203.52, 0.00) alvo RespostaC
+PASS: Area interna clicavel: RespostaC em (541.83, 281.40, 0.00) alvo RespostaC
+PASS: Area interna clicavel: RespostaC em (951.54, 281.40, 0.00) alvo RespostaC
+PASS: Area interna clicavel: RespostaC em (951.54, 203.52, 0.00) alvo RespostaC
+PASS: Botao de resposta transparente: RespostaC
+PASS: Area interna clicavel: RespostaD em (972.77, 203.52, 0.00) alvo RespostaD
+PASS: Area interna clicavel: RespostaD em (972.77, 281.40, 0.00) alvo RespostaD
+PASS: Area interna clicavel: RespostaD em (1382.48, 281.40, 0.00) alvo RespostaD
+PASS: Area interna clicavel: RespostaD em (1382.48, 203.52, 0.00) alvo RespostaD
+PASS: Botao de resposta transparente: RespostaD
+PASS: Timer decresce em tempo real pelo Update
+PASS: Raycast acerta RespostaB (alvo: RespostaB)
+PASS: Primeiro acerto credita 10 Coins uma unica vez
+PASS: Esc no feedback conserva Coins e custo, sem EXP ou conclusao
+PASS: Esc cancela feedback e fade pendentes
+PASS: Raycast acerta BotaoQuiz (alvo: BotaoQuiz)
+PASS: Raycast acerta BotaoComecar (alvo: BotaoComecar)
+PASS: Nova rodada reseta somente estado do Quiz e custa 20
+PASS: Raycast acerta RespostaC (alvo: RespostaC)
+PASS: Erro mostra feedback e retrato triste
+PASS: Erro nao avanca nem concede recompensas
+PASS: Feedback bloqueia cliques atraves da interface (alvo: FeedbackErro)
+PASS: Resposta durante feedback e ignorada
+PASS: Feedback mantem alpha 1 e timer pausado durante espera real
+PASS: Fade suave real durante os ultimos 0,3 segundo
+PASS: Feedback termina perto de 1,5s e restaura pergunta
+PASS: Timer retoma a partir do tempo anterior
+PASS: Reexibir erro restaura alpha: tentativa 1
+PASS: Espera padrao de 1,2s
+PASS: Metade do fade de 0,3s
+PASS: Erros repetidos nao recompensam nem mudam pergunta
+PASS: Reexibir erro restaura alpha: tentativa 2
+PASS: Espera padrao de 1,2s
+PASS: Metade do fade de 0,3s
+PASS: Erros repetidos nao recompensam nem mudam pergunta
+PASS: Reexibir erro restaura alpha: tentativa 3
+PASS: Espera padrao de 1,2s
+PASS: Metade do fade de 0,3s
+PASS: Erros repetidos nao recompensam nem mudam pergunta
+PASS: Timeout chega a zero e mostra estado de erro
+PASS: Timeout nao premia e usa retrato triste
+PASS: Timeout reinicia mesma pergunta em 30s
+PASS: Raycast acerta RespostaB (alvo: RespostaB)
+PASS: Acerto premia uma vez e mostra Quest feliz
+PASS: Timer para durante feedback de acerto
+PASS: Pergunta 2 carrega com novo tempo
+PASS: Texto cabe: ProgressoPerguntas
+PASS: Texto cabe: TempoRestante
+PASS: Texto cabe: Enunciado
+PASS: Texto cabe: MensagemStatus
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Erro na segunda preserva saldo X+10 da rodada
+PASS: Raycast acerta RespostaC (alvo: RespostaC)
+PASS: Segundo acerto: X+20, sem duplicacao
+PASS: Pergunta 3 carrega com novo tempo
+PASS: Texto cabe: ProgressoPerguntas
+PASS: Texto cabe: TempoRestante
+PASS: Texto cabe: Enunciado
+PASS: Texto cabe: MensagemStatus
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Texto cabe: TextoAlternativa
+PASS: Raycast acerta RespostaA (alvo: RespostaA)
+PASS: Terceiro acerto chega a 30 por rodada e aguarda feedback
+PASS: Conclusao concede 50 EXP, flag persistente e chave pela primeira vez
+PASS: Painel final mostra resumo real da rodada
+PASS: Pensando, triste e feliz usam o mesmo retangulo e proporcao preservada
+PASS: Raycast acerta BotaoContinuar (alvo: BotaoContinuar)
+PASS: Continuar retorna ao painel de desafios na mesma posicao do mapa
+PASS: Raycast acerta BotaoQuiz (alvo: BotaoQuiz)
+PASS: Introducao reaparece em toda nova execucao sem custo
+PASS: Raycast acerta BotaoComecar (alvo: BotaoComecar)
+PASS: Segunda rodada: mais 30 Coins e 50 EXP, usando nivel de 100 EXP
+PASS: Quiz repetido preserva flag e nao duplica chave
+PASS: JSON existente persiste Quiz, chave, Coins, EXP, Level e Energia
+PASS: Carregar nao reescreve ou apaga o save
+PASS: Raycast acerta BotaoContinuar (alvo: BotaoContinuar)
+PASS: Minijogo reconhece a chave do Quiz e preserva flag do Quiz
+PASS: Minijogo mantem suas recompensas e custo originais
+PASS: Raycast acerta BotaoQuiz (alvo: BotaoQuiz)
+PASS: Raycast acerta BotaoComecar (alvo: BotaoComecar)
+PASS: Energia 20 permite comecar e chega exatamente a zero
+PASS: Sem Esc a atividade continua
+PASS: Esc nao reembolsa Energia nem apaga conclusao anterior
+PASS: Raycast acerta BotaoQuiz (alvo: BotaoQuiz)
+PASS: Energia zero ainda permite abrir introducao
+PASS: Raycast acerta BotaoComecar (alvo: BotaoComecar)
+PASS: Comecar em zero e recusado com o aviso existente
+PASS: Energia 19 tambem bloqueia sem desconto
+PASS: Raycast acerta BotaoVoltar (alvo: BotaoVoltar)
+PASS: Fechar desafios restaura controle do mapa
+PASS: HUDs e aviso compartilhados voltam a seus pais originais
+PASS: Saida limpa todos os estados visuais e itens
+PASS: Console sem erros ou avisos durante o Quiz
+Falhas: 0

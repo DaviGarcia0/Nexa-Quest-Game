@@ -1,0 +1,2 @@
+System.InvalidOperationException: Salve Brasil antes de testar.
+  at ValidacaoNPCsAmazonia.Consultar () [0x000bc] in C:\Users\Davi\Desktop\Nexa-Quest-Game\Assets\Projeto\Editor\ValidacaoNPCsAmazonia.cs:43 
