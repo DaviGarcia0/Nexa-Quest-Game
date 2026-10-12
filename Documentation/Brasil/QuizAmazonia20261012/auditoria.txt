@@ -1,0 +1,33 @@
+Componentes anteriores: 1334
+Novos: 116
+Alterado 407181268
+-       m_Calls: []
++       m_Calls:
++       - m_Target: {fileID: 1320261542}
++         m_TargetAssemblyTypeName: NexaQuest.Brasil.PainelDesafiosAmazonia, Assembly-CSharp
++         m_MethodName: Abrir
++         m_Mode: 0
++         m_Arguments:
++           m_ObjectArgument: {fileID: 0}
++           m_ObjectArgumentAssemblyTypeName: 
++           m_IntArgument: 0
++           m_FloatArgument: 0
++           m_StringArgument: 
++           m_BoolArgument: 0
++         m_CallState: 2
+Alterado 894739078
++   - {fileID: 1320261541}
++   - {fileID: 2082014528}
+Alterado 1834417568
++   quizAmazoniaConcluido: 0
++   possuiChaveAmazonia: 0
+PNG PainelDesafiosAmazonia original idêntico: True | SHA256 0081f920a0ee922a9f5774916765e0c0296cddfde0dadba3ef869e1c94a78648
+PNG PainelPrincipalQuizAmazonia original idêntico: True | SHA256 22aec35317ce1836c5eb58499116643a2d963f588ec4f914e6d95ef34f6feeec
+Script anterior QuizFeira.cs preservado: True
+Script anterior InterfaceQuizFeira.cs preservado: True
+Script anterior DadosQuizFeira.cs preservado: True
+Script anterior MinijogoFeira.cs preservado: True
+Script anterior PlayerMovement.cs preservado: True
+Script anterior CameraFollow.cs preservado: True
+Script anterior DialogueController.cs preservado: True
+Script anterior NPCInteraction.cs preservado: True

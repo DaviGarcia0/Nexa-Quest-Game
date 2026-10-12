@@ -71,6 +71,10 @@ public class VerificacoesNPCsAmazonia:MonoBehaviour
             if(dc.LineIndex<2)yield return Capturar(npc.name+"-fala"+dc.LineIndex);
             yield return null;dc.HandleInteract();yield return null;
         }
+        var painelAmazonia=FindObjectOfType<PainelDesafiosAmazonia>(true);
+        if(npc.name=="NPC_Amazonia_01" && painelAmazonia!=null) {
+            Conferir(painelAmazonia.EstaAberto&&mundo.player.ControlsLocked,"Fim da Guardiã abre o painel da Amazônia");painelAmazonia.Fechar();yield return null;
+        }
         Conferir(!dc.IsOpen&&!mundo.player.ControlsLocked&&Vector3.Distance(mundo.player.transform.position,posicao)<.03f,"Fim restaura controle/posição: "+npc.name+" (deslocamento: "+Vector3.Distance(mundo.player.transform.position,posicao)+", diálogo: "+dc.IsOpen+", bloqueio: "+mundo.player.ControlsLocked+")");
     }
     IEnumerator Start()
@@ -107,7 +111,7 @@ public class VerificacoesNPCsAmazonia:MonoBehaviour
         }
         var especial=raiz.Find("NPC_Amazonia_01").GetComponent<NPCInteraction>();
         Conferir(especial.GetComponent<CircleCollider2D>().isTrigger&&!especial.GetComponent<BoxCollider2D>().isTrigger,"NPC 1 tem gatilho e corpo separados");
-        Conferir(especial.onDialogueFinished.GetPersistentEventCount()==0,"Evento de painel preparado, aguardando arte real");
+        Conferir(especial.onDialogueFinished.GetPersistentEventCount()==1 && especial.onDialogueFinished.GetPersistentTarget(0) is PainelDesafiosAmazonia,"Evento conectado ao painel real da Amazônia");
         yield return Conversar(especial,dc,mundo);
         var camera=mundo.followCamera.GetComponent<Camera>();if(camera==null)camera=Camera.main;
         var pixelPerfect=camera.GetComponents<Behaviour>().FirstOrDefault(c=>c.GetType().Name=="PixelPerfectCamera");

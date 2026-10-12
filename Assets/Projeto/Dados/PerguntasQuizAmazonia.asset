@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df373bd1e2161f04ebb5a555e5487fe5, type: 3}
+  m_Name: PerguntasQuizAmazonia
+  m_EditorClassIdentifier: 
+  perguntas:
+  - enunciado: "O que \xE9 a Amaz\xF4nia Legal?"
+    alternativas:
+    - Somente a parte da floresta que fica no estado do Amazonas.
+    - "Uma regi\xE3o definida por lei para planejamento e pol\xEDticas p\xFAblicas
+      de desenvolvimento da Amaz\xF4nia brasileira."
+    - "Uma unidade de conserva\xE7\xE3o onde nenhuma pessoa pode viver."
+    - "Outro nome dado apenas ao Bioma Amaz\xF4nia."
+    respostaCorreta: 1
+    fonte: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15819-amazonia-legal.html
+  - enunciado: "Qual processo das \xE1rvores amaz\xF4nicas ajuda a devolver \xE1gua
+      para a atmosfera e alimentar os chamados 'rios voadores'?"
+    alternativas:
+    - "Sedimenta\xE7\xE3o"
+    - "Evapotranspira\xE7\xE3o"
+    - "Eros\xE3o"
+    - "Fossiliza\xE7\xE3o"
+    respostaCorreta: 1
+    fonte: https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-319-am-ro/noticias/rios-voadores-mantem-o-clima-e-abastecem-o-brasil
+  - enunciado: "Por que o desmatamento da Amaz\xF4nia pode alterar o regime de chuvas?"
+    alternativas:
+    - "Porque aumenta permanentemente a quantidade de \xE1gua liberada pelas \xE1rvores."
+    - "Porque transforma os rios da floresta em \xE1gua salgada."
+    - "Porque reduz a vegeta\xE7\xE3o que recicla \xE1gua para a atmosfera, afetando
+      o transporte de umidade e as chuvas."
+    - "Porque impede completamente a entrada de ventos do Oceano Atl\xE2ntico."
+    respostaCorreta: 2
+    fonte: https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-319-am-ro/noticias/rios-voadores-mantem-o-clima-e-abastecem-o-brasil

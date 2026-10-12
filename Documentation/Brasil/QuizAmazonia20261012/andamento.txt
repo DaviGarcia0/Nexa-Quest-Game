@@ -1,0 +1,168 @@
+PASS: Play Mode real 1920x1080
+PASS: Roots iniciam fechados e sem painel inicial extra
+PASS: Save antigo mantém Feira e inicia flags da Amazônia false
+PASS: Três perguntas editáveis com quatro alternativas
+PASS: Enunciado exato solicitado: O que é a Amazônia Legal?
+PASS: Quatro alternativas completas e acentuadas: 1
+PASS: Correta: B
+PASS: Enunciado exato solicitado: Qual processo das árvores amazônicas ajuda a devolver água para a atmosfera e alimentar os chamados 'rios voadores'?
+PASS: Quatro alternativas completas e acentuadas: 2
+PASS: Correta: B — Evapotranspiração
+PASS: Enunciado exato solicitado: Por que o desmatamento da Amazônia pode alterar o regime de chuvas?
+PASS: Quatro alternativas completas e acentuadas: 3
+PASS: Correta: C
+PASS: Entrar na Amazônia funciona
+PASS: Guardiã mostra E
+PASS: Fala/retrato correto da Guardiã 0
+PASS: Fala/retrato correto da Guardiã 1
+PASS: Fala/retrato correto da Guardiã 2
+PASS: Fala/retrato correto da Guardiã 3
+PASS: Fim da Guardiã abre painel e mantém bloqueio modal
+PASS: Abrir escolha não custa energia
+PASS: Painel usa exatamente a arte da Amazônia
+PASS: Raycast/clique real: BotaoMinijogo
+PASS: Minijogo preparado não inicia gameplay ou cobra energia
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Clique Quiz inicia direto e cobra 20 apenas uma vez
+PASS: Pergunta 1, timer real 30s e Quest pensando
+PASS: Sem overflow: ProgressoPerguntas pergunta 1
+PASS: Sem overflow: TempoRestante pergunta 1
+PASS: Sem overflow: Enunciado pergunta 1
+PASS: Sem overflow: MensagemStatus pergunta 1
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: A) Somente a parte da floresta que fica no estado do Amazonas.
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: B) Uma região definida por lei para planejamento e políticas públicas de desenvolvimento da Amazônia brasileira.
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: C) Uma unidade de conservação onde nenhuma pessoa pode viver.
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: D) Outro nome dado apenas ao Bioma Amazônia.
+PASS: Canto interno clicável: RespostaA
+PASS: Canto interno clicável: RespostaA
+PASS: Canto interno clicável: RespostaA
+PASS: Canto interno clicável: RespostaA
+PASS: Resposta transparente: RespostaA
+PASS: Canto interno clicável: RespostaB
+PASS: Canto interno clicável: RespostaB
+PASS: Canto interno clicável: RespostaB
+PASS: Canto interno clicável: RespostaB
+PASS: Resposta transparente: RespostaB
+PASS: Canto interno clicável: RespostaC
+PASS: Canto interno clicável: RespostaC
+PASS: Canto interno clicável: RespostaC
+PASS: Canto interno clicável: RespostaC
+PASS: Resposta transparente: RespostaC
+PASS: Canto interno clicável: RespostaD
+PASS: Canto interno clicável: RespostaD
+PASS: Canto interno clicável: RespostaD
+PASS: Canto interno clicável: RespostaD
+PASS: Resposta transparente: RespostaD
+PASS: Update usa tempo real mesmo com timeScale zero
+PASS: Raycast/clique real: RespostaA
+PASS: Erro não premia nem avança, retrato triste
+PASS: Feedback bloqueia respostas e cliques por trás
+PASS: Cliques durante feedback ignorados
+PASS: Feedback opaco e timer pausado em tempo real
+PASS: Fade real ocorre no último 0,3s
+PASS: Após cerca de 1,5s retoma mesma pergunta e timer anterior
+PASS: Novo erro restaura alpha 1
+PASS: Espera de 1,2 segundo
+PASS: Metade do fade de 0,3s
+PASS: Erros repetidos mantêm pergunta e zero Coins
+PASS: Novo erro restaura alpha 1
+PASS: Espera de 1,2 segundo
+PASS: Metade do fade de 0,3s
+PASS: Erros repetidos mantêm pergunta e zero Coins
+PASS: Novo erro restaura alpha 1
+PASS: Espera de 1,2 segundo
+PASS: Metade do fade de 0,3s
+PASS: Erros repetidos mantêm pergunta e zero Coins
+PASS: Timeout mostra erro sem premiar
+PASS: Timeout reinicia mesma pergunta em 30s
+PASS: Raycast/clique real: RespostaB
+PASS: Acerto dá exatamente 10, duplo clique não duplica
+PASS: Timer para no acerto
+PASS: Esc conserva custo e Coins parciais sem EXP/chave/conclusão
+PASS: Esc limpa feedback/fade
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Replay custa 20 e reseta rodada
+PASS: Sem overflow: ProgressoPerguntas pergunta 1
+PASS: Sem overflow: TempoRestante pergunta 1
+PASS: Sem overflow: Enunciado pergunta 1
+PASS: Sem overflow: MensagemStatus pergunta 1
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: A) Somente a parte da floresta que fica no estado do Amazonas.
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: B) Uma região definida por lei para planejamento e políticas públicas de desenvolvimento da Amazônia brasileira.
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: C) Uma unidade de conservação onde nenhuma pessoa pode viver.
+PASS: Sem overflow: TextoAlternativa pergunta 1
+PASS: Letras dentro da margem interna: D) Outro nome dado apenas ao Bioma Amazônia.
+PASS: Erro preserva saldo acumulado: pergunta 1
+PASS: Raycast/clique real: RespostaB
+PASS: Acerto +10 uma vez e sem EXP antecipado: 1
+PASS: Próxima pergunta tem novo timer e contador
+PASS: Sem overflow: ProgressoPerguntas pergunta 2
+PASS: Sem overflow: TempoRestante pergunta 2
+PASS: Sem overflow: Enunciado pergunta 2
+PASS: Sem overflow: MensagemStatus pergunta 2
+PASS: Sem overflow: TextoAlternativa pergunta 2
+PASS: Letras dentro da margem interna: A) Sedimentação
+PASS: Sem overflow: TextoAlternativa pergunta 2
+PASS: Letras dentro da margem interna: B) Evapotranspiração
+PASS: Sem overflow: TextoAlternativa pergunta 2
+PASS: Letras dentro da margem interna: C) Erosão
+PASS: Sem overflow: TextoAlternativa pergunta 2
+PASS: Letras dentro da margem interna: D) Fossilização
+PASS: Erro preserva saldo acumulado: pergunta 2
+PASS: Raycast/clique real: RespostaB
+PASS: Acerto +10 uma vez e sem EXP antecipado: 2
+PASS: Próxima pergunta tem novo timer e contador
+PASS: Sem overflow: ProgressoPerguntas pergunta 3
+PASS: Sem overflow: TempoRestante pergunta 3
+PASS: Sem overflow: Enunciado pergunta 3
+PASS: Sem overflow: MensagemStatus pergunta 3
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: A) Porque aumenta permanentemente a quantidade de água liberada pelas árvores.
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: B) Porque transforma os rios da floresta em água salgada.
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: C) Porque reduz a vegetação que recicla água para a atmosfera, afetando o transporte de umidade e as chuvas.
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: D) Porque impede completamente a entrada de ventos do Oceano Atlântico.
+PASS: Erro preserva saldo acumulado: pergunta 3
+PASS: Raycast/clique real: RespostaC
+PASS: Acerto +10 uma vez e sem EXP antecipado: 3
+PASS: Três acertos: 30 Coins, 50 EXP, flag e primeira chave da Amazônia
+PASS: Chave da Vila e conclusão da Feira permanecem intactas
+PASS: Conclusão não duplica rewards
+PASS: Conclusão usa interface atual e retorno funcional
+PASS: Sem overflow: ProgressoPerguntas pergunta 3
+PASS: Sem overflow: TempoRestante pergunta 3
+PASS: Sem overflow: Enunciado pergunta 3
+PASS: Sem overflow: MensagemStatus pergunta 3
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: A) Porque aumenta permanentemente a quantidade de água liberada pelas árvores.
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: B) Porque transforma os rios da floresta em água salgada.
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: C) Porque reduz a vegetação que recicla água para a atmosfera, afetando o transporte de umidade e as chuvas.
+PASS: Sem overflow: TextoAlternativa pergunta 3
+PASS: Letras dentro da margem interna: D) Porque impede completamente a entrada de ventos do Oceano Atlântico.
+PASS: Raycast/clique real: BotaoVoltar
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Segunda rodada dá outros 30 Coins e 50 EXP, Level segue 100 EXP
+PASS: Replay preserva flag/chave e não anuncia nova chave
+PASS: Três retratos preservam exatamente o retângulo
+PASS: Mesmo JSON persiste as duas chaves/flags e todos os saldos
+PASS: Raycast/clique real: BotaoVoltar
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Energia 20 inicia e vai exatamente a zero
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Energia zero bloqueia com aviso existente
+PASS: Raycast/clique real: BotaoQuiz
+PASS: Energia 19 também bloqueia sem desconto
+PASS: Fechar painel libera Player na posição original
+PASS: HUDs e aviso retornam aos pais originais
+PASS: Transição de retorno continua disponível
+PASS: Console sem erros ou avisos
