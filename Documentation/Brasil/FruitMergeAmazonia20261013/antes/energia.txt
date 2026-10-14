@@ -1,0 +1,68 @@
+PASS: Game View 1920x1080
+PASS: HUD ancorada no alto a esquerda
+PASS: HUD dentro da tela
+PASS: Proporcao original da HUD preservada
+PASS: Resolucao integral do fundo
+PASS: Energia e texto separado com valor temporario 100
+PASS: EnergyText cabe na area horizontal
+PASS: EnergyText na faixa vinho
+PASS: EnergyText pode ser atualizado independentemente
+PASS: Mascara circular e contorno individual ativos
+PASS: Animator UI separado do Animator do Player
+PASS: QuestHUD_Idle 12 FPS em loop
+PASS: Seis sprites Idle importados
+PASS: Recorte e pivot uniformes: QuestHUD_Idle_01
+PASS: Mesh mantem tamanho uniforme: QuestHUD_Idle_01
+PASS: Contorno individual sem vizinhos: QuestHUD_Idle_01
+PASS: Recorte e pivot uniformes: QuestHUD_Idle_02
+PASS: Mesh mantem tamanho uniforme: QuestHUD_Idle_02
+PASS: Contorno individual sem vizinhos: QuestHUD_Idle_02
+PASS: Recorte e pivot uniformes: QuestHUD_Idle_03
+PASS: Mesh mantem tamanho uniforme: QuestHUD_Idle_03
+PASS: Contorno individual sem vizinhos: QuestHUD_Idle_03
+PASS: Recorte e pivot uniformes: QuestHUD_Idle_04
+PASS: Mesh mantem tamanho uniforme: QuestHUD_Idle_04
+PASS: Contorno individual sem vizinhos: QuestHUD_Idle_04
+PASS: Recorte e pivot uniformes: QuestHUD_Idle_05
+PASS: Mesh mantem tamanho uniforme: QuestHUD_Idle_05
+PASS: Contorno individual sem vizinhos: QuestHUD_Idle_05
+PASS: Recorte e pivot uniformes: QuestHUD_Idle_06
+PASS: Mesh mantem tamanho uniforme: QuestHUD_Idle_06
+PASS: Contorno individual sem vizinhos: QuestHUD_Idle_06
+PASS: Importacao sem filtro/compressao/mipmap: QuestExpressaoHUD.png
+PASS: Importacao sem filtro/compressao/mipmap: ExpressaoQuest.png
+PASS: Importacao sem filtro/compressao/mipmap: QuestExpressaoComemoracaoHUD.png
+PASS: Importacao sem filtro/compressao/mipmap: HUD_ENERGIA.png
+PASS: Exterior do PNG transparente
+PASS: Circulo interno preto opaco preservado
+PASS: Energia nao sobrepoe Coins/Conhecimento
+PASS: Animator exibiu seis poses, incluindo piscar
+PASS: Idle retornou naturalmente do ultimo para primeiro frame
+PASS: Animacao preserva tamanho e centro do RectTransform
+PASS: Idle da interface independente da escala de tempo
+PASS: Proximidade apresenta E: NPC_Introducao_Lia
+PASS: Fala/retrato correto: NPC_Introducao_Lia linha 0
+PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 0
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fala/retrato correto: NPC_Introducao_Lia linha 1
+PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 1
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fala/retrato correto: NPC_Introducao_Lia linha 2
+PASS: Sequencia NPC-Quest-NPC: NPC_Introducao_Lia linha 2
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fim do dialogo e eventual modal devolve controle: NPC_Introducao_Lia
+PASS: Proximidade apresenta E: NPC_Desafios_Bento
+PASS: Fala/retrato correto: NPC_Desafios_Bento linha 0
+PASS: Sequencia NPC-Quest-NPC: NPC_Desafios_Bento linha 0
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fala/retrato correto: NPC_Desafios_Bento linha 1
+PASS: Sequencia NPC-Quest-NPC: NPC_Desafios_Bento linha 1
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Fala/retrato correto: NPC_Desafios_Bento linha 2
+PASS: Sequencia NPC-Quest-NPC: NPC_Desafios_Bento linha 2
+PASS: Movimento bloqueado enquanto dialogo aberto
+PASS: Bento abre desafios e mantem bloqueio
+PASS: Fim do dialogo e eventual modal devolve controle: NPC_Desafios_Bento
+PASS: Energia e conversas preservam progresso inicial
+PASS: Sem erros/avisos durante teste da Energia
+Falhas: 0

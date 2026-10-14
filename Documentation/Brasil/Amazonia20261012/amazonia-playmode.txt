@@ -29,7 +29,7 @@ PASS: Fala/retrato/ordem: NPC_Introducao_Lia 11
 PASS: Texto cabe: NPC_Introducao_Lia 11
 PASS: Fala/retrato/ordem: NPC_Introducao_Lia 12
 PASS: Texto cabe: NPC_Introducao_Lia 12
-PASS: Fim restaura controle/posição: NPC_Introducao_Lia (deslocamento: 0,0001602173, diálogo: False, bloqueio: False)
+PASS: Fim restaura controle/posição: NPC_Introducao_Lia (deslocamento: 9,536743E-07, diálogo: False, bloqueio: False)
 PASS: Transição para Amazônia aceita
 PASS: Entrada na Amazônia termina sem bloqueio
 PASS: Quatro NPCs na Amazônia
@@ -75,7 +75,7 @@ PASS: Texto cabe: NPC_Amazonia_01 2
 PASS: Fala/retrato/ordem: NPC_Amazonia_01 3
 PASS: Texto cabe: NPC_Amazonia_01 3
 PASS: Fim da Guardiã abre o painel da Amazônia
-PASS: Fim restaura controle/posição: NPC_Amazonia_01 (deslocamento: 2,665601E-07, diálogo: False, bloqueio: False)
+PASS: Fim restaura controle/posição: NPC_Amazonia_01 (deslocamento: 0, diálogo: False, bloqueio: False)
 PASS: NPCs não alteram Energia, Coins, EXP ou Chave da Vila
 PASS: Retorno à Feira aceito
 PASS: Feira volta com controles livres
