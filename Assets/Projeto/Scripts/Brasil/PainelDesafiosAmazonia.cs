@@ -9,6 +9,7 @@ namespace NexaQuest.Brasil
         public BrazilWorld mundo;
         public BrazilArea area;
         public QuizAmazonia quiz;
+        public MinijogoAmazoniaController minijogo;
         public TMP_Text avisoEnergia, mensagem;
         bool possuiBloqueio, avisoEmprestado;
         int quadroAbertura;
@@ -25,7 +26,7 @@ namespace NexaQuest.Brasil
         public void ProcessarFechamento(bool esc) { if (esc && EstaAberto && Time.frameCount > quadroAbertura) Fechar(); }
         public void Fechar() { if (!EstaAberto) return; RestaurarAviso(); gameObject.SetActive(false); }
         public void SelecionarQuiz() { if (EstaAberto) quiz.TentarAbrir(this); }
-        public void SelecionarMinijogo() { if (EstaAberto) mensagem.text = "Minijogo em desenvolvimento."; }
+        public void SelecionarMinijogo() { if (EstaAberto && minijogo != null) minijogo.TentarAbrir(this); }
         public void AvisarEnergia()
         {
             if (!avisoEmprestado) {

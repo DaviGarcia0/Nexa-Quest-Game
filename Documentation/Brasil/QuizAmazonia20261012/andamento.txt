@@ -21,7 +21,7 @@ PASS: Fim da Guardiã abre painel e mantém bloqueio modal
 PASS: Abrir escolha não custa energia
 PASS: Painel usa exatamente a arte da Amazônia
 PASS: Raycast/clique real: BotaoMinijogo
-PASS: Minijogo preparado não inicia gameplay ou cobra energia
+PASS: Minijogo abre instruções gratuitamente sem iniciar Quiz
 PASS: Raycast/clique real: BotaoQuiz
 PASS: Primeira entrada abre introdução gratuita
 PASS: Explicação cabe no painel inicial

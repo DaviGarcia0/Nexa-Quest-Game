@@ -100,7 +100,7 @@ public class VerificacoesQuizAmazonia:MonoBehaviour
         Conferir(progresso.Energia==100,"Abrir escolha não custa energia");var posicao=jogador.transform.position;
         Conferir(AssetDatabase.GetAssetPath(painel.transform.Find("ArtePainel").GetComponent<Image>().sprite)==MontagemQuizAmazonia.Arte+"PainelDesafiosAmazonia.png","Painel usa exatamente a arte da Amazônia");yield return Capturar("Desafios-1080p");
         yield return Clicar(painel.transform.Find("ArtePainel/BotaoMinijogo").GetComponent<Button>());
-        Conferir(painel.EstaAberto&&progresso.Energia==100&&painel.mensagem.text=="Minijogo em desenvolvimento."&&!quiz.gameObject.activeSelf,"Minijogo preparado não inicia gameplay ou cobra energia");
+        Conferir(painel.minijogo.Estado==EstadoMergeAmazonia.Instrucoes&&progresso.Energia==100&&!quiz.gameObject.activeSelf,"Minijogo abre instruções gratuitamente sem iniciar Quiz"); painel.minijogo.Sair(); yield return null;
         yield return Clicar(BotaoQuiz);
         Conferir(quiz.Estado==EstadoQuizAmazonia.Inicial&&progresso.Energia==100&&ui.painelInicial.activeSelf&&!ui.painelPrincipal.activeSelf,"Primeira entrada abre introdução gratuita");
         var textoInicial=ui.painelInicial.transform.Find("ArtePainel/TextoExplicativo").GetComponent<TMPro.TMP_Text>();textoInicial.ForceMeshUpdate();

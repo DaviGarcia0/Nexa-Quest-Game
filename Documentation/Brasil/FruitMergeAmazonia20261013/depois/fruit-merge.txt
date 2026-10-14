@@ -1,0 +1,124 @@
+PASS: Play Mode real 1920x1080
+PASS: Save antigo inicia flag do minijogo false
+PASS: Minijogo abre instruções gratuitamente
+PASS: Player bloqueado na entrada
+PASS: Raycast real: Instrucoes/Voltar
+PASS: Voltar retorna aos desafios sem energia
+PASS: Raycast real: Instrucoes/Comecar
+PASS: 19 Energia bloqueia com aviso real
+PASS: Energia zero não fica negativa
+PASS: Raycast real: Instrucoes/Comecar
+PASS: Começar cobra exatamente 20 e impede duplo clique
+PASS: Câmera principal preservada
+PASS: Preview mantido no topo não ativa Game Over
+PASS: HUD dentro de 1080p: HUDQuest
+PASS: HUD dentro de 1080p: HUDProximo
+PASS: HUD dentro de 1080p: HUDCoins
+PASS: HUD dentro de 1080p: HUDObjetivos
+PASS: HUD dentro de 1080p: BotaoSair
+PASS: Próximo e Quest preservam proporção
+PASS: Preview sem colisão
+PASS: Preview respeita parede esquerda e raio
+PASS: Preview respeita parede direita e raio
+PASS: HUD Próximo usa sprite real correto
+PASS: Drop não duplica no mesmo frame
+PASS: Próximo vira Atual e sorteia apenas 1..3
+PASS: Cooldown impede preview sobre o item recém solto
+PASS: HUD mostra Coin da rodada imediatamente
+PASS: Sair antes da missão guarda Coins sem EXP, chave ou reembolso
+PASS: ESC nas instruções retorna gratuitamente
+PASS: Nível 1 cai sem atravessar chão em alta velocidade
+PASS: Colisão contínua nível 1
+PASS: Nível 2 cai sem atravessar chão em alta velocidade
+PASS: Colisão contínua nível 2
+PASS: Nível 3 cai sem atravessar chão em alta velocidade
+PASS: Colisão contínua nível 3
+PASS: Peças soltas são Dynamic
+PASS: Atrito moderado e quique baixo
+PASS: Sprite real evolução 1
+PASS: Sprite real evolução 2
+PASS: Diâmetro cresce na evolução 2
+PASS: Sprite real evolução 3
+PASS: Diâmetro cresce na evolução 3
+PASS: Sprite real evolução 4
+PASS: Diâmetro cresce na evolução 4
+PASS: Sprite real evolução 5
+PASS: Diâmetro cresce na evolução 5
+PASS: Sprite real evolução 6
+PASS: Diâmetro cresce na evolução 6
+PASS: Sprite real evolução 7
+PASS: Diâmetro cresce na evolução 7
+PASS: Sprite real evolução 8
+PASS: Diâmetro cresce na evolução 8
+PASS: Câmera do minijogo isolada na layer 30
+PASS: Faixa vermelha alinhada ao limite real da DangerZone
+PASS: DangerZone usa trigger real
+PASS: Peça não atravessa parede esquerda
+PASS: Peça não atravessa parede direita
+PASS: Açaí rápido não atravessa Castanha
+PASS: Peças empurram outras sem merge de níveis diferentes
+PASS: Peças rolam e se deslocam fisicamente
+PASS: Três iguais não duplicam merge ou recompensa
+PASS: Reação em cadeia real: Castanhas Cupuaçu Sapo, +2 Coins
+PASS: Cupuaçu criado permanece marcado depois de fundir, sozinho não conclui
+PASS: Reação em cadeia não deixa peças consumidas na lista
+PASS: Quest comemora após fusão em cadeia
+PASS: Popup de Coin aparece no merge
+PASS: Popup faz fade e desaparece
+PASS: Quest retorna ao Idle depois da comemoração
+PASS: Colisão real: dois níveis 1 geram 2
+PASS: Colisão nível 1 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 1
+PASS: Colisão real: dois níveis 2 geram 3
+PASS: Colisão nível 2 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 2
+PASS: Colisão real: dois níveis 3 geram 4
+PASS: Colisão nível 3 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 3
+PASS: Colisão real: dois níveis 4 geram 5
+PASS: Colisão nível 4 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 4
+PASS: Colisão real: dois níveis 5 geram 6
+PASS: Colisão nível 5 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 5
+PASS: Colisão real: dois níveis 6 geram 7
+PASS: Colisão nível 6 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 6
+PASS: Colisão real: dois níveis 7 geram 8
+PASS: Colisão nível 7 recompensa exatamente +1
+PASS: Merge duplicado bloqueado nível 7
+PASS: CoinsDaRodada coincide com HUD depois das sete fusões
+PASS: Cupuaçu Arara Onça completam missão
+PASS: Primeira missão concede 50 EXP, flag e mesma chave verde
+PASS: Checks dos três objetivos persistem após fusões
+PASS: Painel COM chave correto
+PASS: Popup pausa física e mantém pilha
+PASS: Raycast real: ObjetivoComChave/Continuar
+PASS: Continuar preserva rodada e objetivos
+PASS: Duas Onças não criam nível 9 nem Coins
+PASS: Continuar reativa corpos existentes
+PASS: Bônus continua dando Coins sem repetir EXP
+PASS: DangerZone não perde instantaneamente
+PASS: Sair da DangerZone reseta timer
+PASS: Permanecer cerca de 1,5 s causa Game Over
+PASS: Game Over pós missão diz RODADA ENCERRADA e mantém rewards
+PASS: Número dinâmico mostra CoinsDaRodada
+PASS: Game Over pausa somente física do minijogo
+PASS: Raycast real: GameOver/JogarNovamente
+PASS: Replay sem energia mantém estado seguro
+PASS: Raycast real: GameOver/JogarNovamente
+PASS: Replay zera DangerTimer
+PASS: Replay custa 20 e limpa somente estado temporário
+PASS: Replay mantém progresso persistente
+PASS: Nova missão dá mais 50 EXP e painel SEM chave
+PASS: Sair mantém Coins EXP flags e retorna desafios
+PASS: Chave já ganha pelo Quiz: EXP sim, segunda chave não
+PASS: Save real v1 persiste progresso do minijogo
+PASS: Game Over antes da missão mantém Objetivo Não Concluído
+PASS: Sair no Game Over retorna ao PainelDesafiosAmazonia
+PASS: Saída das instruções não reembolsa nem cobra energia
+PASS: Sair e fechar desafios libera Player sem deslocar
+PASS: Aviso compartilhado devolvido
+PASS: Câmera original intacta ao sair
+PASS: Console sem novos erros/avisos
+Falhas: 0

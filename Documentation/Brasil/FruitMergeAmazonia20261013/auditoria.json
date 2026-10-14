@@ -1,0 +1,212 @@
+{
+  "original_scene_objects_removed": [],
+  "original_scene_objects_changed": [
+    {
+      "id": "1320261542",
+      "diff": "--- \n+++ \n@@ -12,5 +12,6 @@\n   mundo: {fileID: 157612877}\n   area: {fileID: 367120436}\n   quiz: {fileID: 2082014529}\n+  minijogo: {fileID: 928376640}\n   avisoEnergia: {fileID: 516947373}\n   mensagem: {fileID: 1935772295}\n"
+    },
+    {
+      "id": "1834417568",
+      "diff": "--- \n+++ \n@@ -19,5 +19,6 @@\n   quizFeiraConcluido: 0\n   quizAmazoniaConcluido: 0\n   possuiChaveAmazonia: 0\n+  minijogoAmazoniaConcluido: 0\n   usarEnergiaInicialTemporaria: 1\n   energiaInicialTemporaria: 100\n"
+    },
+    {
+      "id": "9223372036854775807",
+      "diff": "--- \n+++ \n@@ -8,3 +8,4 @@\n   - {fileID: 157612878}\n   - {fileID: 1834417569}\n   - {fileID: 1458787922}\n+  - {fileID: 928376641}\n"
+    }
+  ],
+  "modified_existing_runtime_files": [
+    "Assets/Projeto/Scripts/Brasil/PainelDesafiosAmazonia.cs",
+    "Assets/Projeto/Scripts/Brasil/ProgressionManager.cs"
+  ],
+  "art_originals": [
+    {
+      "asset": "Instrucoes",
+      "resolution": [
+        1312,
+        1199
+      ],
+      "sha256": "d967ac5146d95e1153fbea061461f0d54c2e740f387ac4df7e2aa0f943e6867e",
+      "original_identico": true
+    },
+    {
+      "asset": "Cenario",
+      "resolution": [
+        1672,
+        941
+      ],
+      "sha256": "30e8a48641df925f33ae0aac5527899d793e6c4e4351412982810541d8a6338b",
+      "original_identico": true
+    },
+    {
+      "asset": "Sair",
+      "resolution": [
+        1987,
+        791
+      ],
+      "sha256": "ab398ad9f7116f1a8774741b04081d7c25582bd0f426bac007acf9a24d79529b",
+      "original_identico": true
+    },
+    {
+      "asset": "GameOver",
+      "resolution": [
+        1536,
+        1024
+      ],
+      "sha256": "0636fcffa91c11e5ae9afdc7f809a48cc151bc57f187ac40ae6610b3b1ac0601",
+      "original_identico": true
+    },
+    {
+      "asset": "ObjetivoComChave",
+      "resolution": [
+        1536,
+        1024
+      ],
+      "sha256": "838e9cf51dd783634711950f6201a3077b649e4a4a08dc027dfab1a3214a4b87",
+      "original_identico": true
+    },
+    {
+      "asset": "ObjetivoSemChave",
+      "resolution": [
+        1774,
+        887
+      ],
+      "sha256": "5aabd72e8a7bdc63b5e5e3a3c63c5fcfb03404923b9eaa8d6f9a0368842374b3",
+      "original_identico": true
+    },
+    {
+      "asset": "CoinPopup",
+      "resolution": [
+        1774,
+        887
+      ],
+      "sha256": "d08fd50d332dfdeaa91a48816bbf5edfd7d6f1802d54c216dd74c38c5bfcdd2c",
+      "original_identico": true
+    },
+    {
+      "asset": "Coins",
+      "resolution": [
+        2172,
+        724
+      ],
+      "sha256": "a5f922e2ea6392cf2f208704d129eb21168c58633393a5eca1c1c624075f2760",
+      "original_identico": true
+    },
+    {
+      "asset": "LinhaPerigo",
+      "resolution": [
+        2172,
+        724
+      ],
+      "sha256": "1e5490d0fa8c1e5f28d4579c9dc213fef3aa0b72ac04a5c915e9d930cbaf1dce",
+      "original_identico": true
+    },
+    {
+      "asset": "QuestMoldura",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "610fd1e7fd2b208622ef664d0a60ef0f0983259ba837babc80c617282af7ded7",
+      "original_identico": true
+    },
+    {
+      "asset": "Proximo",
+      "resolution": [
+        1774,
+        887
+      ],
+      "sha256": "aadb5fe6ea1c2b6a4b746bbbfb41dcc43c41f205c16ac05abe8e9b0a270e0ad1",
+      "original_identico": true
+    },
+    {
+      "asset": "Objetivos",
+      "resolution": [
+        2172,
+        724
+      ],
+      "sha256": "698afe7257b1fcc1c6547148962dfddafbf2b13700c28ed4688bbd0ead15db8a",
+      "original_identico": true
+    },
+    {
+      "asset": "Fusao",
+      "resolution": [
+        1536,
+        1024
+      ],
+      "sha256": "c9433c6fb9f2db25fe459e83d73b576ffcd64eae9eb83ff1f14d0e6c8c25f7fd",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel1",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "ccd2a57f327f891847577ca9389f6eb794b0b45c7a9699cde0ed63a2387dbac5",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel2",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "1075e8df80c0325d9641ab2ab80e425fdf332d23082bad5bb687f0486776a357",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel3",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "a68f93e0915d2fe851e7f4a593390bc9c867e30ee80c57a931693acf21f74978",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel4",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "80097ed588564b5e60ebf7f323128d63ef13ccc9a10bcf4bee011dad20bb34cc",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel5",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "347d106436eae6313d819dbafb3ca60a5530bbfc2c86dc49414c7713dcff1a5a",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel6",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "c90515967db6224f3f3683548b6232a4171c5a4121eee77896a44f0d4462b630",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel7",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "2f176df658dbfb72d39c7a701781d89c1a17ec5d3cd71b5c179926eb83564c7c",
+      "original_identico": true
+    },
+    {
+      "asset": "Nivel8",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "sha256": "02dbda7e28e2fcc1843c13ce898e2f582b206aca995d283f22a46c3af25dcfa8",
+      "original_identico": true
+    }
+  ]
+}
