@@ -1,0 +1,2 @@
+Main Camera | ativo=True | Transform,Camera,AudioListener,UniversalAdditionalCameraData
+Global Light 2D | ativo=True | Transform,Light2D

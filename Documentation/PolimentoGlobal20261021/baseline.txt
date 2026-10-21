@@ -1,0 +1,7 @@
+Menu: objetos=12, audios=0
+MapaMundi: objetos=21, audios=0
+MinhaQuest: objetos=2, audios=0
+Brasil: objetos=445, audios=0
+Console erros=0 avisos=0 mensagens=0
+Compilando=False
+2026-10-21T02:09:29

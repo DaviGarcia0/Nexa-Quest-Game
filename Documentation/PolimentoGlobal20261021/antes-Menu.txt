@@ -1,0 +1,29 @@
+Main Camera | ativo=True | Transform,Camera,AudioListener,UniversalAdditionalCameraData
+JanelaMenu | ativo=True | RectTransform,Canvas,CanvasScaler,GraphicRaycaster
+  rect=(1920.00, 1080.00) pos=(960.00, 540.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(1.00, 1.00, 1.00)
+JanelaMenu/Background | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1920.00, 1080.00) pos=(-0.01, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Menu/Background 2.png
+JanelaMenu/botaoJogar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(599.97, 218.60) pos=(508.93, 132.70) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Menu/botaoJogar 1.png
+  clique=SceneLoader (SceneLoader).CarregarCena
+JanelaMenu/botaoMinhaQuest | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(576.13, 220.70) pos=(508.93, -34.46) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Menu/botaoMinhaQuest 2.png
+  clique=SceneLoader (SceneLoader).CarregarCena
+JanelaMenu/botaoComoJogar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(564.53, 206.90) pos=(508.93, -180.47) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Menu/botaoComoJogar 1.png
+JanelaMenu/botaoConfig | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(544.63, 196.95) pos=(508.93, -343.40) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Menu/botaoConfigurações.png
+JanelaMenu/TituloGame | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(841.29, 318.81) pos=(-420.64, 363.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Menu/TituloGame.png
+SceneLoader | ativo=True | Transform,SceneLoader
+EventSystem | ativo=True | Transform,EventSystem,StandaloneInputModule
+JanelaConfig | ativo=True | RectTransform,Canvas,CanvasScaler,GraphicRaycaster
+  rect=(1920.00, 1080.00) pos=(960.00, 540.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(1.00, 1.00, 1.00)
+JanelaComoJogar | ativo=True | RectTransform,Canvas,CanvasScaler,GraphicRaycaster
+  rect=(1920.00, 1080.00) pos=(960.00, 540.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(1.00, 1.00, 1.00)

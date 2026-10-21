@@ -1,0 +1,778 @@
+Main Camera | ativo=True | Transform,Camera,AudioListener,UniversalAdditionalCameraData,PixelPerfectCamera,CameraFollow
+Maps | ativo=True | Transform
+Maps/Feira | ativo=False | Transform,BrazilArea
+Maps/Feira/Mapa | ativo=True | Transform,SpriteRenderer
+Maps/Feira/SpawnPoints | ativo=True | Transform
+Maps/Feira/SpawnPoints/EntradaSul | ativo=True | Transform
+Maps/Feira/SpawnPoints/EntradaAmazonia | ativo=True | Transform
+Maps/Feira/SpawnPoints/EntradaPortal | ativo=True | Transform
+Maps/Feira/Colisoes_Manuais | ativo=True | Transform
+Maps/Feira/Colisoes_Manuais/colisão | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/TrocaAmazonia | ativo=True | Transform,SpriteRenderer,BoxCollider2D,MapTransition
+Maps/Feira/Colisoes_Manuais/TrocaPortal | ativo=True | Transform,SpriteRenderer,BoxCollider2D,MapTransition
+Maps/Feira/Colisoes_Manuais/colisão (1) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (2) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (31) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (72) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (32) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (33) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (34) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (44) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (47) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (48) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (49) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (51) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (52) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (53) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (56) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (55) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (54) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (50) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (45) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (71) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (46) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (36) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (37) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (70) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (38) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (40) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (41) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (66) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (67) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (68) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (69) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (73) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (39) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (42) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (61) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (65) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (62) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (60) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (43) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (35) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (14) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (15) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (16) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (30) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (17) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (22) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (27) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (28) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (23) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (24) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (25) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (26) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (19) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (20) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (18) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (29) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (7) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (21) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (8) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (11) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (12) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (13) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (9) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (10) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (6) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (3) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (57) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (58) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (63) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (64) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (59) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (5) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/colisão (4) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  (5) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  (6) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  (1) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  (4) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  (2) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão  (3) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (3) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (4) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (5) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (6) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 5_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 8_0 | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 8_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 8_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (6) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (5) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (4) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (7) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (8) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (3) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (9) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Sprites de NAOcolisão 10_0 | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Placa | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Colisoes_Manuais/Placa (1) | ativo=True | Transform,SpriteRenderer
+Maps/Feira/Transitions | ativo=True | Transform
+Maps/Feira/Transitions/Saida_MODELO_DESATIVADA | ativo=False | Transform,BoxCollider2D,MapTransition
+Maps/Feira/NPCs | ativo=True | Transform
+Maps/Feira/NPCs/NPC_Introducao_Lia | ativo=True | Transform,SpriteRenderer,Animator,CircleCollider2D,NPCInteraction
+Maps/Feira/NPCs/NPC_Desafios_Bento | ativo=True | Transform,SpriteRenderer,Animator,CircleCollider2D,NPCInteraction
+Maps/Feira/NPCs/NPC_Decorativo_Feirante | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Feira/NPCs/NPC_Decorativo_Moradora | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Feira/NPCs/NPC_Decorativo_Torcedor | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Feira/NPCs/NPC_Decorativo_Torcedor (1) | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Feira/NPCs/NPC_Decorativo_Senhora | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Amazonia | ativo=True | Transform,BrazilArea
+Maps/Amazonia/Mapa | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/SpawnPoints | ativo=True | Transform
+Maps/Amazonia/SpawnPoints/EntradaSul | ativo=True | Transform
+Maps/Amazonia/SpawnPoints/EntradaFeira | ativo=True | Transform
+Maps/Amazonia/SpawnPoints/EntradaTurismo | ativo=True | Transform
+Maps/Amazonia/Colisoes_Manuais | ativo=True | Transform
+Maps/Amazonia/Colisoes_Manuais/TrocaFeira | ativo=True | Transform,SpriteRenderer,BoxCollider2D,MapTransition
+Maps/Amazonia/Colisoes_Manuais/TrocaPontoTurisco | ativo=True | Transform,SpriteRenderer,BoxCollider2D,MapTransition
+Maps/Amazonia/Colisoes_Manuais/colisão | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (70) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (71) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (2) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (22) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (23) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (26) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (25) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (24) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (27) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (28) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (29) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (30) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (33) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (35) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (36) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (40) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (41) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (43) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (45) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (46) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (47) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (42) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (44) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (48) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (67) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (52) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (53) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (51) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (49) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (55) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (57) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (58) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (59) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (60) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (61) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (62) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (63) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (64) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (65) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (66) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (56) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (50) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (37) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (38) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (68) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (69) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (34) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (31) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (39) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (72) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (32) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (1) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (10) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (14) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (11) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (12) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (15) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (18) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (19) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (13) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (3) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (17) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (4) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (16) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (21) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (5) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (6) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (54) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (20) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (7) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (8) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/colisão (9) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 1_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (4) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (5) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (3) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 1_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 11_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 11_0 (3) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 11_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 11_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 12_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 13_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 13_0 (4) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 13_0 (1) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 13_0 (2) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 13_0 (3) | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 5_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 4_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 12_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Colisoes_Manuais/Sprites de NAOcolisão 5_0 | ativo=True | Transform,SpriteRenderer
+Maps/Amazonia/Transitions | ativo=True | Transform
+Maps/Amazonia/Transitions/Saida_MODELO_DESATIVADA | ativo=False | Transform,BoxCollider2D,MapTransition
+Maps/Amazonia/NPCsAmazonia | ativo=True | Transform
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_01 | ativo=True | Transform,BoxCollider2D,CircleCollider2D,NPCInteraction
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_01/Visual | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_02 | ativo=True | Transform
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_02/Visual | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_03 | ativo=True | Transform
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_03/Visual | ativo=True | Transform,SpriteRenderer,Animator
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_04 | ativo=True | Transform
+Maps/Amazonia/NPCsAmazonia/NPC_Amazonia_04/Visual | ativo=True | Transform,SpriteRenderer,Animator
+Maps/PontoTuristico | ativo=False | Transform,BrazilArea
+Maps/PontoTuristico/Mapa | ativo=True | Transform,SpriteRenderer
+Maps/PontoTuristico/SpawnPoints | ativo=True | Transform
+Maps/PontoTuristico/SpawnPoints/EntradaSul | ativo=True | Transform
+Maps/PontoTuristico/SpawnPoints/EntradaAmazonia | ativo=True | Transform
+Maps/PontoTuristico/Colisoes_Manuais | ativo=True | Transform
+Maps/PontoTuristico/Colisoes_Manuais/TrocaAmazonia | ativo=True | Transform,SpriteRenderer,BoxCollider2D,MapTransition
+Maps/PontoTuristico/colisão (7) | ativo=True | Transform,SpriteRenderer,BoxCollider2D
+Maps/PontoTuristico/Transitions | ativo=True | Transform
+Maps/PontoTuristico/Transitions/Saida_MODELO_DESATIVADA | ativo=False | Transform,BoxCollider2D,MapTransition
+Maps/Portal | ativo=False | Transform,BrazilArea
+Maps/Portal/Mapa | ativo=True | Transform,SpriteRenderer
+Maps/Portal/Colisoes_Manuais | ativo=True | Transform
+Maps/Portal/Transitions | ativo=True | Transform
+Maps/Portal/Transitions/RetornoFeira | ativo=True | Transform,BoxCollider2D,MapTransition
+Maps/Portal/SpawnPoints | ativo=True | Transform
+Maps/Portal/SpawnPoints/EntradaSul | ativo=True | Transform
+Maps/Portal/InteracaoPortal | ativo=True | Transform,BoxCollider2D,PortalInteraction
+Player | ativo=True | Transform
+Player/Quest | ativo=True | Transform,SpriteRenderer,Animator,Rigidbody2D,CapsuleCollider2D,PlayerMovement
+Canvas | ativo=True | RectTransform,Canvas,CanvasScaler,GraphicRaycaster
+  rect=(1920.00, 1080.00) pos=(960.00, 540.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(1.00, 1.00, 1.00)
+Canvas/InteractionPrompt | ativo=False | RectTransform,CanvasRenderer,Text,Outline
+  rect=(440.00, 60.00) pos=(0.00, -420.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/PortalKeysPanel | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(1920.00, 1080.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/PortalKeysPanel/PainelVazio | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1200.00, 900.00) pos=(0.00, 30.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/Portal/Painel de chaves do portal vazia.png
+Canvas/PortalKeysPanel/Fechar | ativo=True | RectTransform,CanvasRenderer,Text
+  rect=(800.00, 55.00) pos=(0.00, -475.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/DialoguePanel | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(1792.00, 336.00) pos=(0.00, 196.00) anchors=(0.50, 0.00)/(0.50, 0.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/DialoguePanel/Interior | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1780.00, 324.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/DialoguePanel/PortraitFrame | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(290.00, 290.00) pos=(-729.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/DialoguePanel/Portrait | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(272.00, 272.00) pos=(-729.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/DialoguePanel/SpeakerName | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1390.00, 48.00) pos=(140.00, 113.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/DialoguePanel/DialogueText | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1390.00, 164.00) pos=(140.00, -2.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/DialoguePanel/ContinueIndicator | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(430.00, 35.00) pos=(595.00, -124.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/HUD | ativo=True | RectTransform,CanvasRenderer,Image,ProgressionHUD
+  rect=(500.00, 350.00) pos=(21.00, -14.00) anchors=(1.00, 1.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/HUD/CoinsHUD | ativo=True | RectTransform
+  rect=(500.00, 166.67) pos=(0.00, 0.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/HUD/CoinsHUD/Background | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(500.00, 166.67) pos=(-14.00, 0.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/HUD/HUD_NEXACOIN.png
+Canvas/HUD/CoinsHUD/CoinsText | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(250.00, 45.00) pos=(167.00, -64.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/HUD/KnowledgeHUD | ativo=True | RectTransform
+  rect=(500.00, 199.95) pos=(0.00, -150.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/HUD/KnowledgeHUD/Background | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(500.00, 199.95) pos=(0.00, 0.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/HUD/HUD_CEREBRO.png
+Canvas/HUD/KnowledgeHUD/KnowledgeLabel | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(244.00, 31.00) pos=(177.00, -66.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/HUD/KnowledgeHUD/LevelText | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(50.00, 24.00) pos=(87.00, -133.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/HUD/KnowledgeHUD/XPBar | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(241.00, 12.00) pos=(178.00, -100.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/HUD/KnowledgeHUD/XPBar/Fill | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(241.00, 12.00) pos=(0.00, 0.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Canvas/EnergyHUD | ativo=True | RectTransform
+  rect=(540.00, 180.46) pos=(24.00, -18.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/EnergyHUD/Background | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(695.65, 260.40) pos=(-19.00, 15.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/HUD/HUD_ENERGIA.png
+Canvas/EnergyHUD/PortraitMask | ativo=True | RectTransform,CanvasRenderer,Image,Mask
+  rect=(129.26, 144.78) pos=(108.46, -112.68) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Canvas/EnergyHUD/PortraitMask/QuestPortrait | ativo=True | RectTransform,CanvasRenderer,Image,Animator
+  rect=(100.50, 148.90) pos=(4.81, 21.68) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/HUD/QuestExpressions/QuestExpressaoHUD.png
+Canvas/EnergyHUD/EnergyText | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI,IndicadorEnergia
+  rect=(322.06, 60.60) pos=(279.87, -74.00) anchors=(0.00, 1.00)/(0.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/PainelDesafiosFeira | ativo=False | RectTransform,CanvasRenderer,Image,PainelDesafiosFeira
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/PainelDesafiosFeira/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1280.00, 960.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/Interface/PainelDesafiosFeira.png
+Canvas/PainelDesafiosFeira/ArtePainel/BotaoQuiz | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(380.11, 152.04) pos=(-228.95, -99.89) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=PainelDesafiosFeira (NexaQuest.Brasil.PainelDesafiosFeira).SelecionarQuiz
+Canvas/PainelDesafiosFeira/ArtePainel/BotaoMinijogo | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(381.88, 152.04) pos=(229.83, -99.89) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=PainelDesafiosFeira (NexaQuest.Brasil.PainelDesafiosFeira).SelecionarMinijogo
+Canvas/PainelDesafiosFeira/AvisoEnergia | ativo=False | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1000.00, 70.00) pos=(0.00, -465.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira | ativo=False | RectTransform,MinijogoFeira,InterfaceMinijogoFeira
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/VisualMinijogo | ativo=True | RectTransform
+  rect=(1920.00, 1080.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/VisualMinijogo/CenarioFeira | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1920.00, 1080.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/CenarioFeira.png
+Canvas/MinijogoFeira/VisualMinijogo/AreaJogavel | ativo=True | RectTransform
+  rect=(1920.00, 1080.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/VisualMinijogo/AreaJogavel/ItensEmQueda | ativo=True | RectTransform,QuedaItensFeira
+  rect=(1920.00, 1080.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/VisualMinijogo/AreaJogavel/QuestComCesto | ativo=True | RectTransform,QuestCestoFeira,Animator
+  rect=(280.00, 300.00) pos=(0.00, -385.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/VisualMinijogo/AreaJogavel/QuestComCesto/ArteQuest | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(166.50, 263.70) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/QuestComCesto.png
+Canvas/MinijogoFeira/VisualMinijogo/AreaJogavel/QuestComCesto/AberturaCesto | ativo=True | RectTransform
+  rect=(124.00, 12.00) pos=(0.00, 250.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/ProgressoFrutas | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(275.00, 366.67) pos=(-805.00, 60.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/IndicadorFrutas.png
+Canvas/MinijogoFeira/ProgressoFrutas/QuantidadeBananas | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(96.22, 35.45) pos=(35.96, 84.58) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/ProgressoFrutas/QuantidadeAbacaxis | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(96.22, 35.45) pos=(35.96, -7.85) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/ProgressoFrutas/QuantidadeMelancias | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(96.22, 35.45) pos=(35.96, -100.28) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/IndicadorErros | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(275.00, 366.67) pos=(805.00, -30.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/IndicadorErros.png
+Canvas/MinijogoFeira/IndicadorErros/FrutasPerdidas | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(96.22, 35.45) pos=(41.02, 41.53) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/IndicadorErros/ItensErrados | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(96.22, 35.45) pos=(41.02, -57.23) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/BotaoSair | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(280.00, 186.67) pos=(775.00, -405.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/BotaoSair.png
+Canvas/MinijogoFeira/BotaoSair/AreaClique | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(195.05, 54.69) pos=(-0.55, 1.28) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).Sair
+Canvas/MinijogoFeira/Controles | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(950.00, 42.00) pos=(0.00, -490.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/HUDsExistentes | ativo=True | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/Instrucoes | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/MinijogoFeira/Instrucoes/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1180.00, 885.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/PainelInstrucoes.png
+Canvas/MinijogoFeira/Instrucoes/ArtePainel/BotaoJogar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(343.90, 83.94) pos=(1.63, -322.30) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).IniciarPartida
+Canvas/MinijogoFeira/VitoriaComChave | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/MinijogoFeira/VitoriaComChave/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1180.00, 885.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/PainelVitoriaComChave.png
+Canvas/MinijogoFeira/VitoriaComChave/ArtePainel/BotaoRejogar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(229.81, 69.27) pos=(-140.98, -331.26) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).IniciarPartida
+Canvas/MinijogoFeira/VitoriaComChave/ArtePainel/BotaoSair | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(233.07, 69.27) pos=(158.09, -331.26) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).Sair
+Canvas/MinijogoFeira/VitoriaComChave/ArtePainel/MoedasDaPartida | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(154.83, 40.75) pos=(189.88, 35.04) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/VitoriaSemChave | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/MinijogoFeira/VitoriaSemChave/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1180.00, 883.57) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/PainelVitoriaSemChave.png
+Canvas/MinijogoFeira/VitoriaSemChave/ArtePainel/BotaoRejogar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(229.65, 69.22) pos=(-141.29, -331.44) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).IniciarPartida
+Canvas/MinijogoFeira/VitoriaSemChave/ArtePainel/BotaoSair | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(232.91, 69.22) pos=(157.58, -331.44) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).Sair
+Canvas/MinijogoFeira/VitoriaSemChave/ArtePainel/MoedasDaPartida | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(154.73, 40.72) pos=(189.34, 34.61) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/MinijogoFeira/Derrota | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/MinijogoFeira/Derrota/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1180.00, 885.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/MinijogoFeira/PainelDerrota.png
+Canvas/MinijogoFeira/Derrota/ArtePainel/BotaoRejogar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(230.62, 70.08) pos=(-148.72, -308.04) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).IniciarPartida
+Canvas/MinijogoFeira/Derrota/ArtePainel/BotaoSair | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(224.10, 70.08) pos=(154.43, -308.04) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoFeira (NexaQuest.Brasil.MinijogoFeira).Sair
+Canvas/MinijogoFeira/AvisoEnergia | ativo=False | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1400.00, 55.00) pos=(0.00, -510.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira | ativo=False | RectTransform,CanvasRenderer,Image,QuizFeira,InterfaceQuizFeira
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/QuizFeira/HUDsExistentes | ativo=True | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelInicial | ativo=False | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelInicial/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1040.00, 781.26) pos=(0.00, -95.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/PainelInicialQuiz.png
+Canvas/QuizFeira/PainelInicial/ArtePainel/ExplicacaoQuiz | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(654.04, 237.18) pos=(1.80, -6.83) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelInicial/ArtePainel/BotaoComecar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(319.83, 90.56) pos=(-158.84, -249.76) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Comecar
+Canvas/QuizFeira/PainelInicial/ArtePainel/BotaoVoltar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(268.80, 90.56) pos=(176.45, -249.76) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Voltar
+Canvas/QuizFeira/PainelPrincipal | ativo=False | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1040.00, 780.00) pos=(0.00, -95.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/PainelPrincipalQuiz.png
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/ProgressoPerguntas | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(71.82, 39.50) pos=(-75.41, 171.66) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/TempoRestante | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(100.55, 43.09) pos=(163.76, 170.22) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/Enunciado | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(567.40, 150.83) pos=(-113.48, 48.84) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RetratoQuest | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(158.01, 168.78) pos=(337.57, 43.81) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/QuestPensando.png
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaA | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(413.70, 81.88) pos=(-213.31, -112.04) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Responder
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaA/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-44.00, -16.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaB | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(413.70, 81.88) pos=(217.62, -112.04) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Responder
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaB/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-44.00, -16.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaC | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(413.70, 81.88) pos=(-213.31, -202.54) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Responder
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaC/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-44.00, -16.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaD | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(413.70, 81.88) pos=(217.62, -202.54) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Responder
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaD/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-44.00, -16.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelPrincipal/ArtePainel/MensagemStatus | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(527.90, 64.64) pos=(1.44, -305.25) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/FeedbackErro | ativo=False | RectTransform,CanvasGroup,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/QuizFeira/FeedbackErro/ArteFeedback | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(850.00, 283.33) pos=(0.00, -340.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/FeedbackErro.png
+Canvas/QuizFeira/FeedbackAcerto | ativo=False | RectTransform,CanvasGroup,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/QuizFeira/FeedbackAcerto/ArteFeedback | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(850.00, 364.22) pos=(0.00, -340.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/FeedbackAcerto.png
+Canvas/QuizFeira/PainelFinal | ativo=False | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizFeira/PainelFinal/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1340.00, 753.35) pos=(0.00, -95.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/PainelFinalQuiz.png
+Canvas/QuizFeira/PainelFinal/ArtePainel/BotaoContinuar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(465.63, 70.53) pos=(189.54, -283.71) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizFeira (NexaQuest.Brasil.QuizFeira).Voltar
+Canvas/QuizFeira/PainelFinal/RecompensasReais | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1500.00, 50.00) pos=(0.00, -490.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/PainelDesafiosAmazonia | ativo=False | RectTransform,CanvasRenderer,Image,PainelDesafiosAmazonia
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/PainelDesafiosAmazonia/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1040.00, 780.00) pos=(0.00, 1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizAmazonia/PainelDesafiosAmazonia.png
+Canvas/PainelDesafiosAmazonia/ArtePainel/BotaoQuiz | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(316.02, 146.52) pos=(-173.81, -108.45) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=PainelDesafiosAmazonia (NexaQuest.Brasil.PainelDesafiosAmazonia).SelecionarQuiz
+Canvas/PainelDesafiosAmazonia/ArtePainel/BotaoMinijogo | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(316.02, 146.52) pos=(177.40, -108.45) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=PainelDesafiosAmazonia (NexaQuest.Brasil.PainelDesafiosAmazonia).SelecionarMinijogo
+Canvas/PainelDesafiosAmazonia/MensagemProvisoria | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1400.00, 50.00) pos=(0.00, -415.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia | ativo=False | RectTransform,CanvasRenderer,Image,QuizAmazonia,InterfaceQuizAmazonia
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/QuizAmazonia/HUDsExistentes | ativo=True | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal | ativo=False | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 78.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1040.00, 780.00) pos=(0.00, -95.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizAmazonia/PainelPrincipalQuizAmazonia.png
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/ProgressoPerguntas | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(71.82, 39.50) pos=(-73.98, 151.55) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/TempoRestante | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(100.55, 43.09) pos=(171.66, 151.55) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/Enunciado | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(567.40, 154.42) pos=(-110.61, 30.17) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RetratoQuest | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(158.01, 168.78) pos=(336.13, 34.48) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/QuestPensando.png
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaA | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(411.55, 76.13) pos=(-213.67, -115.64) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Responder
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaA/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-36.00, -24.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaB | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(411.55, 76.13) pos=(216.55, -115.64) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Responder
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaB/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-36.00, -24.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaC | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(411.55, 76.13) pos=(-213.67, -197.51) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Responder
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaC/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-36.00, -24.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaD | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(411.55, 76.13) pos=(216.55, -197.51) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Responder
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaD/TextoAlternativa | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(-36.00, -24.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/MensagemStatus | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(527.90, 64.64) pos=(1.44, -289.45) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/FeedbackErro | ativo=False | RectTransform,CanvasGroup,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/QuizAmazonia/FeedbackErro/ArteFeedback | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(850.00, 283.33) pos=(0.00, -207.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/FeedbackErro.png
+Canvas/QuizAmazonia/FeedbackAcerto | ativo=False | RectTransform,CanvasGroup,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+Canvas/QuizAmazonia/FeedbackAcerto/ArteFeedback | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(850.00, 364.22) pos=(0.00, -207.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizFeira/FeedbackAcerto.png
+Canvas/QuizAmazonia/PainelInicial | ativo=False | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelInicial/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1040.00, 780.00) pos=(0.00, -95.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizAmazonia/PainelInicialQuizAmazonia.png
+Canvas/QuizAmazonia/PainelInicial/ArtePainel/TextoExplicativo | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(646.41, 240.61) pos=(0.72, 3.59) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelInicial/ArtePainel/BotaoComecar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(319.61, 91.93) pos=(-155.50, -234.14) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Comecar
+Canvas/QuizAmazonia/PainelInicial/ArtePainel/BotaoVoltar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(267.90, 91.93) pos=(179.20, -234.14) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Voltar
+Canvas/QuizAmazonia/PainelFinal | ativo=False | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+Canvas/QuizAmazonia/PainelFinal/ArtePainel | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1340.00, 746.13) pos=(0.00, -95.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/QuizAmazonia/PainelFinalQuizAmazonia.png
+Canvas/QuizAmazonia/PainelFinal/ArtePainel/BotaoContinuar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(478.29, 66.16) pos=(182.94, -276.21) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=QuizAmazonia (NexaQuest.Brasil.QuizAmazonia).Voltar
+Canvas/QuizAmazonia/PainelFinal/RecompensasReais | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(1500.00, 50.00) pos=(0.00, -490.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+Canvas/FadePanel | ativo=True | RectTransform,CanvasRenderer,Image,CanvasGroup
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+GameManager | ativo=True | Transform,BrazilWorld,DialogueController
+ProgressionManager | ativo=True | Transform,ProgressionManager
+SistemaEventos | ativo=True | Transform,EventSystem,StandaloneInputModule
+MinijogoAmazoniaRoot | ativo=False | RectTransform,MinijogoAmazoniaController,Canvas,CanvasScaler,GraphicRaycaster,AmazoniaMinigameUI
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(0.00, 0.00, 0.00)
+MinijogoAmazoniaRoot/Instrucoes | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/Instrucoes/Arte | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(870.00, 795.07) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Instrucoes.png
+MinijogoAmazoniaRoot/Instrucoes/Arte/Comecar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(278.51, 92.84) pos=(-123.34, -280.83) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Comecar
+MinijogoAmazoniaRoot/Instrucoes/Arte/Voltar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(198.93, 92.84) pos=(161.80, -280.83) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Sair
+MinijogoAmazoniaRoot/HUD | ativo=True | RectTransform
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+MinijogoAmazoniaRoot/HUD/HUDQuest | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(185.00, 186.34) pos=(-787.00, 355.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(2.00, 2.00, 2.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/QuestMoldura.png
+MinijogoAmazoniaRoot/HUD/HUDQuest/QuestPortrait | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(90.00, 123.00) pos=(5.00, 10.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/HUD/QuestExpressions/QuestExpressaoHUD.png
+MinijogoAmazoniaRoot/HUD/HUDProximo | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(245.00, 126.52) pos=(802.00, 360.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(2.00, 2.00, 2.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Proximo.png
+MinijogoAmazoniaRoot/HUD/HUDProximo/NextItemImage | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(60.00, 67.00) pos=(0.07, -11.10) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(0.90, 0.90, 0.90)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Nivel1.png
+MinijogoAmazoniaRoot/HUD/HUDCoins | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(255.00, 97.86) pos=(-820.00, 151.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.30, 1.30, 1.30)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Coins.png
+MinijogoAmazoniaRoot/HUD/HUDCoins/CoinsRodadaText | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(125.00, 45.00) pos=(41.64, 0.79) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+MinijogoAmazoniaRoot/HUD/HUDCoins/NexaCoinOficial | ativo=True | RectTransform,CanvasRenderer,Image,Mask
+  rect=(60.00, 60.00) pos=(-51.21, 3.64) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDCoins/NexaCoinOficial/SpriteOficial | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(60.00, 60.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/CoinOficial.png
+MinijogoAmazoniaRoot/HUD/BotaoSair | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(215.00, 88.21) pos=(800.00, -328.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.40, 1.40, 1.40)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Sair.png
+MinijogoAmazoniaRoot/HUD/BotaoSair/Click | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(224.14, 89.23) pos=(0.85, -0.51) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Sair
+MinijogoAmazoniaRoot/HUD/LinhaPerigo | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1180.00, 308.80) pos=(-0.28, 223.84) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/LinhaPerigo.png
+MinijogoAmazoniaRoot/HUD/HUDObjetivos | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(800.00, 204.59) pos=(0.00, 467.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Objetivos.png
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/ObjetivoCupuaçu | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(90.00, 89.49) pos=(-224.26, -4.50) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Nivel4.png
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/ObjetivoArara | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(90.00, 86.29) pos=(-10.68, -4.50) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Nivel6.png
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/ObjetivoOnça | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(90.00, 90.22) pos=(202.90, -4.50) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/Nivel8.png
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check0 | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(25.00, 25.00) pos=(-125.40, 3.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check0/TracoCurto | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(9.00, 3.00) pos=(-5.00, -1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check0/TracoLongo | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(16.00, 3.00) pos=(3.00, 1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check1 | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(25.00, 25.00) pos=(85.00, 3.80) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check1/TracoCurto | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(9.00, 3.00) pos=(-5.00, -1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check1/TracoLongo | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(16.00, 3.00) pos=(3.00, 1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check2 | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(25.00, 25.00) pos=(297.10, 4.70) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check2/TracoCurto | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(9.00, 3.00) pos=(-5.00, -1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/HUDObjetivos/Check2/TracoLongo | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(16.00, 3.00) pos=(3.00, 1.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/HUD/PopupCoin | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(140.00, 73.13) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/CoinPopup.png
+MinijogoAmazoniaRoot/ObjetivoComChave | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/ObjetivoComChave/Arte | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1120.00, 746.67) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/ObjetivoComChave.png
+MinijogoAmazoniaRoot/ObjetivoComChave/Arte/Continuar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(306.25, 105.73) pos=(-184.48, -226.41) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Continuar
+MinijogoAmazoniaRoot/ObjetivoComChave/Arte/Sair | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(306.25, 105.73) pos=(191.04, -226.41) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Sair
+MinijogoAmazoniaRoot/ObjetivoSemChave | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/ObjetivoSemChave/Arte | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1340.00, 670.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/ObjetivoSemChave.png
+MinijogoAmazoniaRoot/ObjetivoSemChave/Arte/Continuar | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(317.25, 94.42) pos=(-179.02, -203.19) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Continuar
+MinijogoAmazoniaRoot/ObjetivoSemChave/Arte/Sair | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(290.81, 94.42) pos=(177.89, -203.19) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Sair
+MinijogoAmazoniaRoot/GameOver | ativo=False | RectTransform,CanvasRenderer,Image
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(1.00, 1.00) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/GameOver/Arte | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1180.00, 786.67) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Brasil/FruitMergeAmazonia/GameOver.png
+MinijogoAmazoniaRoot/GameOver/Arte/JogarNovamente | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(353.39, 111.39) pos=(-190.52, -238.54) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Comecar
+MinijogoAmazoniaRoot/GameOver/Arte/Sair | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(322.66, 111.39) pos=(208.96, -238.54) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+  clique=MinijogoAmazoniaRoot (NexaQuest.Brasil.MinijogoAmazoniaController).Sair
+MinijogoAmazoniaRoot/GameOver/Arte/CoinsDaRodada | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(190.00, 65.00) pos=(-94.49, -40.72) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+MinijogoAmazoniaRoot/GameOver/Arte/RodadaEncerrada | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(770.00, 80.00) pos=(0.00, 97.57) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=
+MinijogoAmazoniaRoot/GameOver/Arte/RodadaEncerrada/Texto | ativo=True | RectTransform,CanvasRenderer,TextMeshProUGUI
+  rect=(770.00, 80.00) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)

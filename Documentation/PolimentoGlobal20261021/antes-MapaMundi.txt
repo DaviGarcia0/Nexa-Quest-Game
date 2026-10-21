@@ -1,0 +1,65 @@
+Main Camera | ativo=True | Transform,Camera,AudioListener,UniversalAdditionalCameraData
+Janela_MapaMundi | ativo=True | RectTransform,Canvas,CanvasScaler,GraphicRaycaster
+  rect=(1920.00, 1080.00) pos=(960.00, 540.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(1.00, 1.00, 1.00)
+Janela_MapaMundi/MapaMundi | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(1920.00, 1080.00) pos=(0.01, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/MapaMundi.png
+Janela_MapaMundi/botao_AmericaSul | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(168.98, 55.46) pos=(-387.92, -123.73) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+  clique=JanelaAmericaSul (UnityEngine.GameObject).SetActive
+  clique=MapaMundi (UnityEngine.GameObject).SetActive
+Janela_MapaMundi/botao_Africa | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(168.98, 55.46) pos=(0.00, 0.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Janela_MapaMundi/botao_Antartida | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(168.98, 55.46) pos=(15.00, -449.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Janela_MapaMundi/botao_Asia | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(165.74, 48.98) pos=(449.38, 190.44) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Janela_MapaMundi/botao_Oceania | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(165.74, 48.98) pos=(704.00, -241.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Janela_MapaMundi/botao_Europa | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(168.98, 55.46) pos=(39.00, 254.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Janela_MapaMundi/botao_AmericaNorte | ativo=True | RectTransform,CanvasRenderer,Image,Button
+  rect=(168.98, 55.46) pos=(-621.00, 254.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Resources/unity_builtin_extra
+Janela_MapaMundi/botao_AmericaSul_brilhante | ativo=False | RectTransform,CanvasRenderer,Image,Button
+  rect=(232.55, 108.67) pos=(-400.02, -121.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/botao_AmericaSul_brilhante.png
+  clique=Janela_MapaMundi (UnityEngine.GameObject).SetActive
+  clique=JanelaAmericaSul (UnityEngine.GameObject).SetActive
+Janela_MapaMundi/botao_AmericaNorte_brilhante | ativo=False | RectTransform,CanvasRenderer,Image,Button
+  rect=(244.98, 111.90) pos=(-630.80, 259.33) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/botao_AmericaNorte_brilhante.png
+  clique=Janela_MapaMundi (UnityEngine.GameObject).SetActive
+  clique=JanelaAmericaSul (UnityEngine.GameObject).SetActive
+Janela_MapaMundi/botao_Africa_brilhante | ativo=False | RectTransform,CanvasRenderer,Image,Button
+  rect=(232.87, 108.29) pos=(-11.40, 3.40) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/watermarked_img_15190251501260889633-removebg-preview.png
+  clique=Janela_MapaMundi (UnityEngine.GameObject).SetActive
+  clique=JanelaAmericaSul (UnityEngine.GameObject).SetActive
+Janela_MapaMundi/cadeado_AmericaNorte | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(46.66, 51.18) pos=(-690.10, 261.90) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/Cadeado Dourado em Pixel Art.png
+Janela_MapaMundi/cadeado _Europa | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(46.66, 51.18) pos=(-27.00, 259.33) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/Cadeado Dourado em Pixel Art.png
+Janela_MapaMundi/cadeado_Africa | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(46.66, 51.18) pos=(-66.40, 3.40) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/Cadeado Dourado em Pixel Art.png
+Janela_MapaMundi/cadeado _Asia | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(46.66, 51.18) pos=(387.70, 198.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/Cadeado Dourado em Pixel Art.png
+Janela_MapaMundi/cadeado_Oceania | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(46.66, 51.18) pos=(644.46, -238.00) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/Cadeado Dourado em Pixel Art.png
+Janela_MapaMundi/cadeado_Antartida | ativo=True | RectTransform,CanvasRenderer,Image
+  rect=(46.66, 51.18) pos=(-48.80, -441.60) anchors=(0.50, 0.50)/(0.50, 0.50) scale=(1.00, 1.00, 1.00)
+  imagem=Assets/Projeto/Sprites/Mapa Mundi/Cadeado Dourado em Pixel Art.png
+EventSystem | ativo=True | Transform,EventSystem,StandaloneInputModule
+JanelaAmericaSul | ativo=False | RectTransform,Canvas,CanvasScaler,GraphicRaycaster
+  rect=(0.00, 0.00) pos=(0.00, 0.00) anchors=(0.00, 0.00)/(0.00, 0.00) scale=(0.00, 0.00, 0.00)
