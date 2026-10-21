@@ -1,0 +1,87 @@
+[
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/MenuMapa.mp3",
+    "originalPreservado": true,
+    "sha256": "08C54A5C53640DF413776750D69AB7CECF9D46AE04E09F5D5B3BA7DBDA5C028C"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/Feira.ogg",
+    "originalPreservado": true,
+    "sha256": "27919C397FA9D5C0FBA0CD513AA89DE8E71A1D4E45B73D75BC8CE2FAED454BFD"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/Amazonia.ogg",
+    "originalPreservado": true,
+    "sha256": "FB7F8AF4E49BC72734B3B7E8A509E96732EE72912236B385FC068043D7BA66AC"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/PontoTuristico.ogg",
+    "originalPreservado": true,
+    "sha256": "63D540312F74FBA747340B9575069104C70F98F7DABAEE66D218EF02E8E00E57"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/Portal.ogg",
+    "originalPreservado": true,
+    "sha256": "1FB7D50000F9E352402B3EE06FEF3916D7A9E3785299B4F2DA28D42621B38B9F"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/Normal.mp3",
+    "originalPreservado": true,
+    "sha256": "85C045D17E860E2CA5549E633CDF4DF3E8462F30C099295EC04E9FF86628770B"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/Iniciar.mp3",
+    "originalPreservado": true,
+    "sha256": "CC2BD01DBA65E9CA311161594057FB3F04431F560F746572452AEB82FE426B20"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/QuizCorreto.mp3",
+    "originalPreservado": true,
+    "sha256": "30A4811AD5DB0243D5DAFA1CF909E1A053A9357B49F2377BC6A2A5601EB8E8FA"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/QuizErrado.mp3",
+    "originalPreservado": true,
+    "sha256": "1310657893BE01D4225DA9AC9324E9D2980B70CC2A6D517F188583A7A61F588D"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/ErroFeira.mp3",
+    "originalPreservado": true,
+    "sha256": "2B74F88B27B5F9E029777C62D9273662FFFAC8D6FC3DAFFBA3FB639A19346E68"
+  },
+  {
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/Fusao.mp3",
+    "originalPreservado": true,
+    "sha256": "098C79FEA6FC3B386EA8C35822EEAEDCFA527DDFC38264EFE9705CF7F48B4FB4"
+  },
+  {
+    "asset": "Assets/Projeto/Sprites/Global20261021/Volume.png",
+    "originalPreservado": true,
+    "sha256": "F80926E40A99EA02311217FB56B34A34E4F03E1CF04DA4B56F6F1717CCA75087"
+  },
+  {
+    "asset": "Assets/Projeto/Sprites/Global20261021/MinhaQuest.png",
+    "originalPreservado": true,
+    "sha256": "B3AF7967D3674C451644B7CDA33C02EE9A4146B10B85F7B8AE414D334F7F0B7F"
+  },
+  {
+    "asset": "Assets/Projeto/Sprites/Global20261021/Sair.png",
+    "originalPreservado": true,
+    "sha256": "FB7EF130937BFE7A6DB7BFF4030917E1D67142F59ED8563472AED176B21C5AA1"
+  },
+  {
+    "asset": "Assets/Projeto/Sprites/Global20261021/Voltar.png",
+    "originalPreservado": true,
+    "sha256": "944EFC1A71DBCD5E2A7A68D3A9CF202662323044562886B2550E53E6608324ED"
+  },
+  {
+    "asset": "Assets/Projeto/Sprites/Global20261021/AmericaDoSul.png",
+    "originalPreservado": true,
+    "sha256": "501667280C4B4300D7077B8A5B473CEE832D7D25690377387165AD0F27D5EB89"
+  },
+  {
+    "asset": "Assets/Projeto/Video/MenuFinal.mp4",
+    "originalPreservado": true,
+    "sha256": "9A1841F59BF97822D46855ACEEC9433DE7A281FA7FD66896EB50CA4383ACB608"
+  }
+]

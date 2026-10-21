@@ -23,7 +23,7 @@ namespace NexaQuest.Brasil
             if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
         }
 
-        private void Update() => ProcessarFechamento(Input.GetKeyDown(KeyCode.Escape));
+        private void Update() { if(!NexaQuest.PauseSettingsManager.GameplayBlocked) ProcessarFechamento(Input.GetKeyDown(KeyCode.Escape)); }
 
         // A mesma entrada pode ser exercitada pelos testes de Play Mode.
         public void ProcessarFechamento(bool pressionouEsc)

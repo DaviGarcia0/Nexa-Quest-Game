@@ -100,6 +100,7 @@ namespace NexaQuest.Brasil
 
         void Update()
         {
+            if (NexaQuest.PauseSettingsManager.GameplayBlocked) return;
             if (Input.GetKeyDown(KeyCode.Escape)) { ProcessarFechamento(true); return; }
             #if UNITY_EDITOR
             if (SimulacaoManual) return;

@@ -15,7 +15,7 @@ namespace NexaQuest.Brasil
         RectTransform retangulo;
         public float Entrada {get;private set;}
         void Awake(){retangulo=(RectTransform)transform;}
-        void Update(){Mover(Input.GetAxisRaw("Horizontal"),Time.unscaledDeltaTime);}
+        void Update(){if(NexaQuest.PauseSettingsManager.GameplayBlocked)return;Mover(Input.GetAxisRaw("Horizontal"),Time.unscaledDeltaTime);}
         public void Mover(float horizontal,float intervalo) {
             Entrada=minijogo.EmPartida?Mathf.Clamp(horizontal,-1,1):0;
             var posicao=retangulo.anchoredPosition;

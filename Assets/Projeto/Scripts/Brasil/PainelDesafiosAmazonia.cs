@@ -22,7 +22,7 @@ namespace NexaQuest.Brasil
             mundo.player.SetControlsLocked(true); mensagem.text = "Esc: voltar ao mapa";
             if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
         }
-        void Update() => ProcessarFechamento(Input.GetKeyDown(KeyCode.Escape));
+        void Update() { if(!NexaQuest.PauseSettingsManager.GameplayBlocked) ProcessarFechamento(Input.GetKeyDown(KeyCode.Escape)); }
         public void ProcessarFechamento(bool esc) { if (esc && EstaAberto && Time.frameCount > quadroAbertura) Fechar(); }
         public void Fechar() { if (!EstaAberto) return; RestaurarAviso(); gameObject.SetActive(false); }
         public void SelecionarQuiz() { if (EstaAberto) quiz.TentarAbrir(this); }

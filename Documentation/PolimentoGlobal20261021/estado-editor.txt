@@ -1,0 +1,3 @@
+Assets/Projeto/Scenes/MapaMundi.unity
+Dirty: False
+Play Mode: False

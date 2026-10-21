@@ -1,0 +1,130 @@
+PASS: Play Mode real 1920x1080
+PASS: Serviços globais inicializam no Menu
+PASS: Música Menu em reprodução
+PASS: Music UI SFX roteados ao mesmo Master
+PASS: Fallback visível desde a abertura do Menu
+PASS: Vídeo preparado e exibido
+Video: prepared=True playing=True time=0,0333333333333333 length=10 frame=1 active=True
+PASS: RenderTexture RawImage substituem fallback após frame pronto
+PASS: Áudio do vídeo desativado
+PASS: Vídeo atrás dos botões
+PASS: Vídeo preenche 16:9 sem deformar e tem loop
+PASS: Loop real confirmado ao chegar ao fim do vídeo
+PASS: Raycast: botaoConfig
+PASS: Configurações abre e toca um som normal
+PASS: Pausa global e AudioListener ativos
+PASS: Música e UI continuam; gameplay respeita pausa
+PASS: Música avança durante configurações
+PASS: Overlay escuro com alpha 0,55
+PASS: Volume zero aplica -80 dB sem log zero
+PASS: Slider 0,5 aplica 20 log10
+PASS: Slider aumenta até 0 dB
+PASS: Raycast: Voltar
+PASS: Voltar restaura sem recarregar Menu
+PASS: P abre configurações
+PASS: P fecha configurações
+PASS: ESC sem atividade abre configurações
+PASS: Raycast: Sair
+PASS: Sair seguro no Editor restaura pausa
+PASS: Raycast: botaoComoJogar
+PASS: Como Jogar toca um único som normal
+PASS: Raycast: botaoMinhaQuest
+PASS: Cena carregada: MinhaQuest
+PASS: MinhaQuest recebe um EventSystem sem duplicação
+PASS: Painel disponível em MinhaQuest
+PASS: Raycast: Voltar
+PASS: Cena carregada: Menu
+PASS: Raycast: MinhaQuest
+PASS: Cena carregada: MinhaQuest
+PASS: MinhaQuest do painel restaura tempo e áudio antes da troca
+PASS: Cena carregada: Menu
+PASS: Raycast: botaoJogar
+PASS: Cena carregada: MapaMundi
+PASS: Jogar toca uma vez o som especial
+PASS: Menu para Mapa mantém a mesma música sem reiniciar
+PASS: Raycast: botao_AmericaSul
+PASS: Lógica de alternar Canvas da América do Sul preservada
+PASS: Imagem correta da América do Sul
+PASS: Raycast: Chile
+PASS: Indisponível sem trocar cena: Chile
+PASS: País usa som normal: Chile
+PASS: Popup fecha automaticamente: Chile
+PASS: Raycast: Argentina
+PASS: Indisponível sem trocar cena: Argentina
+PASS: País usa som normal: Argentina
+PASS: Popup fecha automaticamente: Argentina
+PASS: Raycast: Voltar
+PASS: Voltar da América retorna ao Canvas Mapa
+PASS: Voltar Mapa no canto inferior esquerdo indicado
+PASS: Raycast: VoltarMapaMundi
+PASS: Cena carregada: Menu
+PASS: Raycast: botaoJogar
+PASS: Cena carregada: MapaMundi
+PASS: Raycast: botao_AmericaSul
+PASS: Raycast: Brasil
+PASS: Cena carregada: Brasil
+PASS: Brasil usa exatamente o mesmo som especial de Jogar
+PASS: Entrada real no Brasil usa Feira e música Feira
+PASS: Singleton elimina cópia duplicada dos serviços
+PASS: Player bloqueado na pausa
+PASS: Player não se desloca durante pausa
+PASS: Voltar restaura estado de controle anterior
+PASS: Pausa congela timer e estado do Quiz Feira
+PASS: Quiz e pausa mantêm música da região
+PASS: ESC fecha só configurações e consome o frame
+PASS: ESC da atividade não abre configurações
+PASS: Quiz Feira erro toca uma vez
+PASS: Quiz Feira acerto toca uma vez
+PASS: Timeout usa erro uma vez, sem spam no fade
+PASS: Fruta perdida toca penalidade real
+PASS: Item errado capturado toca penalidade real
+PASS: Fruta correta não toca erro
+PASS: Queda baseada em tempo unscaled para durante pausa
+PASS: Transição aceita: Amazonia
+PASS: Área e música corretas: Amazonia
+PASS: Um único AudioManager na área Amazonia
+PASS: Transição aceita: PontoTuristico
+PASS: Área e música corretas: PontoTuristico
+PASS: Um único AudioManager na área PontoTuristico
+PASS: Transição aceita: Amazonia
+PASS: Área e música corretas: Amazonia
+PASS: Um único AudioManager na área Amazonia
+PASS: Transição aceita: Feira
+PASS: Área e música corretas: Feira
+PASS: Um único AudioManager na área Feira
+PASS: Transição aceita: Portal
+PASS: Área e música corretas: Portal
+PASS: Um único AudioManager na área Portal
+PASS: Transição aceita: Feira
+PASS: Área e música corretas: Feira
+PASS: Um único AudioManager na área Feira
+PASS: Transição aceita: Amazonia
+PASS: Área e música corretas: Amazonia
+PASS: Um único AudioManager na área Amazonia
+PASS: Timer Quiz Amazônia congela na pausa
+PASS: Quiz Amazônia erro uma vez
+PASS: Quiz Amazônia acerto uma vez
+PASS: Merge real toca som exatamente uma vez
+PASS: Colisão sem merge não toca fusão
+PASS: Cadeia toca uma vez por merge válido
+PASS: Pausa preserva pilha da física local do Fruit Merge
+PASS: Minijogo e pausa mantêm música Amazônia
+PASS: Volume geral persiste e recarrega
+PASS: Brasil continua com um único EventSystem
+PASS: Sem warnings novos durante testes direcionados
+Falhas: 0
+PASS: Volume salvo restaurado em novo Play Mode
+PASS: Master dB restaurado no novo Play Mode
+PASS: Sem duplicação no novo Play Mode
+PASS: Clique real na barra altera Slider e Master
+PASS: Arrastar real do Slider altera volume
+PASS: Handle com altura correta de 42 pixels
+PASS: Voltar restaura TimeScale anterior diferente de um
+PASS: Cena carregada: Brasil
+PASS: Pausa preserva bloqueio anterior de controles
+PASS: Transição aceita: Amazonia
+PASS: Área e música corretas: Amazonia
+PASS: Um único AudioManager na área Amazonia
+PASS: ESC das configurações protege partida de Merge no mesmo frame
+PASS: ESC pertence à partida de Merge quando configurações está fechada
+PASS: Sem warnings novos durante testes direcionados

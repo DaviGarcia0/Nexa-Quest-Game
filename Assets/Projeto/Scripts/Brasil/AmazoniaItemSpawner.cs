@@ -16,7 +16,7 @@ namespace NexaQuest.Brasil {
    if(!jogo.EmPartida||Preview==null||restante>0||quadroDrop==Time.frameCount)return false;
    quadroDrop=Time.frameCount;Preview.Soltar();Preview=null;ItemAtual=ItemProximo;ItemProximo=Sortear();restante=cooldown;jogo.interfaceJogo.AtualizarProximo(ItemProximo);return true;
   }
-  void Update(){
+  void Update(){if(NexaQuest.PauseSettingsManager.GameplayBlocked)return;
    if(!jogo.EmPartida)return;
    if(Preview==null){restante-=Time.deltaTime;if(restante<=0){
     float r=jogo.evolucoes[ItemAtual-1].diametro/2;

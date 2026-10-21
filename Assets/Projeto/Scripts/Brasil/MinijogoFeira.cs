@@ -51,6 +51,7 @@ namespace NexaQuest.Brasil
                 }
             }else if(fruta||capturado){
                 if(fruta)FrutasPerdidas++;else ItensErrados++;
+                NexaQuest.NexaAudioManager.PlayFeiraError();
                 interfaceJogo.Impacto();
             }
             AtualizarHUD();
@@ -67,7 +68,7 @@ namespace NexaQuest.Brasil
             if(Estado==EstadoMinijogoFeira.Fechado)return;
             Estado=EstadoMinijogoFeira.Fechado;gameObject.SetActive(false);
         }
-        void Update(){if(Input.GetKeyDown(KeyCode.Escape))Sair();}
+        void Update(){if(NexaQuest.PauseSettingsManager.GameplayBlocked)return;if(Input.GetKeyDown(KeyCode.Escape))Sair();}
         void OnDisable(){
             Estado=EstadoMinijogoFeira.Fechado;
             if(queda!=null)queda.Limpar();if(interfaceJogo!=null)interfaceJogo.Restaurar();

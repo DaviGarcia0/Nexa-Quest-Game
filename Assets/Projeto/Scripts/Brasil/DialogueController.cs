@@ -23,6 +23,7 @@ namespace NexaQuest.Brasil
 
         void Update()
         {
+            if (NexaQuest.PauseSettingsManager.GameplayBlocked) return;
             RefreshPrompt();
             if (Input.GetKeyDown(KeyCode.E)) HandleInteract();
         }

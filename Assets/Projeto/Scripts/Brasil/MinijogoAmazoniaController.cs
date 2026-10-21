@@ -53,7 +53,7 @@ namespace NexaQuest.Brasil {
    int nivel=a.Nivel+1;Vector2 ponto=(a.transform.position+b.transform.position)*.5f;Vector2 velocidade=(a.Corpo.velocity+b.Corpo.velocity)*.5f;float giro=(a.Corpo.angularVelocity+b.Corpo.angularVelocity)*.5f;
    a.BloquearMerge();b.BloquearMerge();Itens.Remove(a);Itens.Remove(b);Destroy(a.gameObject);Destroy(b.gameObject);
    var novo=CriarItem(nivel,ponto);novo.Corpo.velocity=Vector2.ClampMagnitude(velocidade,8);novo.Corpo.angularVelocity=Mathf.Clamp(giro,-120,120);novo.Corpo.AddForce(Vector2.up*.06f,ForceMode2D.Impulse);
-   CoinsDaRodada++;Progresso.AddCoins(1);interfaceJogo.Fusao(ponto);Efeito(ponto);
+   CoinsDaRodada++;Progresso.AddCoins(1);NexaQuest.NexaAudioManager.PlayMerge();interfaceJogo.Fusao(ponto);Efeito(ponto);
    if(nivel==4)CupuacuObjetivo=true;if(nivel==6)AraraObjetivo=true;if(nivel==8)OncaObjetivo=true;
    interfaceJogo.AtualizarObjetivos(CupuacuObjetivo,AraraObjetivo,OncaObjetivo);interfaceJogo.AtualizarCoins(CoinsDaRodada);
    if(!MissaoConcluidaNaRodada&&CupuacuObjetivo&&AraraObjetivo&&OncaObjetivo){
@@ -69,7 +69,7 @@ namespace NexaQuest.Brasil {
    if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(null);
   }
   void FixedUpdate(){if(EmPartida&&fisica.IsValid()){fisica.Simulate(Time.fixedDeltaTime);perigo.Avancar(Time.fixedDeltaTime);}}
-  void Update()=>ProcessarSaida(Input.GetKeyDown(KeyCode.Escape));
+  void Update(){if(NexaQuest.PauseSettingsManager.GameplayBlocked)return;ProcessarSaida(Input.GetKeyDown(KeyCode.Escape));}
   public void ProcessarSaida(bool esc){if(esc&&Time.frameCount>quadroEstado)Sair();}
   public void Sair(){if(Estado==EstadoMergeAmazonia.Fechado)return;Estado=EstadoMergeAmazonia.Fechado;interfaceJogo.Restaurar();gameObject.SetActive(false);if(origem!=null)origem.Abrir();}
   public void LimparItens(){foreach(var item in Itens)if(item!=null){item.BloquearMerge();Destroy(item.gameObject);}Itens.Clear();if(itensRoot!=null)foreach(Transform filho in itensRoot)if(filho.GetComponent<AmazoniaMergeItem>()==null)Destroy(filho.gameObject);}
@@ -81,6 +81,6 @@ namespace NexaQuest.Brasil {
  }
  public class AmazoniaMergeEffect:MonoBehaviour {
   public Sprite[] frames;float tempo;
-  void Update(){tempo+=Time.unscaledDeltaTime;int i=Mathf.FloorToInt(tempo*14);if(i>=frames.Length){Destroy(gameObject);return;}GetComponent<SpriteRenderer>().sprite=frames[i];}
+  void Update(){if(NexaQuest.PauseSettingsManager.GameplayBlocked)return;tempo+=Time.unscaledDeltaTime;int i=Mathf.FloorToInt(tempo*14);if(i>=frames.Length){Destroy(gameObject);return;}GetComponent<SpriteRenderer>().sprite=frames[i];}
  }
 }

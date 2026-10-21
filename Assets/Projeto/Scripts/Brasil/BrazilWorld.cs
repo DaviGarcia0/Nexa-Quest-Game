@@ -78,6 +78,7 @@ namespace NexaQuest.Brasil
             foreach (BrazilArea entry in areas)
                 if (entry != null) entry.gameObject.SetActive(entry == area);
             CurrentArea = area;
+            NexaQuest.NexaAudioManager.PlayArea(area.name);
             player.SetAreaBounds(area.map);
             player.Teleport(spawn.position);
             followCamera.mapBounds = area.map;

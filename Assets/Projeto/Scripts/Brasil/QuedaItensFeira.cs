@@ -22,7 +22,7 @@ namespace NexaQuest.Brasil
         readonly Vector3[] cantos=new Vector3[4];
         float restante;int proximoId;
         public int QuantidadeAtiva=>itens.Count;
-        void Update(){Simular(Time.unscaledDeltaTime);}
+        void Update(){if(NexaQuest.PauseSettingsManager.GameplayBlocked)return;Simular(Time.unscaledDeltaTime);}
         public void Reiniciar(){Limpar();sacoFrutas.Clear();restante=.7f;}
         public void Limpar(){foreach(var item in itens)if(item.retangulo!=null){item.retangulo.gameObject.SetActive(false);Destroy(item.retangulo.gameObject);}itens.Clear();}
         void OnDisable(){Limpar();}

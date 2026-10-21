@@ -17,6 +17,7 @@ namespace NexaQuest.Brasil
 
         void Update()
         {
+            if (NexaQuest.PauseSettingsManager.GameplayBlocked) return;
             HandleInput(Input.GetKeyDown(KeyCode.E), Input.GetKeyDown(KeyCode.Escape));
         }
 

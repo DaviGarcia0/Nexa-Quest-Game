@@ -1,0 +1,124 @@
+[
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Musica do menu e do mapamundi.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/MenuMapa.mp3",
+    "bytes": 4280544
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\NexaQuest_Feira_Brasil_8bit.ogg",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/Feira.ogg",
+    "bytes": 591433
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\NexaQuest_Amazonia_8bit.ogg",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/Amazonia.ogg",
+    "bytes": 721626
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\NexaQuest_PontoTuristico_8bit.ogg",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/PontoTuristico.ogg",
+    "bytes": 679260
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\NexaQuest_Portal_8bit.ogg",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/Music/Portal.ogg",
+    "bytes": 860888
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\som de selecionar normal.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/Normal.mp3",
+    "bytes": 74396
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\som de game-start e Pais-6104.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/Iniciar.mp3",
+    "bytes": 31075
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Som de acertar no quiz.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/QuizCorreto.mp3",
+    "bytes": 14356
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Som de errar no quiz.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/QuizErrado.mp3",
+    "bytes": 16864
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\som de errar no minigame da feira.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/ErroFeira.mp3",
+    "bytes": 12538
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\som da fusao de frutas no minigame da amazonia.mp3",
+    "asset": "Assets/Projeto/Audio/Polimento20261021/SFX/Fusao.mp3",
+    "bytes": 33436
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Painel Azul de Volume Geral.png",
+    "asset": "Assets/Projeto/Sprites/Global20261021/Volume.png",
+    "bytes": 1380905,
+    "size": [
+      1374,
+      1145
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Botão Pixel Art Minha Quest.png",
+    "asset": "Assets/Projeto/Sprites/Global20261021/MinhaQuest.png",
+    "bytes": 950381,
+    "size": [
+      2170,
+      725
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Botão Pixelado SAIR em Azul e Dourado.png",
+    "asset": "Assets/Projeto/Sprites/Global20261021/Sair.png",
+    "bytes": 792943,
+    "size": [
+      2172,
+      724
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Golden Pixel Back Button _VOLTAR_.png",
+    "asset": "Assets/Projeto/Sprites/Global20261021/Voltar.png",
+    "bytes": 795184,
+    "size": [
+      2172,
+      724
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Mapa Pixelado da América do Sul.png",
+    "asset": "Assets/Projeto/Sprites/Global20261021/AmericaDoSul.png",
+    "bytes": 2364665,
+    "size": [
+      1672,
+      941
+    ],
+    "alpha": null
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Nexa_Quest_Menu_Final_4K.mp4",
+    "asset": "Assets/Projeto/Video/MenuFinal.mp4",
+    "bytes": 654473052
+  }
+]

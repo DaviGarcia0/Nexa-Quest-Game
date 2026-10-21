@@ -91,6 +91,7 @@ namespace NexaQuest.Brasil
 
         public void MostrarFeedback(bool acerto, bool esgotou)
         {
+            if(acerto) NexaQuest.NexaAudioManager.PlayQuizCorrect(); else NexaQuest.NexaAudioManager.PlayQuizWrong();
             OcultarFeedback();
             retrato.sprite = acerto ? questFeliz : questTriste;
             status.text = esgotou ? "Tempo esgotado! Você pode tentar a mesma pergunta novamente." :

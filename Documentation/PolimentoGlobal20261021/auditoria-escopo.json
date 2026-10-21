@@ -1,0 +1,20 @@
+{
+  "rectsOriginaisMenuPreservados": {
+    "botaoConfig": true,
+    "JanelaComoJogar": true,
+    "JanelaConfig": true,
+    "botaoJogar": true,
+    "JanelaMenu": true,
+    "Background": true,
+    "TituloGame": true,
+    "botaoMinhaQuest": true,
+    "botaoComoJogar": true
+  },
+  "arquivosProtegidosIntactos": {
+    "Assets/Projeto/Scripts/Brasil/ProgressionManager.cs": true,
+    "Assets/Projeto/Scripts/Brasil/PlayerMovement.cs": true,
+    "Assets/Projeto/Scenes/Brasil.unity": true,
+    "Assets/Projeto/Scenes/MinhaQuest.unity": true
+  },
+  "checkpoint": "5cbb2ad"
+}
