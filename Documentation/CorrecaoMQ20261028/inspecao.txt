@@ -1,0 +1,52 @@
+MinhaQuest/MinhaQuestCanvas/TelaPrincipal/ButtonMercado: Play; OpenMarket;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/TelaPrincipal/ButtonVestuario: Play; OpenWardrobe;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/TelaPrincipal/ButtonLoja: Play; OpenShop;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/TelaPrincipal/ButtonVoltar: Play; Back;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/MarketLayer/Mercado/ButtonApple: Play; BuyApple;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/MarketLayer/Mercado/ButtonSandwich: Play; BuySandwich;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/MarketLayer/Mercado/ButtonNexaKing: Play; BuyNexaKing;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/MarketLayer/Mercado/ButtonCloseMarket: Play; CloseMarket;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/WardrobeLayer/Vestuario/ButtonCloseWardrobe: Play; CloseWardrobe;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/PopupLayer/Popup/ButtonOK: Play; ClosePopup;  cue=Normal
+MinhaQuest/MinhaQuestCanvas/PopupLayer/Popup/ButtonX: Play; ClosePopup;  cue=Normal
+Brasil/Canvas/PainelDesafiosFeira/ArtePainel/BotaoQuiz: SelecionarQuiz;  cue=
+Brasil/Canvas/PainelDesafiosFeira/ArtePainel/BotaoMinijogo: SelecionarMinijogo;  cue=
+Brasil/Canvas/MinijogoFeira/BotaoSair/AreaClique: Sair;  cue=
+Brasil/Canvas/MinijogoFeira/Instrucoes/ArtePainel/BotaoJogar: IniciarPartida;  cue=
+Brasil/Canvas/MinijogoFeira/VitoriaComChave/ArtePainel/BotaoRejogar: IniciarPartida;  cue=
+Brasil/Canvas/MinijogoFeira/VitoriaComChave/ArtePainel/BotaoSair: Sair;  cue=
+Brasil/Canvas/MinijogoFeira/VitoriaSemChave/ArtePainel/BotaoRejogar: IniciarPartida;  cue=
+Brasil/Canvas/MinijogoFeira/VitoriaSemChave/ArtePainel/BotaoSair: Sair;  cue=
+Brasil/Canvas/MinijogoFeira/Derrota/ArtePainel/BotaoRejogar: IniciarPartida;  cue=
+Brasil/Canvas/MinijogoFeira/Derrota/ArtePainel/BotaoSair: Sair;  cue=
+Brasil/Canvas/QuizFeira/PainelInicial/ArtePainel/BotaoComecar: Comecar;  cue=
+Brasil/Canvas/QuizFeira/PainelInicial/ArtePainel/BotaoVoltar: Voltar;  cue=
+Brasil/Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaA: Responder;  cue=
+Brasil/Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaB: Responder;  cue=
+Brasil/Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaC: Responder;  cue=
+Brasil/Canvas/QuizFeira/PainelPrincipal/ArtePainel/RespostaD: Responder;  cue=
+Brasil/Canvas/QuizFeira/PainelFinal/ArtePainel/BotaoContinuar: Voltar;  cue=
+Brasil/Canvas/PainelDesafiosAmazonia/ArtePainel/BotaoQuiz: SelecionarQuiz;  cue=
+Brasil/Canvas/PainelDesafiosAmazonia/ArtePainel/BotaoMinijogo: SelecionarMinijogo;  cue=
+Brasil/Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaA: Responder;  cue=
+Brasil/Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaB: Responder;  cue=
+Brasil/Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaC: Responder;  cue=
+Brasil/Canvas/QuizAmazonia/PainelPrincipal/ArtePainel/RespostaD: Responder;  cue=
+Brasil/Canvas/QuizAmazonia/PainelInicial/ArtePainel/BotaoComecar: Comecar;  cue=
+Brasil/Canvas/QuizAmazonia/PainelInicial/ArtePainel/BotaoVoltar: Voltar;  cue=
+Brasil/Canvas/QuizAmazonia/PainelFinal/ArtePainel/BotaoContinuar: Voltar;  cue=
+Brasil/MinijogoAmazoniaRoot/Instrucoes/Arte/Comecar: Comecar;  cue=
+Brasil/MinijogoAmazoniaRoot/Instrucoes/Arte/Voltar: Sair;  cue=
+Brasil/MinijogoAmazoniaRoot/HUD/BotaoSair/Click: Sair;  cue=
+Brasil/MinijogoAmazoniaRoot/ObjetivoComChave/Arte/Continuar: Continuar;  cue=
+Brasil/MinijogoAmazoniaRoot/ObjetivoComChave/Arte/Sair: Sair;  cue=
+Brasil/MinijogoAmazoniaRoot/ObjetivoSemChave/Arte/Continuar: Continuar;  cue=
+Brasil/MinijogoAmazoniaRoot/ObjetivoSemChave/Arte/Sair: Sair;  cue=
+Brasil/MinijogoAmazoniaRoot/GameOver/Arte/JogarNovamente: Comecar;  cue=
+Brasil/MinijogoAmazoniaRoot/GameOver/Arte/Sair: Sair;  cue=
+Console: erros=0 avisos=1
+Normal: 102528 samples; 44100 Hz; channels=2; loadState=Loaded
+onset -70 dB: 249,1043 ms
+onset -60 dB: 251,576 ms
+onset -50 dB: 253,1293 ms
+onset -40 dB: 254,5692 ms
