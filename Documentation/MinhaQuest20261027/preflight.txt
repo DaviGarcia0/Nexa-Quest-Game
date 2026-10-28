@@ -1,0 +1,6 @@
+Assets/Projeto/Scenes/Menu.unity
+Dirty: False
+Compilando: False
+Erros: 0
+Avisos: 1
+2026-10-27T22:50:36
