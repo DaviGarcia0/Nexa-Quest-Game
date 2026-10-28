@@ -20,7 +20,7 @@ namespace NexaQuest {
    world=FindObjectOfType<BrazilWorld>();qf=FindObjectOfType<QuizFeira>(true);qa=FindObjectOfType<QuizAmazonia>(true);mf=FindObjectOfType<MinijogoFeira>(true);ma=FindObjectOfType<MinijogoAmazoniaController>(true);pf=FindObjectOfType<PainelDesafiosFeira>(true);pa=FindObjectOfType<PainelDesafiosAmazonia>(true);dialog=FindObjectOfType<DialogueController>();portals=FindObjectsOfType<PortalInteraction>(true);
    if(FindObjectOfType<EventSystem>()==null)new GameObject("EventSystem",typeof(EventSystem),typeof(StandaloneInputModule));
   }
-  public bool ActivityConsumesEsc()=>world!=null&&(world.IsTransitioning||world.player.ControlsLocked)||qf!=null&&qf.Estado!=EstadoQuizFeira.Fechado||qa!=null&&qa.Estado!=EstadoQuizAmazonia.Fechado||mf!=null&&mf.Estado!=EstadoMinijogoFeira.Fechado||ma!=null&&ma.Estado!=EstadoMergeAmazonia.Fechado||pf!=null&&pf.EstaAberto||pa!=null&&pa.EstaAberto||dialog!=null&&dialog.IsOpen;
+  public bool ActivityConsumesEsc()=>NexaQuest.MinhaQuest.MinhaQuestController.ConsumesEscape||world!=null&&(world.IsTransitioning||world.player.ControlsLocked)||qf!=null&&qf.Estado!=EstadoQuizFeira.Fechado||qa!=null&&qa.Estado!=EstadoQuizAmazonia.Fechado||mf!=null&&mf.Estado!=EstadoMinijogoFeira.Fechado||ma!=null&&ma.Estado!=EstadoMergeAmazonia.Fechado||pf!=null&&pf.EstaAberto||pa!=null&&pa.EstaAberto||dialog!=null&&dialog.IsOpen;
   void Update()=>ProcessInput(Input.GetKeyDown(KeyCode.P),Input.GetKeyDown(KeyCode.Escape));
   public void ProcessInput(bool p,bool esc){if(p){if(aberto)Close();else Open();}else if(esc){if(aberto)Close();else if(!ActivityConsumesEsc())Open();}}
   public void Open(){if(aberto||navigating||world!=null&&world.IsTransitioning)return;consumedFrame=Time.frameCount;oldTimeScale=Time.timeScale;oldAudioPause=AudioListener.pause;oldPlayerLock=world!=null&&world.player.ControlsLocked;
@@ -28,7 +28,7 @@ namespace NexaQuest {
    if(world!=null)world.player.SetControlsLocked(true);if(NexaAudioManager.Instance!=null){NexaAudioManager.Instance.sfxSource.Stop();volume.SetValueWithoutNotify(NexaAudioManager.Instance.MasterVolume);}panel.SetActive(true);if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(null);
   }
   public void Close(){if(!aberto)return;consumedFrame=Time.frameCount;aberto=false;panel.SetActive(false);Time.timeScale=oldTimeScale;AudioListener.pause=oldAudioPause;if(world!=null)world.player.SetControlsLocked(oldPlayerLock);if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(oldSelection);}
-  public void MinhaQuest(){if(navigating)return;Close();navigating=true;SceneManager.LoadSceneAsync("MinhaQuest");}
+  public void MinhaQuest(){if(navigating)return;Close();navigating=true;NexaQuest.MinhaQuest.MinhaQuestNavigation.RegisterCurrent();SceneManager.LoadSceneAsync("MinhaQuest");}
   public void Sair(){Close();
 #if UNITY_EDITOR
    Debug.Log("Sair solicitado: Application.Quit no Standalone.");

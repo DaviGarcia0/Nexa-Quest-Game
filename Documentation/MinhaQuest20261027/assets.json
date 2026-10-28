@@ -1,0 +1,192 @@
+[
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Mercadinho Fox_ Menu de Lanches.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Mercado.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "sha256": "cf91c4e094d81593c4a8a5fa323a6359d9bf29327dbdab5b14ab00e15eaa1e5f"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Ícone de Maçã Pixelada com Folha.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Apple.png",
+    "size": [
+      1337,
+      1177
+    ],
+    "mode": "RGBA",
+    "sha256": "a83dd205ecd019adc7e31f0bf7fb4c2a0382b8c0fe9298856c1c830d6b1a44ac"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Quarto Aconchegante com Bandeja de Comida Fox  - cenario.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Cenario.png",
+    "size": [
+      1670,
+      942
+    ],
+    "mode": "RGB",
+    "sha256": "c1cc9891096fff530166106a4680712765b891eb0f1964ad63fdf580830c1897"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Botão Pixel Art “Voltar” Retro.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Voltar.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "sha256": "87b16d3a9f813c22fdc6e65113a69bbf2e9114aba489d0a7fd3d64435e942730"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Botão de Loja em Pixel Art.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Loja.png",
+    "size": [
+      2156,
+      729
+    ],
+    "mode": "RGBA",
+    "sha256": "00ae4b18609fc76f50d9dd69a562ff51e31be7023ad18882dd8abd724f243c16"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Botão Pixelado de Vestuário.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/VestuarioBotao.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "sha256": "b8c2068dac858ea0cc7f9c3418327bf1ab52fa853b483caae8f2c09856bf8017"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Botão de Mercado Pixel Art Retro.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/MercadoBotao.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "sha256": "b2f0ac659721d048327c2a54ab9ebaa0e825824fc2fa2199ada0b97898ab6cc5"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Barra de Energia Pixel Art.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Energia.png",
+    "size": [
+      2171,
+      724
+    ],
+    "mode": "RGBA",
+    "sha256": "2fc5811a2ecb69970a04a07a4d5e87c91f8e9a11ab1e55ba97f2377f995e1df6"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Sprite de Raposa em Quatro Quadros de Animação corpo todo.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/CorpoIdle.png",
+    "size": [
+      1783,
+      882
+    ],
+    "mode": "RGBA",
+    "sha256": "86940274b14701f902ef1f76b38771ff91e460cbe8df42829d81e1ad8251f542"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Folha de sprites_ raposa comendo.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Comendo.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "sha256": "4527697e873babcdb56666bd94ca68afc6d4154f5ad5fea08610ad4b11634f29"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Folha de sprites do raposinho sorridente.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Boca.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "sha256": "9a38da0f80eb2c8598282457cc7355e86669dde823511925cdf3b42b1ce11b1b"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Sprite de Raposa em Animação Idle.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/TorsoIdle.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "sha256": "42b3ae8a60aca5ee89fc6b0f34697912594a286b556517290a98716204e88ba4"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Popup de Energia Cheia da Raposa.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/EnergiaCheia.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "7bf819c09b67a8ac0b9f40ebb318d7f8ea22b2dda646c80fd8aeef43d782191b"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Pop-up de saldo insuficiente em pixel art.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/SaldoInsuficiente.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "64bb1e8f23baaf33774a119421b4563c866e2c41fa8d32c0ea81c5f601691f86"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Popup de compra realizada.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/CompraRealizada.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "dc4d7f5842da3e29a91ee873f4546ee0f1e4b54e7192fd0e4a4305fa51a31529"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Interface de Loja Rústica com Lanternas- vestuario.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Vestuario.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "sha256": "3f4ce51854a0938c96ce5d75b936b917509107c8b0a8a908df9ee45c253a5799"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Popup de Loja Indisponível em Pixel Art.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/LojaIndisponivel.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "3625e2232107557a7006420c649081f5040afa48e50ac1f7f99c8af32a2ce7b1"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Combo pixel art de hambúrguer, batata e refrigerante.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/NexaKing.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "dd7b8e38fb74c8f84db2edd7d7c761cbc19525dae4f9040bf3808bf3754ec043"
+  },
+  {
+    "source": "C:\\Users\\Davi\\Downloads\\Sanduíche Pixelado em Camadas.png",
+    "asset": "Assets/Projeto/Sprites/MinhaQuest20261027/Sandwich.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "sha256": "5884e492f11b69bb2752dd2a1b3fa97c870b2f243cf40d2b1d678c7d0dd193c0"
+  }
+]

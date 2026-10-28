@@ -1,0 +1,152 @@
+PASS: Play Mode 1920x1080
+PASS: MinhaQuest usa ProgressionManager existente
+PASS: Save v1 antigo carrega moedas e Energia
+PASS: XP chaves e flags antigas preservadas
+PASS: Migração de save antigo inicia comida em zero
+PASS: Bancada vazia sem estoque
+PASS: HUD numérico e preenchimento refletem Energia
+PASS: Um EventSystem
+PASS: Torso inicia em Idle com loop
+PASS: Abertura direta usa fallback seguro
+PASS: Raycast real: ButtonMercado
+PASS: Mercado bloqueia fundo
+PASS: Overlay impede clique atravessado
+PASS: Raycast real: ButtonApple
+PASS: Compra maçã 1
+PASS: Popup impede compra duplicada
+PASS: Raycast real: ButtonOK
+PASS: Compra fecha e mantém Mercado
+PASS: Raycast real: ButtonApple
+PASS: Compra maçã 2
+PASS: Popup impede compra duplicada
+PASS: Raycast real: ButtonX
+PASS: Compra fecha e mantém Mercado
+PASS: Raycast real: ButtonApple
+PASS: Compra maçã 3
+PASS: Popup impede compra duplicada
+PASS: Raycast real: ButtonOK
+PASS: Compra fecha e mantém Mercado
+PASS: Raycast real: ButtonSandwich
+PASS: Sanduíche custa 15
+PASS: Raycast real: ButtonX
+PASS: Raycast real: ButtonNexaKing
+PASS: Nexa King custa 40
+PASS: Raycast real: ButtonOK
+PASS: Raycast real: ButtonCloseMarket
+PASS: Um sprite por tipo apesar de três maçãs
+PASS: Arraste real começa: Apple
+PASS: Aproximar comida abre boca: Apple
+PASS: Animator executa MouthOpen
+PASS: Aproximar não consome
+PASS: Afastar retorna Idle
+PASS: Alimento retorna ao slot sem clone: Apple
+PASS: Soltar fora não altera inventário ou Energia
+PASS: Arraste real começa: Apple
+PASS: Aproximar comida abre boca: Apple
+PASS: Alimento retorna ao slot sem clone: Apple
+PASS: Maçã 3 para 2 e Energia mais 10
+PASS: Animação comer começa
+PASS: Sprites da animação comer avançam
+PASS: Pausa congela animação e tempo de alimentação
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: Apple
+PASS: Aproximar comida abre boca: Apple
+PASS: Alimento retorna ao slot sem clone: Apple
+PASS: Estoque restante mantém uma maçã
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: Apple
+PASS: Aproximar comida abre boca: Apple
+PASS: Alimento retorna ao slot sem clone: Apple
+PASS: Última maçã some da bancada
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: Sandwich
+PASS: Aproximar comida abre boca: Sandwich
+PASS: Alimento retorna ao slot sem clone: Sandwich
+PASS: Sanduíche recupera 25
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: NexaKing
+PASS: Aproximar comida abre boca: NexaKing
+PASS: Alimento retorna ao slot sem clone: NexaKing
+PASS: Nexa King recupera 50
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: Sandwich
+PASS: Aproximar comida abre boca: Sandwich
+PASS: Alimento retorna ao slot sem clone: Sandwich
+PASS: Energia prepara próximo ao máximo
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: Apple
+PASS: Aproximar comida abre boca: Apple
+PASS: Alimento retorna ao slot sem clone: Apple
+PASS: 95 mais 10 limita em 100 com HUD imediato
+PASS: Comer termina e volta ao Idle
+PASS: Arraste real começa: Apple
+PASS: Aproximar comida abre boca: Apple
+PASS: Alimento retorna ao slot sem clone: Apple
+PASS: Energia cheia não consome e abre popup
+PASS: Raycast real: ButtonX
+PASS: Raycast real: ButtonOK
+PASS: OK e X fecham CompraRealizada
+PASS: Raycast real: ButtonX
+PASS: OK e X fecham CompraRealizada
+PASS: Raycast real: ButtonOK
+PASS: OK e X fecham SaldoInsuficiente
+PASS: Raycast real: ButtonX
+PASS: OK e X fecham SaldoInsuficiente
+PASS: Raycast real: ButtonOK
+PASS: OK e X fecham EnergiaCheia
+PASS: Raycast real: ButtonX
+PASS: OK e X fecham EnergiaCheia
+PASS: Raycast real: ButtonOK
+PASS: OK e X fecham LojaIndisponivel
+PASS: Raycast real: ButtonX
+PASS: OK e X fecham LojaIndisponivel
+PASS: Raycast real: ButtonMercado
+PASS: Raycast real: ButtonApple
+PASS: Sem saldo não muda moedas estoque ou Energia
+PASS: Esc respeita popup da MinhaQuest
+PASS: Esc fecha só popup sobre Mercado
+PASS: Esc fecha Mercado sem abrir Configurações
+PASS: Raycast real: ButtonVestuario
+PASS: Corpo inteiro Idle com loop
+PASS: Vestuário sem roupas acessórios ou placeholders
+PASS: Raycast real: ButtonCloseWardrobe
+PASS: X do Vestuário retorna
+PASS: Raycast real: ButtonLoja
+PASS: Loja abre indisponível
+PASS: Raycast real: ButtonOK
+PASS: Tipos inválidos rejeitados
+PASS: XP chaves e flags antigas preservadas
+PASS: Raycast real: ButtonVoltar
+PASS: Cena: Menu
+PASS: Raycast real: botaoMinhaQuest
+PASS: Cena: MinhaQuest
+PASS: Entrada Menu registra origem
+PASS: Raycast real: ButtonVoltar
+PASS: Cena: Menu
+PASS: Raycast real: botaoJogar
+PASS: Cena: MapaMundi
+PASS: Raycast real: MinhaQuest
+PASS: Cena: MinhaQuest
+PASS: Configurações Mapa registra origem e restaura tempo
+PASS: Raycast real: ButtonVoltar
+PASS: Cena: MapaMundi
+PASS: Cena: Brasil
+PASS: Brasil reutiliza mesmo progresso sem duplicação
+PASS: HUD Brasil recebe saldo atualizado
+PASS: HUD de Energia existente presente
+PASS: XP chaves e flags antigas preservadas
+PASS: Raycast real: MinhaQuest
+PASS: Cena: MinhaQuest
+PASS: Configurações Brasil registra origem
+PASS: Raycast real: ButtonVoltar
+PASS: Cena: Brasil
+PASS: Retorno ao Brasil mantém Energia recuperada
+PASS: XP chaves e flags antigas preservadas
+PASS: Cena: MinhaQuest
+PASS: Carregamento direto de outra cena também captura origem
+Falhas: 0
+PASS: Save persiste em novo Play Mode
+PASS: Moedas e Energia recarregadas sem override temporário
+PASS: Três estoques recarregados em novo Play
+PASS: XP chaves e flags antigas preservadas
+Falhas: 0

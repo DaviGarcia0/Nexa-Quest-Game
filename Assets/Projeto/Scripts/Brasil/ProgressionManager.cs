@@ -17,11 +17,8 @@ namespace NexaQuest.Brasil
         [SerializeField] bool quizAmazoniaConcluido;
         [SerializeField] bool possuiChaveAmazonia;
         [SerializeField] bool minijogoAmazoniaConcluido;
-        [Header("Energia temporária para testes")]
-        [Tooltip("Ao começar o jogo, usa a Energia Inicial Temporária no lugar da energia salva. Desative quando a recuperação de energia estiver pronta.")]
-        [SerializeField] bool usarEnergiaInicialTemporaria = true;
-        [Tooltip("Energia da Quest ao entrar em Play Mode, quando o ajuste temporário estiver ativado.")]
-        [SerializeField, Range(0, 100)] int energiaInicialTemporaria = 100;
+        public const int EnergiaMaxima = 100;
+        [SerializeField, Min(0)] int apples, sandwiches, nexaKings;
         public int Coins => coins;
         public int CurrentXP => currentXP;
         public int Level => level;
@@ -49,16 +46,13 @@ namespace NexaQuest.Brasil
         }
         [Serializable] class Dados {
             public int versao = 1, coins, currentXP, level = 1, energia = 100;
+            public int apples, sandwiches, nexaKings;
             public bool possuiChaveVila, instrucoesFeiraVistas, quizFeiraConcluido, quizAmazoniaConcluido, possuiChaveAmazonia, minijogoAmazoniaConcluido;
         }
         void Awake() {
             if (Instance != null && Instance != this) { Destroy(gameObject); return; }
             Instance = this; DontDestroyOnLoad(gameObject); CarregarProgresso();
-            // O ajuste manual não interfere nos saves isolados dos validadores.
-            if (usarEnergiaInicialTemporaria && ChaveUsada == ChavePersistencia) {
-                energia = Mathf.Clamp(energiaInicialTemporaria, 0, 100);
-                Changed?.Invoke();
-            }
+
         }
         void OnDestroy() { if (Instance == this) Instance = null; }
         public void CarregarProgresso() {
@@ -68,7 +62,8 @@ namespace NexaQuest.Brasil
                     if (dados != null && dados.versao == 1) {
                         coins = Mathf.Max(0, dados.coins); level = Mathf.Max(1, dados.level);
                         currentXP = Mathf.Clamp(dados.currentXP, 0, XPToNextLevel - 1);
-                        energia = Mathf.Clamp(dados.energia, 0, 100);
+                        energia = Mathf.Clamp(dados.energia, 0, EnergiaMaxima);
+                        apples = Mathf.Max(0, dados.apples); sandwiches = Mathf.Max(0, dados.sandwiches); nexaKings = Mathf.Max(0, dados.nexaKings);
                         possuiChaveVila = dados.possuiChaveVila; instrucoesFeiraVistas = dados.instrucoesFeiraVistas;
                         quizFeiraConcluido = dados.quizFeiraConcluido;
                         quizAmazoniaConcluido = dados.quizAmazoniaConcluido; possuiChaveAmazonia = dados.possuiChaveAmazonia; minijogoAmazoniaConcluido = dados.minijogoAmazoniaConcluido;
@@ -78,9 +73,30 @@ namespace NexaQuest.Brasil
             Changed?.Invoke();
         }
         void SalvarENotificar() {
-            var dados = new Dados { coins=coins, currentXP=currentXP, level=level, energia=energia,
+            var dados = new Dados { coins=coins, currentXP=currentXP, level=level, energia=energia, apples=apples, sandwiches=sandwiches, nexaKings=nexaKings,
                 possuiChaveVila=possuiChaveVila, instrucoesFeiraVistas=instrucoesFeiraVistas, quizFeiraConcluido=quizFeiraConcluido, quizAmazoniaConcluido=quizAmazoniaConcluido, possuiChaveAmazonia=possuiChaveAmazonia, minijogoAmazoniaConcluido=minijogoAmazoniaConcluido };
             PlayerPrefs.SetString(ChaveUsada, JsonUtility.ToJson(dados)); PlayerPrefs.Save(); Changed?.Invoke();
+        }
+        public int GetFoodCount(NexaQuest.MinhaQuest.FoodType type) {
+            return type == NexaQuest.MinhaQuest.FoodType.Apple ? apples : type == NexaQuest.MinhaQuest.FoodType.Sandwich ? sandwiches : type == NexaQuest.MinhaQuest.FoodType.NexaKing ? nexaKings : 0;
+        }
+        void ChangeFood(NexaQuest.MinhaQuest.FoodType type, int amount) {
+            if (type == NexaQuest.MinhaQuest.FoodType.Apple) apples += amount;
+            else if (type == NexaQuest.MinhaQuest.FoodType.Sandwich) sandwiches += amount;
+            else nexaKings += amount;
+        }
+        public bool TryBuyFood(NexaQuest.MinhaQuest.FoodType type) {
+            if (!NexaQuest.MinhaQuest.FoodCatalog.Valid(type) || GetFoodCount(type) == int.MaxValue) return false;
+            int price = NexaQuest.MinhaQuest.FoodCatalog.Price(type);
+            if (coins < price) return false;
+            coins -= price; ChangeFood(type, 1); SalvarENotificar(); return true;
+        }
+        public NexaQuest.MinhaQuest.FeedingResult TryFeed(NexaQuest.MinhaQuest.FoodType type) {
+            if (!NexaQuest.MinhaQuest.FoodCatalog.Valid(type)) return NexaQuest.MinhaQuest.FeedingResult.Invalid;
+            if (GetFoodCount(type) <= 0) return NexaQuest.MinhaQuest.FeedingResult.Empty;
+            if (energia >= EnergiaMaxima) return NexaQuest.MinhaQuest.FeedingResult.FullEnergy;
+            ChangeFood(type, -1); energia = Mathf.Min(EnergiaMaxima, energia + NexaQuest.MinhaQuest.FoodCatalog.Energy(type));
+            SalvarENotificar(); return NexaQuest.MinhaQuest.FeedingResult.Consumed;
         }
         public void AddCoins(int amount) {
             if (amount <= 0) return;
