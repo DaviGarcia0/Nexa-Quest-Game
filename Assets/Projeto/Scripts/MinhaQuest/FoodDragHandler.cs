@@ -22,12 +22,12 @@ namespace NexaQuest.MinhaQuest
             Vector2 local;
             if (RectTransformUtility.ScreenPointToLocalPointInRectangle(controller.dragLayer, data.position, data.pressEventCamera, out local))
                 Rect.anchoredPosition = local;
-            controller.feeding.Approach(controller.feeding.Contains(data.position, data.pressEventCamera, true));
+            controller.feeding.Approach(controller.feeding.Contains(data.position, data.pressEventCamera));
         }
         public void OnEndDrag(PointerEventData data)
         {
             if (!dragging) return;
-            bool deliver = controller.CanDrag && controller.feeding.Contains(data.position, data.pressEventCamera, false);
+            bool deliver = controller.CanDrag && controller.feeding.Contains(data.position, data.pressEventCamera);
             Cancel();
             if (deliver) controller.Feed(type);
         }

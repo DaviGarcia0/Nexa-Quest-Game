@@ -1,0 +1,50 @@
+PASS: Play Mode real 1920x1080
+PASS: Uma zona invisível cobre a cabeça (330x290)
+PASS: Entrar no range inicia MouthOpen
+PASS: Sair sem soltar retorna Idle sem consumir
+PASS: Soltar fora retorna ao mesmo slot sem consumo
+PASS: Aproximação abre boca: centro / maçã 3 para 2
+PASS: Consumo e Energia na mesma soltura: centro / maçã 3 para 2
+PASS: Eating interrompe MouthOpen sem espera no mesmo frame: centro / maçã 3 para 2
+PASS: Sprite no slot corresponde ao estoque: centro / maçã 3 para 2
+PASS: Save imediato e moedas preservadas: centro / maçã 3 para 2
+PASS: Eating bloqueia novo arraste, alimentação e MouthOpen
+PASS: Após Eating volta ao Idle sem ficar presa
+PASS: Aproximação abre boca: testa / maçã 2 para 1
+PASS: Consumo e Energia na mesma soltura: testa / maçã 2 para 1
+PASS: Eating interrompe MouthOpen sem espera no mesmo frame: testa / maçã 2 para 1
+PASS: Sprite no slot corresponde ao estoque: testa / maçã 2 para 1
+PASS: Save imediato e moedas preservadas: testa / maçã 2 para 1
+PASS: Após Eating volta ao Idle sem ficar presa
+PASS: Aproximação abre boca: bochecha esquerda / maçã 1 para 0
+PASS: Consumo e Energia na mesma soltura: bochecha esquerda / maçã 1 para 0
+PASS: Eating interrompe MouthOpen sem espera no mesmo frame: bochecha esquerda / maçã 1 para 0
+PASS: Sprite no slot corresponde ao estoque: bochecha esquerda / maçã 1 para 0
+PASS: Save imediato e moedas preservadas: bochecha esquerda / maçã 1 para 0
+PASS: Após Eating volta ao Idle sem ficar presa
+PASS: Aproximação abre boca: lateral direita / sanduíche +25
+PASS: Consumo e Energia na mesma soltura: lateral direita / sanduíche +25
+PASS: Eating interrompe MouthOpen sem espera no mesmo frame: lateral direita / sanduíche +25
+PASS: Sprite no slot corresponde ao estoque: lateral direita / sanduíche +25
+PASS: Save imediato e moedas preservadas: lateral direita / sanduíche +25
+PASS: Após Eating volta ao Idle sem ficar presa
+PASS: Aproximação abre boca: focinho / Nexa King +50
+PASS: Consumo e Energia na mesma soltura: focinho / Nexa King +50
+PASS: Eating interrompe MouthOpen sem espera no mesmo frame: focinho / Nexa King +50
+PASS: Sprite no slot corresponde ao estoque: focinho / Nexa King +50
+PASS: Save imediato e moedas preservadas: focinho / Nexa King +50
+PASS: Após Eating volta ao Idle sem ficar presa
+PASS: Consumo e Energia na mesma soltura: soltura sem atualizar MouthOpen antes
+PASS: Eating interrompe MouthOpen sem espera no mesmo frame: soltura sem atualizar MouthOpen antes
+PASS: Sprite no slot corresponde ao estoque: soltura sem atualizar MouthOpen antes
+PASS: Save imediato e moedas preservadas: soltura sem atualizar MouthOpen antes
+PASS: Após Eating volta ao Idle sem ficar presa
+PASS: Soltura fora não alimenta: (785.00, 693.54)
+PASS: Soltura fora não alimenta: (1135.00, 693.54)
+PASS: Soltura fora não alimenta: (960.00, 848.54)
+PASS: Soltura fora não alimenta: (960.00, 538.54)
+PASS: Soltura fora não alimenta: (1800.00, 900.00)
+PASS: Energia cheia: popup, sem consumo/Eating, retorna ao slot
+PASS: Sem estoque não inicia arraste nem alimentação
+PASS: Fluxo permanece na tela principal da mesma cena
+Falhas: 0

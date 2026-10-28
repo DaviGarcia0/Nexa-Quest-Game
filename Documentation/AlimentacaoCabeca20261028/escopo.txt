@@ -1,0 +1,6 @@
+Checkpoint anterior: d938d0f
+Arquivos de runtime/cena alterados:
+Assets/Projeto/Scenes/MinhaQuest.unity
+Assets/Projeto/Scripts/MinhaQuest/FoodDragHandler.cs
+Assets/Projeto/Scripts/MinhaQuest/QuestFeedingController.cs
+Sem alteração de outros sistemas, imagens ou clips. HeadFeedingValidation é um utilitário exclusivo do Editor.

@@ -1,0 +1,4 @@
+Tamanho local: (330.00, 290.00)
+Posição local: (0.00, 15.00)
+Mínimo em tela (origem inferior esquerda): (795.00, 548.54)
+Máximo: (1125.00, 838.54)
