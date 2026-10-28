@@ -1,0 +1,5 @@
+Erros: 0
+Avisos: 2
+Mensagens: 0
+Assets/Projeto/Scenes/MinhaQuest.unity
+Dirty: False

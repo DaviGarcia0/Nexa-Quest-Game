@@ -1,0 +1,1 @@
+Primeira execução: UI, navegação e listeners passaram. Medição DSP falhou porque o instrumento consultava outputSampleRate na thread de áudio (8 UnityException). Instrumento corrigido para capturar a taxa no Awake da thread principal. Resultados finais em testes.txt/console.txt. Nenhuma alteração do runtime decorreu desse erro do instrumento.

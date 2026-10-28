@@ -1,0 +1,4 @@
+Offset fonte original: 247,0748 ms
+Primeiro sinal no filtro DSP após pressionar: 0,104166666460515 ms
+Buffer: 1024 x 4; saída 48000 Hz
+Mede pipeline interno da Unity; não inclui dispositivo físico.

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 namespace NexaQuest.MinhaQuest
 {
-    public class FoodDragHandler : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
+    public class FoodDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         public MinhaQuestController controller;
         public FoodType type;
@@ -10,11 +10,6 @@ namespace NexaQuest.MinhaQuest
         RectTransform Rect => (RectTransform)transform;
         public bool Dragging => dragging;
         void Awake() { slotParent = transform.parent; slotPosition = Rect.anchoredPosition; slotIndex = transform.GetSiblingIndex(); }
-        public void OnPointerDown(PointerEventData data)
-        {
-            if (data.button == PointerEventData.InputButton.Left && controller.CanInteract && controller.Progress.GetFoodCount(type) > 0)
-                NexaAudioManager.Play(AudioCue.Normal);
-        }
         public void OnBeginDrag(PointerEventData data)
         {
             if (data.button != PointerEventData.InputButton.Left || !controller.BeginDrag(this)) return;

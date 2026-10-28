@@ -1,0 +1,8 @@
+Verificações finais aprovadas: 143
+AudioClip original idêntico ao checkpoint: True
+SHA256 Normal.mp3: 85c045d17e860e2ca5549e633cdf4df3e8462f30c099295ec04e9ff86628770b
+Nenhum PNG/animador de Assets modificado: True
+ProgressionManager inalterado: True
+MinhaQuestController inalterado: True
+MinhaQuest.unity: diferença exata de dois localScale 1→1.2 e dois alphas 0.55→0. Ajustes anteriores da bancada/Energia permanecem no checkpoint 9206269.
+Brasil.unity: apenas quatro componentes UIButtonAudio e quatro listeners Play adicionados. Campos alheios restaurados ao conteúdo anterior.

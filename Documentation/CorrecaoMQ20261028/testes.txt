@@ -1,0 +1,144 @@
+PASS: Play Mode real 1920x1080
+PASS: Clip original pré-carregado e silêncio inicial identificado
+PASS: Importador pré-carrega som normal
+PASS: UI usa Master e continua na pausa
+PASS: Listener único normal: ButtonMercado
+PASS: Listener único normal: ButtonVestuario
+PASS: Listener único normal: ButtonLoja
+PASS: Listener único normal: ButtonVoltar
+PASS: Listener único normal: ButtonApple
+PASS: Listener único normal: ButtonSandwich
+PASS: Listener único normal: ButtonNexaKing
+PASS: Listener único normal: ButtonCloseMarket
+PASS: Listener único normal: ButtonCloseWardrobe
+PASS: Listener único normal: ButtonOK
+PASS: Listener único normal: ButtonX
+PASS: Alimento sem som no PointerDown ou drag
+PASS: Som começa antes da abertura do Mercado
+PASS: Sinal DSP sem os 250ms de silêncio inicial
+PASS: Soltar abre Mercado sem segundo som
+PASS: Arte cobre viewport: Mercado
+PASS: Escala uniforme preserva aspecto: Mercado
+PASS: Tela principal bloqueada
+PASS: Raycast alinhado: ButtonApple
+PASS: Som no mesmo frame do pressionar: ButtonApple
+PASS: Um som por pressionar/soltar: ButtonApple
+PASS: Compra continua funcionando: ButtonApple
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Raycast alinhado: ButtonSandwich
+PASS: Som no mesmo frame do pressionar: ButtonSandwich
+PASS: Um som por pressionar/soltar: ButtonSandwich
+PASS: Compra continua funcionando: ButtonSandwich
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Raycast alinhado: ButtonNexaKing
+PASS: Som no mesmo frame do pressionar: ButtonNexaKing
+PASS: Um som por pressionar/soltar: ButtonNexaKing
+PASS: Compra continua funcionando: ButtonNexaKing
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Preços 5, 15 e 40 preservados
+PASS: Compras não alteram Energia
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Popup fecha sobre Mercado: CompraRealizada/ButtonOK
+PASS: Raycast alinhado: ButtonX
+PASS: Som no mesmo frame do pressionar: ButtonX
+PASS: Um som por pressionar/soltar: ButtonX
+PASS: Popup fecha sobre Mercado: CompraRealizada/ButtonX
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Popup fecha sobre Mercado: SaldoInsuficiente/ButtonOK
+PASS: Raycast alinhado: ButtonX
+PASS: Som no mesmo frame do pressionar: ButtonX
+PASS: Um som por pressionar/soltar: ButtonX
+PASS: Popup fecha sobre Mercado: SaldoInsuficiente/ButtonX
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Popup fecha sobre Mercado: EnergiaCheia/ButtonOK
+PASS: Raycast alinhado: ButtonX
+PASS: Som no mesmo frame do pressionar: ButtonX
+PASS: Um som por pressionar/soltar: ButtonX
+PASS: Popup fecha sobre Mercado: EnergiaCheia/ButtonX
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Popup fecha sobre Mercado: LojaIndisponivel/ButtonOK
+PASS: Raycast alinhado: ButtonX
+PASS: Som no mesmo frame do pressionar: ButtonX
+PASS: Um som por pressionar/soltar: ButtonX
+PASS: Popup fecha sobre Mercado: LojaIndisponivel/ButtonX
+PASS: Raycast alinhado: ButtonX
+PASS: Som no mesmo frame do pressionar: ButtonX
+PASS: Um som por pressionar/soltar: ButtonX
+PASS: Raycast alinhado: ButtonCloseMarket
+PASS: Som no mesmo frame do pressionar: ButtonCloseMarket
+PASS: Um som por pressionar/soltar: ButtonCloseMarket
+PASS: Fechar Mercado mantém som global tocando
+PASS: Raycast alinhado: ButtonVestuario
+PASS: Som no mesmo frame do pressionar: ButtonVestuario
+PASS: Um som por pressionar/soltar: ButtonVestuario
+PASS: Arte cobre viewport: Vestuario
+PASS: Escala uniforme preserva aspecto: Vestuario
+PASS: Quest Idle e grade vazia preservadas
+PASS: Raycast alinhado: ButtonCloseWardrobe
+PASS: Som no mesmo frame do pressionar: ButtonCloseWardrobe
+PASS: Um som por pressionar/soltar: ButtonCloseWardrobe
+PASS: X retorna sem trocar cena
+PASS: Raycast alinhado: ButtonLoja
+PASS: Som no mesmo frame do pressionar: ButtonLoja
+PASS: Um som por pressionar/soltar: ButtonLoja
+PASS: Loja indisponível preservada
+PASS: Raycast alinhado: ButtonOK
+PASS: Som no mesmo frame do pressionar: ButtonOK
+PASS: Um som por pressionar/soltar: ButtonOK
+PASS: Clique de teclado/programático continua com áudio
+PASS: Raycast alinhado: ButtonX
+PASS: Som no mesmo frame do pressionar: ButtonX
+PASS: Um som por pressionar/soltar: ButtonX
+PASS: Volume geral zero silencia o Master
+PASS: Raycast alinhado: Voltar
+PASS: Som no mesmo frame do pressionar: Voltar
+PASS: Um som por pressionar/soltar: Voltar
+PASS: Raycast alinhado: ButtonVoltar
+PASS: Som no mesmo frame do pressionar: ButtonVoltar
+PASS: Um som por pressionar/soltar: ButtonVoltar
+PASS: Navegação: Menu
+PASS: Fonte de UI sobrevive à troca de cena
+PASS: Raycast alinhado: botaoJogar
+PASS: Som no mesmo frame do pressionar: botaoJogar
+PASS: Um som por pressionar/soltar: botaoJogar
+PASS: Navegação: MapaMundi
+PASS: Raycast alinhado: botao_AmericaSul
+PASS: Som no mesmo frame do pressionar: botao_AmericaSul
+PASS: Um som por pressionar/soltar: botao_AmericaSul
+PASS: Raycast alinhado: Brasil
+PASS: Som no mesmo frame do pressionar: Brasil
+PASS: Um som por pressionar/soltar: Brasil
+PASS: Navegação: Brasil
+PASS: Jogar e Brasil mantêm clip especial
+PASS: Raycast alinhado: BotaoQuiz
+PASS: Som no mesmo frame do pressionar: BotaoQuiz
+PASS: Um som por pressionar/soltar: BotaoQuiz
+PASS: Quiz Feira abre
+PASS: Raycast alinhado: BotaoMinijogo
+PASS: Som no mesmo frame do pressionar: BotaoMinijogo
+PASS: Um som por pressionar/soltar: BotaoMinijogo
+PASS: Minijogo Feira abre
+PASS: Raycast alinhado: BotaoQuiz
+PASS: Som no mesmo frame do pressionar: BotaoQuiz
+PASS: Um som por pressionar/soltar: BotaoQuiz
+PASS: Quiz Amazônia abre
+PASS: Raycast alinhado: BotaoMinijogo
+PASS: Som no mesmo frame do pressionar: BotaoMinijogo
+PASS: Um som por pressionar/soltar: BotaoMinijogo
+PASS: Minijogo Amazônia abre
+PASS: Sem AudioManager duplicado
+Falhas: 0

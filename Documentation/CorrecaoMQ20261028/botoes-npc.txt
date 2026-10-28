@@ -1,0 +1,4 @@
+Canvas/PainelDesafiosFeira/ArtePainel/BotaoQuiz
+Canvas/PainelDesafiosFeira/ArtePainel/BotaoMinijogo
+Canvas/PainelDesafiosAmazonia/ArtePainel/BotaoQuiz
+Canvas/PainelDesafiosAmazonia/ArtePainel/BotaoMinijogo

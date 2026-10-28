@@ -1,0 +1,27 @@
+# Correção pontual Minha Quest — 28/10/2026
+
+Implementada sobre a versão existente. Checkpoint prévio: `9206269`, incluindo os ajustes do usuário na bancada e na Energia.
+
+1. **Mercado:** `MinhaQuestCanvas/MarketLayer/Mercado` recebeu escala uniforme 1,2. `MarketLayer` mantém o bloqueio de raycast, com a imagem de escurecimento transparente. Cards, saldo e X continuam filhos da arte e acompanham a escala; nenhum posicionamento interno foi redesenhado.
+
+2. **Vestuário:** `MinhaQuestCanvas/WardrobeLayer/Vestuario` recebeu a mesma escala 1,2; `WardrobeLayer` deixou de escurecer o quarto. QuestCorpo e hitbox do X acompanham o pai. Grade vazia e animação Idle em loop preservadas.
+
+3. **Proporção:** Canvas existente com referência 1920×1080. A arte mantém `preserveAspect`, escala idêntica nos eixos e centro original. Os PNGs são 1672×941, aproximadamente 16:9; a cobertura final é 1920×1080,57, com apenas 0,287 pixel fora do viewport em cima e embaixo. Nada importante é cortado. Os PNGs permanecem idênticos. Capturas reais: [Mercado](MercadoTelaCheia.png), [Vestuário](VestuarioTelaCheia.png), [pop-up acima do Mercado](PopupSobreMercado.png).
+
+4. **Sistema de áudio:** reutilizado `NexaAudioManager.Instance`, objeto global persistente `NexaGlobalSystems`, com seu `uiSource` já existente e roteado para o Master. AudioClip original: `Assets/Projeto/Audio/Polimento20261021/SFX/Normal.mp3`. Nenhum AudioManager, AudioSource ou áudio novo foi criado.
+
+5. **Causa do atraso:** o PCM original contém aproximadamente **249 ms de silêncio inicial** até o primeiro sinal acima de −70 dB. Além disso, o listener anterior tocava em `onClick` (ao soltar), e o importador não pré-carregava esse efeito. A inspeção não encontrou espera por coroutine/Invoke/animação, criação de fonte por clique ou fonte local desativada com painel. Medidas originais em [inspecao.txt](inspecao.txt).
+
+6. **Correção:** pré-carregamento ativado, medição única na inicialização e reprodução a partir da amostra correspondente a 247,075 ms, conservando 2 ms antes do ataque. Arquivo original intacto, confirmado por SHA256. `UIButtonAudio` emite ao pressionar, antes de `onClick`; ao soltar, suprime a segunda chamada daquele clique. O listener existente continua atendendo teclado/Submit. A reprodução normal usa `Play` com `timeSamples` na mesma fonte estável, pois `PlayOneShot` não oferece offset; os efeitos especiais continuam em `PlayOneShot`. Não há espera adicionada. Master e volume salvo permanecem respeitados. Fechar painel ou trocar cena não destrói a fonte.
+
+7. **Minha Quest:** mantido um único listener normal nos quatro botões principais (Mercado, Vestuário, Loja, Voltar), três cards de compra, X do Mercado, X do Vestuário e nos dois botões compartilhados OK/X dos quatro pop-ups (Compra Realizada, Saldo Insuficiente, Energia Cheia, Loja Indisponível). São 11 componentes físicos; os pop-ups reutilizam o mesmo par. O som de PointerDown foi removido de `FoodDragHandler`, sem mudar o arraste, alimentação ou estoque.
+
+8. **NPCs:** adicionados componentes/listeners normais somente aos quatro botões reais existentes: Quiz Feira, Minijogo Feira, Quiz Amazônia e Minijogo Amazônia. Caminhos completos em [botoes-npc.txt](botoes-npc.txt). Ponto Turístico não possui esse painel equivalente na implementação atual; nenhum botão foi inventado. Lógica dos desafios, perguntas, recompensas e progressão não foi modificada.
+
+9. **Especiais preservados:** Jogar e Brasil continuam usando `AudioCue.Iniciar` e o mesmo clip especial. Confirmado no Play Mode. Referências dos clips especiais e suas regras de volume não foram substituídas.
+
+10. **Novos testes executados:** somente `CorrecaoMQValidation`, em Play Mode real 1920×1080, com dados isolados. Cobertura de viewport, escala, raycast nos cards/X, bloqueio dos controles principais, três compras, oito combinações de pop-up/fechamento, Idle e grade, navegação, volume zero/pausa, arraste silencioso, unicidade de listeners/manager, som no mesmo frame do pressionar e ausência de duplicação ao soltar, quatro aberturas de desafios e preservação dos especiais. Capturas visuais revisadas. Nenhuma suíte antiga extensa foi executada.
+
+11. **Resultados:** **143 verificações aprovadas, zero falhas** na execução final (lista em [testes.txt](testes.txt)). Save real preservado; volume e configuração da cena/Game View restaurados. Preços 5/15/40 confirmados; compras não alteram Energia. Instrumentação capturou sinal da fonte no DSP sem os 250 ms iniciais; [latencia.txt](latencia.txt) registra o valor bruto e o buffer. Esse valor mede apenas o pipeline interno da Unity e não a latência dos alto-falantes. **Escuta humana manual não realizada:** esta sessão não dispõe de controle/escuta do áudio físico. Portanto, a percepção auditiva final no dispositivo do usuário permanece sem confirmação manual. A primeira execução teve um erro no instrumento de medição, corrigido antes da execução final; histórico em [primeira-validacao.txt](primeira-validacao.txt).
+
+12. **Console final:** **0 erros, 0 NullReferenceException, 0 MissingReferenceException**, sem exceções de fechamento na execução final. Dois avisos do vídeo já existente `MenuFinal.mp4`, um ao carregar Menu e outro MapaMundi: WindowsMediaFoundation não reconhece `Color primaries 0` e usa o padrão. Não são avisos novos de UI/áudio. [console.txt](console.txt) e [auditoria.txt](auditoria.txt) registram o estado final e a preservação dos arquivos.

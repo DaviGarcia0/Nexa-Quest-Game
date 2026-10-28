@@ -1,0 +1,3 @@
+System.NullReferenceException: Object reference not set to an instance of an object
+  at CorrecaoMQ20261028.Apply () [0x00066] in C:\Users\Davi\Desktop\Nexa-Quest-Game\Assets\Projeto\Editor\CorrecaoMQ20261028.cs:49 
+  at CorrecaoMQ20261028+<>c.<Init>b__2_0 () [0x00068] in C:\Users\Davi\Desktop\Nexa-Quest-Game\Assets\Projeto\Editor\CorrecaoMQ20261028.cs:20 

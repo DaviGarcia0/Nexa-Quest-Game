@@ -46,7 +46,7 @@ public static class CorrecaoMQ20261028
   try{
    var scene=EditorSceneManager.OpenScene("Assets/Projeto/Scenes/MinhaQuest.unity");
    foreach(string path in new[]{"MinhaQuestCanvas/MarketLayer/Mercado","MinhaQuestCanvas/WardrobeLayer/Vestuario"}){
-    var r=GameObject.Find(path).GetComponent<RectTransform>();float scale=Mathf.Max(1920/r.sizeDelta.x,1080/r.sizeDelta.y);r.localScale=Vector3.one*scale;r.anchoredPosition=Vector2.zero;
+    var r=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<RectTransform>(true)).Single(t=>Path(t)==path);float scale=Mathf.Max(1920/r.sizeDelta.x,1080/r.sizeDelta.y);r.localScale=Vector3.one*scale;r.anchoredPosition=Vector2.zero;
     r.parent.GetComponent<Image>().color=Color.clear;
    }
    EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
